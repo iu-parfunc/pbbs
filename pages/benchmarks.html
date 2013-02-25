@@ -1,0 +1,159 @@
+<html>
+<head>
+  <title>Problem Based Benchmark Suite</title>
+  <!--#include virtual="header.html" -->
+</head>
+
+<body>
+<!--#include virtual="navbar.html" -->
+
+<div class="center">
+
+<h2>Benchmarks</h2>
+
+<p>
+This is the current list of benchmarks.  It includes a description for
+each benchmark specifying the I/O interface and the set of default
+input files.    It also includes code for each benchmark as a tar file.
+</p>
+
+<p>
+This code is preliminary (alpha V.0.1, May 2012).  All code is in C++.
+The parallel code uses the <a
+href="http://software.intel.com/en-us/articles/intel-cilk-plus/">Cilk
+Plus</a> extensions and requires shared memory.  For each benchmark
+the tar file includes the code for generating inputs, code for
+testing, code for timing, a sequential implementation, and a parallel
+implementation.  In some cases a sequential implementation is missing
+in the current release, but the parallel code can be compiled to
+run sequentially.  Please read the README files.  
+</p>
+
+<p>
+To use a different
+language one can use the existing code for generating inputs and
+testing, but would have to implement their own code for reading and
+writing files and timing.
+</p>
+
+<hr>
+
+<h3>Problems on sequences</h3>
+
+<ul type="square">
+
+<li>
+<b>comparisonSort:</b> 
+<a href="benchmarks/comparisonSort.html">description</a>,
+<a href="benchmarks/comparisonSort.tar">tar file</a>
+</li>
+
+<li>
+<b>integerSort:</b> 
+<a href="benchmarks/integerSort.html">description</a>,
+<a href="benchmarks/integerSort.tar">tar file</a>
+</li>
+
+<li>
+<b>removeDuplicates:</b> 
+<a href="benchmarks/removeDuplicates.html">description</a>,
+<a href="benchmarks/removeDuplicates.tar">tar file</a>
+</li>
+
+<li>
+<b>dictionary:</b> 
+<a href="benchmarks/dictionary.html">description</a>,
+<a href="benchmarks/dictionary.tar">tar file</a>
+</li>
+</ul>
+
+<hr>
+
+<h3>Problems on strings</h3>
+
+<ul type="square">
+<li>
+<b>suffixArray:</b> 
+<a href="benchmarks/suffixArray.html">description</a>,
+<a href="benchmarks/suffixArray.tar">tar file</a>
+</li>
+</ul>
+
+<hr>
+
+<h3>Problems on graphs</h3>
+
+<ul type="square">
+<li>
+<b>breadthFirstSearch:</b> 
+<a href="benchmarks/breadthFirstSearch.html">description</a>,
+<a href="benchmarks/breadthFirstSearch.tar">tar file</a>
+</li>
+
+<li>
+<b>maximalIndependentSet:</b> 
+<a href="benchmarks/maximalIndependentSet.html">description</a>,
+<a href="benchmarks/maximalIndependentSet.tar">tar file</a>
+</li>
+
+<li>
+<b>maximalMatching:</b> 
+<a href="benchmarks/maximalMatching.html">description</a>,
+<a href="benchmarks/maximalMatching.tar">tar file</a>
+</li>
+
+<li>
+<b>minSpanningTree:</b> 
+<a href="benchmarks/minSpanningTree.html">description</a>,
+<a href="benchmarks/minSpanningTree.tar">tar file</a>
+</li>
+
+<li>
+<b>spanningTree:</b> 
+<a href="benchmarks/spanningTree.html">description</a>,
+<a href="benchmarks/spanningTree.tar">tar file</a>
+</li>
+</ul>
+
+<hr>
+
+<h3>Problems in geometry and graphics</h3>
+
+<ul type="square">
+
+<li><b>convexHull:</b> 
+<a href="benchmarks/convexHull.html">description</a>,
+<a href="benchmarks/convexHull.tar">tar file</a>
+</li>
+
+<li><b>nearestNeighbors:</b> 
+<a href="benchmarks/nearestNeighbors.html">description</a>,
+<a href="benchmarks/nearestNeighbors.tar">tar file</a>
+</li>
+
+<li><b>delaunayTriangulation:</b> 
+<a href="benchmarks/delaunayTriangulation.html">description</a>,
+<a href="benchmarks/delaunayTriangulation.tar">tar file</a>
+</li>
+
+<li><b>delaunayRefine:</b> 
+<a href="benchmarks/delaunayRefine.html">description</a>,
+<a href="benchmarks/delaunayRefine.tar">tar file</a>
+</li>
+
+<li><b>rayCast:</b> 
+<a href="benchmarks/rayCast.html">description</a>,
+<a href="benchmarks/rayCast.tar">tar file</a>
+</li>
+
+<li><b>nBody:</b> 
+<a href="benchmarks/nBody.html">description</a>,
+<a href="benchmarks/nBody.tar">tar file</a>
+</li>
+</ul>
+
+<hr>
+</div>
+<!--#include virtual="footer.html" -->
+</body>
+</html>

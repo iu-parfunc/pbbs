@@ -1,0 +1,1822 @@
+HOSTNAME: monster
+Path: .
+URL: https://freyja.aladdin.cs.cmu.edu/svn/pbbs/trunk/benchmarks
+Repository Root: https://freyja.aladdin.cs.cmu.edu/svn/pbbs
+Repository UUID: 62bc7976-c1cc-4065-800b-67e61e609b9e
+Revision: 745
+Node Kind: directory
+Schedule: normal
+Last Changed Author: jshun@CS.CMU.EDU
+Last Changed Rev: 745
+Last Changed Date: 2011-10-07 01:00:11 -0400 (Fri, 07 Oct 2011)
+
+
+1 : 3DonSphere_1000000 :  -r 3 : '42.5', '41.1', '41.2'
+1 : 3DinCube_1000000 :  -r 3 : '110.', '109.', '109.'
+1 : 3Dplummer_1000000 :  -r 3 : '219.', '218.', '218.'
+parallelCK : 1 : weighted time, min=122.7 median=122.733 mean=123.088
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : 3DonSphere_1000000 :  -r 3 : '22.1', '20.8', '22.8'
+1 : 3DinCube_1000000 :  -r 3 : '56.1', '54.8', '54.9'
+1 : 3Dplummer_1000000 :  -r 3 : '111.', '110.', '110.'
+parallelCK : 2 : weighted time, min=61.866 median=62.333 mean=62.5
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : 3DonSphere_1000000 :  -r 3 : '12.2', '12.1', '12.1'
+1 : 3DinCube_1000000 :  -r 3 : '30.', '30.3', '30.3'
+1 : 3Dplummer_1000000 :  -r 3 : '57.6', '57.3', '57.6'
+parallelCK : 4 : weighted time, min=33.133 median=33.333 mean=33.277
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : 3DonSphere_1000000 :  -r 3 : '6.33', '6.23', '6.22'
+1 : 3DinCube_1000000 :  -r 3 : '16.2', '16.1', '16.1'
+1 : 3Dplummer_1000000 :  -r 3 : '30.7', '30.5', '30.5'
+parallelCK : 8 : weighted time, min=17.606 median=17.61 mean=17.653
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : 3DonSphere_1000000 :  -r 3 : '4.34', '4.26', '4.26'
+1 : 3DinCube_1000000 :  -r 3 : '11.1', '11.', '11.'
+1 : 3Dplummer_1000000 :  -r 3 : '21.2', '21.7', '21.7'
+parallelCK : 12 : weighted time, min=12.153 median=12.32 mean=12.284
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : 3DonSphere_1000000 :  -r 3 : '3.28', '3.26', '3.26'
+1 : 3DinCube_1000000 :  -r 3 : '8.51', '8.61', '8.4'
+1 : 3Dplummer_1000000 :  -r 3 : '17.4', '16.8', '17.2'
+parallelCK : 16 : weighted time, min=9.486 median=9.656 mean=9.635
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : 3DonSphere_1000000 :  -r 3 : '2.7', '2.67', '2.65'
+1 : 3DinCube_1000000 :  -r 3 : '6.91', '6.87', '6.81'
+1 : 3Dplummer_1000000 :  -r 3 : '14.7', '15.', '14.2'
+parallelCK : 20 : weighted time, min=7.886 median=8.08 mean=8.056
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : 3DonSphere_1000000 :  -r 3 : '2.33', '2.29', '2.26'
+1 : 3DinCube_1000000 :  -r 3 : '5.83', '5.79', '5.77'
+1 : 3Dplummer_1000000 :  -r 3 : '12.8', '12.7', '12.6'
+parallelCK : 24 : weighted time, min=6.876 median=6.926 mean=6.93
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : 3DonSphere_1000000 :  -r 3 : '2.04', '2.', '1.98'
+1 : 3DinCube_1000000 :  -r 3 : '5.1', '5.05', '5.11'
+1 : 3Dplummer_1000000 :  -r 3 : '11.5', '11.6', '11.8'
+parallelCK : 28 : weighted time, min=6.176 median=6.233 mean=6.242
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : 3DonSphere_1000000 :  -r 3 : '1.82', '1.78', '1.77'
+1 : 3DinCube_1000000 :  -r 3 : '4.51', '4.49', '4.47'
+1 : 3Dplummer_1000000 :  -r 3 : '10.2', '10.6', '10.5'
+parallelCK : 32 : weighted time, min=5.479 median=5.59 mean=5.571
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : 3DonSphere_1000000 :  -r 3 : '1.81', '1.77', '1.76'
+1 : 3DinCube_1000000 :  -r 3 : '4.58', '4.52', '4.49'
+1 : 3Dplummer_1000000 :  -r 3 : '10.9', '11.4', '10.9'
+parallelCK : 36 : weighted time, min=5.716 median=5.729 mean=5.792
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : 3DonSphere_1000000 :  -r 3 : '1.81', '1.77', '1.73'
+1 : 3DinCube_1000000 :  -r 3 : '4.53', '4.47', '4.46'
+1 : 3Dplummer_1000000 :  -r 3 : '11.5', '10.6', '13.5'
+parallelCK : 40 : weighted time, min=5.596 median=5.913 mean=6.041
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : 3DonSphere_1000000 :  -r 3 : '1.75', '1.73', '1.72'
+1 : 3DinCube_1000000 :  -r 3 : '4.64', '4.54', '4.51'
+1 : 3Dplummer_1000000 :  -r 3 : '11.1', '11.4', '10.9'
+parallelCK : 44 : weighted time, min=5.71 median=5.789 mean=5.81
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : 3DonSphere_1000000 :  -r 3 : '1.74', '1.71', '1.7'
+1 : 3DinCube_1000000 :  -r 3 : '4.44', '4.4', '4.38'
+1 : 3Dplummer_1000000 :  -r 3 : '11.2', '10.7', '12.'
+parallelCK : 48 : weighted time, min=5.593 median=5.77 mean=5.807
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : 3DonSphere_1000000 :  -r 3 : '1.72', '1.73', '1.72'
+1 : 3DinCube_1000000 :  -r 3 : '4.38', '4.33', '4.32'
+1 : 3Dplummer_1000000 :  -r 3 : '10.7', '11.1', '11.8'
+parallelCK : 52 : weighted time, min=5.579 median=5.716 mean=5.755
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : 3DonSphere_1000000 :  -r 3 : '1.69', '1.64', '1.66'
+1 : 3DinCube_1000000 :  -r 3 : '4.32', '4.31', '4.3'
+1 : 3Dplummer_1000000 :  -r 3 : '12.4', '11.3', '11.4'
+parallelCK : 56 : weighted time, min=5.746 median=5.79 mean=5.891
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : 3DonSphere_1000000 :  -r 3 : '1.67', '1.65', '1.64'
+1 : 3DinCube_1000000 :  -r 3 : '4.32', '4.27', '4.24'
+1 : 3Dplummer_1000000 :  -r 3 : '11.5', '11.4', '10.9'
+parallelCK : 60 : weighted time, min=5.593 median=5.773 mean=5.732
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : 3DonSphere_1000000 :  -r 3 : '1.67', '1.63', '1.59'
+1 : 3DinCube_1000000 :  -r 3 : '4.15', '4.21', '4.16'
+1 : 3Dplummer_1000000 :  -r 3 : '12.5', '11.2', '10.6'
+parallelCK : 64 : weighted time, min=5.446 median=5.663 mean=5.745
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : happyTriangles happyRays :  -r 3 : '14.3', '13.6', '13.5'
+1 : angelTriangles angelRays :  -r 3 : '4.62', '4.52', '4.04'
+1 : dragonTriangles dragonRays :  -r 3 : '9.1', '8.2', '8.2'
+kdTree : 1 : weighted time, min=8.58 median=8.773 mean=8.897
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : happyTriangles happyRays :  -r 3 : '8.38', '7.97', '7.98'
+1 : angelTriangles angelRays :  -r 3 : '2.52', '2.43', '2.46'
+1 : dragonTriangles dragonRays :  -r 3 : '4.96', '5.15', '4.87'
+kdTree : 2 : weighted time, min=5.09 median=5.133 mean=5.191
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : happyTriangles happyRays :  -r 3 : '4.1', '4.29', '4.33'
+1 : angelTriangles angelRays :  -r 3 : '1.35', '1.32', '1.31'
+1 : dragonTriangles dragonRays :  -r 3 : '2.73', '2.77', '2.69'
+kdTree : 4 : weighted time, min=2.699 median=2.78 mean=2.765
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : happyTriangles happyRays :  -r 3 : '2.2', '2.25', '2.21'
+1 : angelTriangles angelRays :  -r 3 : '0.721', '0.706', '0.727'
+1 : dragonTriangles dragonRays :  -r 3 : '1.39', '1.42', '1.42'
+kdTree : 8 : weighted time, min=1.432 median=1.45 mean=1.449
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : happyTriangles happyRays :  -r 3 : '1.57', '1.57', '1.56'
+1 : angelTriangles angelRays :  -r 3 : '0.517', '0.526', '0.514'
+1 : dragonTriangles dragonRays :  -r 3 : '0.981', '0.982', '1.'
+kdTree : 12 : weighted time, min=1.018 median=1.022 mean=1.024
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : happyTriangles happyRays :  -r 3 : '1.19', '1.27', '1.28'
+1 : angelTriangles angelRays :  -r 3 : '0.406', '0.394', '0.407'
+1 : dragonTriangles dragonRays :  -r 3 : '0.791', '0.812', '0.812'
+kdTree : 16 : weighted time, min=0.791 median=0.829 mean=0.818
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : happyTriangles happyRays :  -r 3 : '0.986', '1.05', '1.03'
+1 : angelTriangles angelRays :  -r 3 : '0.339', '0.357', '0.348'
+1 : dragonTriangles dragonRays :  -r 3 : '0.66', '0.704', '0.691'
+kdTree : 20 : weighted time, min=0.661 median=0.689 mean=0.685
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : happyTriangles happyRays :  -r 3 : '0.876', '0.931', '0.918'
+1 : angelTriangles angelRays :  -r 3 : '0.301', '0.308', '0.308'
+1 : dragonTriangles dragonRays :  -r 3 : '0.584', '0.641', '0.61'
+kdTree : 24 : weighted time, min=0.587 median=0.612 mean=0.608
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : happyTriangles happyRays :  -r 3 : '0.783', '0.836', '0.834'
+1 : angelTriangles angelRays :  -r 3 : '0.276', '0.29', '0.283'
+1 : dragonTriangles dragonRays :  -r 3 : '0.512', '0.577', '0.562'
+kdTree : 28 : weighted time, min=0.523 median=0.559 mean=0.55
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : happyTriangles happyRays :  -r 3 : '0.713', '0.767', '0.759'
+1 : angelTriangles angelRays :  -r 3 : '0.265', '0.27', '0.271'
+1 : dragonTriangles dragonRays :  -r 3 : '0.502', '0.527', '0.522'
+kdTree : 32 : weighted time, min=0.493 median=0.517 mean=0.51
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : happyTriangles happyRays :  -r 3 : '0.701', '0.747', '0.725'
+1 : angelTriangles angelRays :  -r 3 : '0.248', '0.277', '0.271'
+1 : dragonTriangles dragonRays :  -r 3 : '0.469', '0.512', '0.499'
+kdTree : 36 : weighted time, min=0.472 median=0.498 mean=0.494
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : happyTriangles happyRays :  -r 3 : '0.673', '0.707', '0.714'
+1 : angelTriangles angelRays :  -r 3 : '0.25', '0.26', '0.256'
+1 : dragonTriangles dragonRays :  -r 3 : '0.463', '0.502', '0.485'
+kdTree : 40 : weighted time, min=0.462 median=0.482 mean=0.478
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : happyTriangles happyRays :  -r 3 : '0.669', '0.696', '0.688'
+1 : angelTriangles angelRays :  -r 3 : '0.244', '0.251', '0.251'
+1 : dragonTriangles dragonRays :  -r 3 : '0.466', '0.478', '0.473'
+kdTree : 44 : weighted time, min=0.459 median=0.47 mean=0.468
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : happyTriangles happyRays :  -r 3 : '0.633', '0.693', '0.702'
+1 : angelTriangles angelRays :  -r 3 : '0.228', '0.257', '0.247'
+1 : dragonTriangles dragonRays :  -r 3 : '0.444', '0.503', '0.468'
+kdTree : 48 : weighted time, min=0.435 median=0.469 mean=0.463
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : happyTriangles happyRays :  -r 3 : '0.622', '0.68', '0.671'
+1 : angelTriangles angelRays :  -r 3 : '0.23', '0.247', '0.249'
+1 : dragonTriangles dragonRays :  -r 3 : '0.443', '0.476', '0.46'
+kdTree : 52 : weighted time, min=0.431 median=0.459 mean=0.453
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : happyTriangles happyRays :  -r 3 : '0.631', '0.685', '0.645'
+1 : angelTriangles angelRays :  -r 3 : '0.229', '0.241', '0.243'
+1 : dragonTriangles dragonRays :  -r 3 : '0.443', '0.487', '0.467'
+kdTree : 56 : weighted time, min=0.434 median=0.451 mean=0.452
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : happyTriangles happyRays :  -r 3 : '0.633', '0.634', '0.641'
+1 : angelTriangles angelRays :  -r 3 : '0.227', '0.261', '0.254'
+1 : dragonTriangles dragonRays :  -r 3 : '0.412', '0.465', '0.456'
+kdTree : 60 : weighted time, min=0.424 median=0.448 mean=0.442
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : happyTriangles happyRays :  -r 3 : '0.638', '0.629', '0.618'
+1 : angelTriangles angelRays :  -r 3 : '0.234', '0.255', '0.243'
+1 : dragonTriangles dragonRays :  -r 3 : '0.43', '0.456', '0.441'
+kdTree : 64 : weighted time, min=0.427 median=0.437 mean=0.438
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+20 : trigramString_10000000 :  -r 3 : '5.21', '5.13', '4.77'
+6 : chr22.dna :  -r 3 : '22.2', '21.2', '21.2'
+1 : etext99 :  -r 3 : '81.2', '79.', '79.2'
+1 : wikisamp.xml :  -r 3 : '67.9', '66.8', '66.7'
+parallelKS : 1 : weighted time, min=13.153 median=13.421 mean=13.459
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+20 : trigramString_10000000 :  -r 3 : '2.78', '2.73', '2.75'
+6 : chr22.dna :  -r 3 : '12.6', '11.9', '11.9'
+1 : etext99 :  -r 3 : '46.', '45.2', '45.1'
+1 : wikisamp.xml :  -r 3 : '39.5', '38.9', '39.'
+parallelKS : 2 : weighted time, min=7.5 median=7.521 mean=7.586
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+20 : trigramString_10000000 :  -r 3 : '1.36', '1.35', '1.35'
+6 : chr22.dna :  -r 3 : '6.54', '6.3', '6.08'
+1 : etext99 :  -r 3 : '24.1', '23.4', '23.4'
+1 : wikisamp.xml :  -r 3 : '20.8', '20.1', '20.1'
+parallelKS : 4 : weighted time, min=3.82 median=3.867 mean=3.888
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+20 : trigramString_10000000 :  -r 3 : '0.722', '0.699', '0.696'
+6 : chr22.dna :  -r 3 : '3.45', '3.35', '3.35'
+1 : etext99 :  -r 3 : '12.8', '12.2', '12.2'
+1 : wikisamp.xml :  -r 3 : '11.3', '10.6', '10.7'
+parallelKS : 8 : weighted time, min=2.029 median=2.035 mean=2.06
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+20 : trigramString_10000000 :  -r 3 : '0.519', '0.485', '0.489'
+6 : chr22.dna :  -r 3 : '2.47', '2.38', '2.36'
+1 : etext99 :  -r 3 : '9.33', '8.7', '8.88'
+1 : wikisamp.xml :  -r 3 : '8.34', '7.71', '7.77'
+parallelKS : 12 : weighted time, min=1.438 median=1.453 mean=1.474
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+20 : trigramString_10000000 :  -r 3 : '0.426', '0.394', '0.393'
+6 : chr22.dna :  -r 3 : '2.009', '1.91', '1.9'
+1 : etext99 :  -r 3 : '7.6', '7.2', '7.11'
+1 : wikisamp.xml :  -r 3 : '6.98', '6.5', '6.61'
+parallelKS : 16 : weighted time, min=1.173 median=1.183 mean=1.204
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+20 : trigramString_10000000 :  -r 3 : '0.396', '0.35', '0.345'
+6 : chr22.dna :  -r 3 : '1.76', '1.64', '1.63'
+1 : etext99 :  -r 3 : '6.71', '6.12', '6.15'
+1 : wikisamp.xml :  -r 3 : '5.93', '5.61', '5.51'
+parallelKS : 20 : weighted time, min=1.011 median=1.021 mean=1.047
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+20 : trigramString_10000000 :  -r 3 : '0.338', '0.305', '0.326'
+6 : chr22.dna :  -r 3 : '1.6', '1.48', '1.46'
+1 : etext99 :  -r 3 : '6.32', '6.13', '6.31'
+1 : wikisamp.xml :  -r 3 : '5.48', '5.26', '5.59'
+parallelKS : 24 : weighted time, min=0.937 median=0.971 mean=0.972
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+20 : trigramString_10000000 :  -r 3 : '0.332', '0.294', '0.271'
+6 : chr22.dna :  -r 3 : '1.51', '1.33', '1.36'
+1 : etext99 :  -r 3 : '5.7', '5.64', '5.77'
+1 : wikisamp.xml :  -r 3 : '5.37', '4.93', '5.17'
+parallelKS : 28 : weighted time, min=0.856 median=0.889 mean=0.901
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+20 : trigramString_10000000 :  -r 3 : '0.315', '0.269', '0.272'
+6 : chr22.dna :  -r 3 : '1.43', '1.25', '1.28'
+1 : etext99 :  -r 3 : '5.43', '5.18', '4.99'
+1 : wikisamp.xml :  -r 3 : '5.09', '4.52', '4.78'
+parallelKS : 32 : weighted time, min=0.799 median=0.824 mean=0.843
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+20 : trigramString_10000000 :  -r 3 : '0.322', '0.254', '0.257'
+6 : chr22.dna :  -r 3 : '1.38', '1.25', '1.28'
+1 : etext99 :  -r 3 : '5.71', '5.66', '5.45'
+1 : wikisamp.xml :  -r 3 : '5.41', '5.04', '5.26'
+parallelKS : 36 : weighted time, min=0.823 median=0.847 mean=0.864
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+20 : trigramString_10000000 :  -r 3 : '0.305', '0.257', '0.259'
+6 : chr22.dna :  -r 3 : '1.45', '1.37', '1.32'
+1 : etext99 :  -r 3 : '5.64', '5.66', '5.48'
+1 : wikisamp.xml :  -r 3 : '5.67', '4.69', '4.97'
+parallelKS : 40 : weighted time, min=0.829 median=0.857 mean=0.873
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+20 : trigramString_10000000 :  -r 3 : '0.295', '0.268', '0.267'
+6 : chr22.dna :  -r 3 : '1.51', '1.39', '1.23'
+1 : etext99 :  -r 3 : '5.37', '4.96', '5.25'
+1 : wikisamp.xml :  -r 3 : '5.08', '4.69', '4.71'
+parallelKS : 44 : weighted time, min=0.798 median=0.845 mean=0.85
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+20 : trigramString_10000000 :  -r 3 : '0.305', '0.247', '0.28'
+6 : chr22.dna :  -r 3 : '1.33', '1.22', '1.24'
+1 : etext99 :  -r 3 : '5.', '4.99', '5.06'
+1 : wikisamp.xml :  -r 3 : '4.7', '4.32', '4.3'
+parallelKS : 48 : weighted time, min=0.769 median=0.798 mean=0.806
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+20 : trigramString_10000000 :  -r 3 : '0.292', '0.253', '0.263'
+6 : chr22.dna :  -r 3 : '1.41', '1.31', '1.33'
+1 : etext99 :  -r 3 : '5.54', '5.41', '5.12'
+1 : wikisamp.xml :  -r 3 : '4.8', '4.65', '4.82'
+parallelKS : 52 : weighted time, min=0.81 median=0.837 mean=0.842
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+20 : trigramString_10000000 :  -r 3 : '0.283', '0.257', '0.238'
+6 : chr22.dna :  -r 3 : '1.49', '1.25', '1.25'
+1 : etext99 :  -r 3 : '4.97', '4.6', '4.72'
+1 : wikisamp.xml :  -r 3 : '4.56', '4.4', '4.23'
+parallelKS : 56 : weighted time, min=0.753 median=0.777 mean=0.797
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+20 : trigramString_10000000 :  -r 3 : '0.285', '0.252', '0.264'
+6 : chr22.dna :  -r 3 : '1.33', '1.25', '1.26'
+1 : etext99 :  -r 3 : '5.03', '4.86', '5.09'
+1 : wikisamp.xml :  -r 3 : '4.64', '4.48', '4.44'
+parallelKS : 60 : weighted time, min=0.78 median=0.798 mean=0.804
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+20 : trigramString_10000000 :  -r 3 : '0.324', '0.25', '0.232'
+6 : chr22.dna :  -r 3 : '1.29', '1.18', '1.17'
+1 : etext99 :  -r 3 : '5.12', '4.84', '5.15'
+1 : wikisamp.xml :  -r 3 : '4.71', '4.51', '4.36'
+parallelKS : 64 : weighted time, min=0.745 median=0.775 mean=0.793
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randLocalGraph_WE_5_10000000 :  -r 3 -o /tmp/ofile694075_855522 : '8.34', '8.4', '8.4'
+1 : rMatGraph_WE_5_10000000 :  -r 3 -o /tmp/ofile629429_180713 : '11.7', '11.2', '11.2'
+1 : 2Dgrid_WE_10000000 :  -r 3 -o /tmp/ofile138175_588065 : '5.1', '5.11', '5.25'
+serialMST : 0 : weighted time, min=8.213 median=8.236 mean=8.299
+
+1 : randLocalGraph_WE_5_10000000 :  -r 3 : '14.3', '14.3', '14.3'
+1 : rMatGraph_WE_5_10000000 :  -r 3 : '19.6', '19.6', '19.6'
+1 : 2Dgrid_WE_10000000 :  -r 3 : '10.1', '10.1', '10.1'
+parallelKruskal : 1 : weighted time, min=14.666 median=14.666 mean=14.666
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randLocalGraph_WE_5_10000000 :  -r 3 : '7.96', '8.02', '7.98'
+1 : rMatGraph_WE_5_10000000 :  -r 3 : '10.9', '10.9', '10.9'
+1 : 2Dgrid_WE_10000000 :  -r 3 : '5.8', '5.76', '5.8'
+parallelKruskal : 2 : weighted time, min=8.206 median=8.226 mean=8.224
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randLocalGraph_WE_5_10000000 :  -r 3 : '4.26', '4.27', '4.29'
+1 : rMatGraph_WE_5_10000000 :  -r 3 : '5.77', '5.8', '5.79'
+1 : 2Dgrid_WE_10000000 :  -r 3 : '3.17', '2.98', '2.99'
+parallelKruskal : 4 : weighted time, min=4.336 median=4.35 mean=4.368
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randLocalGraph_WE_5_10000000 :  -r 3 : '2.36', '2.28', '2.29'
+1 : rMatGraph_WE_5_10000000 :  -r 3 : '3.14', '3.12', '3.13'
+1 : 2Dgrid_WE_10000000 :  -r 3 : '1.64', '1.64', '1.64'
+parallelKruskal : 8 : weighted time, min=2.346 median=2.353 mean=2.36
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randLocalGraph_WE_5_10000000 :  -r 3 : '1.9', '1.71', '1.64'
+1 : rMatGraph_WE_5_10000000 :  -r 3 : '2.51', '2.13', '2.11'
+1 : 2Dgrid_WE_10000000 :  -r 3 : '1.15', '1.15', '1.15'
+parallelKruskal : 12 : weighted time, min=1.633 median=1.663 mean=1.716
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randLocalGraph_WE_5_10000000 :  -r 3 : '1.46', '1.38', '1.36'
+1 : rMatGraph_WE_5_10000000 :  -r 3 : '1.87', '1.88', '1.81'
+1 : 2Dgrid_WE_10000000 :  -r 3 : '0.894', '0.89', '0.896'
+parallelKruskal : 16 : weighted time, min=1.353 median=1.381 mean=1.382
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randLocalGraph_WE_5_10000000 :  -r 3 : '1.23', '1.47', '1.22'
+1 : rMatGraph_WE_5_10000000 :  -r 3 : '1.58', '1.58', '1.57'
+1 : 2Dgrid_WE_10000000 :  -r 3 : '0.757', '0.76', '0.755'
+parallelKruskal : 20 : weighted time, min=1.181 median=1.189 mean=1.213
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randLocalGraph_WE_5_10000000 :  -r 3 : '1.05', '1.04', '1.04'
+1 : rMatGraph_WE_5_10000000 :  -r 3 : '1.36', '1.36', '1.35'
+1 : 2Dgrid_WE_10000000 :  -r 3 : '0.691', '0.693', '0.695'
+parallelKruskal : 24 : weighted time, min=1.027 median=1.031 mean=1.031
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randLocalGraph_WE_5_10000000 :  -r 3 : '1.03', '1.03', '1.03'
+1 : rMatGraph_WE_5_10000000 :  -r 3 : '1.31', '1.51', '1.31'
+1 : 2Dgrid_WE_10000000 :  -r 3 : '0.64', '0.64', '0.64'
+parallelKruskal : 28 : weighted time, min=0.993 median=0.993 mean=1.015
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randLocalGraph_WE_5_10000000 :  -r 3 : '0.914', '0.915', '0.916'
+1 : rMatGraph_WE_5_10000000 :  -r 3 : '1.12', '1.12', '1.12'
+1 : 2Dgrid_WE_10000000 :  -r 3 : '0.576', '0.581', '0.586'
+parallelKruskal : 32 : weighted time, min=0.87 median=0.872 mean=0.872
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randLocalGraph_WE_5_10000000 :  -r 3 : '0.856', '0.859', '0.867'
+1 : rMatGraph_WE_5_10000000 :  -r 3 : '1.46', '1.46', '1.43'
+1 : 2Dgrid_WE_10000000 :  -r 3 : '0.538', '0.538', '0.536'
+parallelKruskal : 36 : weighted time, min=0.94 median=0.952 mean=0.949
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randLocalGraph_WE_5_10000000 :  -r 3 : '0.904', '0.913', '0.899'
+1 : rMatGraph_WE_5_10000000 :  -r 3 : '1.23', '1.22', '1.18'
+1 : 2Dgrid_WE_10000000 :  -r 3 : '0.628', '0.525', '0.635'
+parallelKruskal : 40 : weighted time, min=0.867 median=0.917 mean=0.903
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randLocalGraph_WE_5_10000000 :  -r 3 : '0.806', '1.1', '0.806'
+1 : rMatGraph_WE_5_10000000 :  -r 3 : '1.2', '1.12', '1.56'
+1 : 2Dgrid_WE_10000000 :  -r 3 : '0.525', '0.636', '0.635'
+parallelKruskal : 44 : weighted time, min=0.817 median=0.88 mean=0.932
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randLocalGraph_WE_5_10000000 :  -r 3 : '0.806', '0.807', '0.807'
+1 : rMatGraph_WE_5_10000000 :  -r 3 : '1.21', '1.21', '1.22'
+1 : 2Dgrid_WE_10000000 :  -r 3 : '0.528', '0.526', '0.517'
+parallelKruskal : 48 : weighted time, min=0.844 median=0.847 mean=0.847
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randLocalGraph_WE_5_10000000 :  -r 3 : '0.803', '0.804', '1.09'
+1 : rMatGraph_WE_5_10000000 :  -r 3 : '1.07', '1.22', '1.04'
+1 : 2Dgrid_WE_10000000 :  -r 3 : '0.702', '0.612', '0.51'
+parallelKruskal : 52 : weighted time, min=0.784 median=0.828 mean=0.872
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randLocalGraph_WE_5_10000000 :  -r 3 : '0.781', '0.789', '0.78'
+1 : rMatGraph_WE_5_10000000 :  -r 3 : '1.48', '1.2', '1.18'
+1 : 2Dgrid_WE_10000000 :  -r 3 : '0.49', '0.491', '0.491'
+parallelKruskal : 56 : weighted time, min=0.816 median=0.824 mean=0.853
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randLocalGraph_WE_5_10000000 :  -r 3 : '0.795', '0.769', '0.848'
+1 : rMatGraph_WE_5_10000000 :  -r 3 : '1.24', '1.31', '1.01'
+1 : 2Dgrid_WE_10000000 :  -r 3 : '0.49', '0.59', '0.488'
+parallelKruskal : 60 : weighted time, min=0.755 median=0.841 mean=0.837
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randLocalGraph_WE_5_10000000 :  -r 3 : '0.794', '1.08', '0.778'
+1 : rMatGraph_WE_5_10000000 :  -r 3 : '1.11', '1.11', '1.11'
+1 : 2Dgrid_WE_10000000 :  -r 3 : '0.48', '0.494', '0.484'
+parallelKruskal : 64 : weighted time, min=0.789 median=0.795 mean=0.826
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randLocalGraph_E_5_10000000 :  -r 3 -o /tmp/ofile610776_819815 : '2.5', '2.49', '2.5'
+1 : rMatGraph_E_5_10000000 :  -r 3 -o /tmp/ofile727371_149454 : '3.41', '3.41', '3.41'
+1 : 2Dgrid_E_10000000 :  -r 3 -o /tmp/ofile161918_176619 : '2.09', '2.1', '2.1'
+serialST : 0 : weighted time, min=2.663 median=2.67 mean=2.667
+
+1 : randLocalGraph_E_5_10000000 :  -r 3 : '5.96', '5.97', '5.96'
+1 : rMatGraph_E_5_10000000 :  -r 3 : '7.74', '7.74', '7.74'
+1 : 2Dgrid_E_10000000 :  -r 3 : '4.29', '4.13', '4.09'
+incrementalST : 1 : weighted time, min=5.93 median=5.943 mean=5.957
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randLocalGraph_E_5_10000000 :  -r 3 : '3.5', '3.37', '3.38'
+1 : rMatGraph_E_5_10000000 :  -r 3 : '4.41', '4.32', '4.33'
+1 : 2Dgrid_E_10000000 :  -r 3 : '2.4', '2.38', '2.37'
+incrementalST : 2 : weighted time, min=3.353 median=3.363 mean=3.384
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randLocalGraph_E_5_10000000 :  -r 3 : '1.84', '1.84', '1.84'
+1 : rMatGraph_E_5_10000000 :  -r 3 : '2.43', '2.44', '2.39'
+1 : 2Dgrid_E_10000000 :  -r 3 : '1.31', '1.31', '1.32'
+incrementalST : 4 : weighted time, min=1.846 median=1.86 mean=1.857
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randLocalGraph_E_5_10000000 :  -r 3 : '0.989', '0.99', '0.99'
+1 : rMatGraph_E_5_10000000 :  -r 3 : '1.27', '1.27', '1.27'
+1 : 2Dgrid_E_10000000 :  -r 3 : '0.679', '0.696', '0.697'
+incrementalST : 8 : weighted time, min=0.979 median=0.985 mean=0.983
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randLocalGraph_E_5_10000000 :  -r 3 : '0.697', '0.697', '0.699'
+1 : rMatGraph_E_5_10000000 :  -r 3 : '0.919', '0.919', '0.917'
+1 : 2Dgrid_E_10000000 :  -r 3 : '0.49', '0.483', '0.485'
+incrementalST : 12 : weighted time, min=0.699 median=0.7 mean=0.7
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randLocalGraph_E_5_10000000 :  -r 3 : '0.516', '0.516', '0.518'
+1 : rMatGraph_E_5_10000000 :  -r 3 : '0.694', '0.696', '0.695'
+1 : 2Dgrid_E_10000000 :  -r 3 : '0.376', '0.377', '0.376'
+incrementalST : 16 : weighted time, min=0.528 median=0.528 mean=0.529
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randLocalGraph_E_5_10000000 :  -r 3 : '0.551', '0.551', '0.551'
+1 : rMatGraph_E_5_10000000 :  -r 3 : '0.704', '0.649', '0.646'
+1 : 2Dgrid_E_10000000 :  -r 3 : '0.314', '0.314', '0.313'
+incrementalST : 20 : weighted time, min=0.503 median=0.504 mean=0.51
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randLocalGraph_E_5_10000000 :  -r 3 : '0.531', '0.502', '0.503'
+1 : rMatGraph_E_5_10000000 :  -r 3 : '0.559', '0.575', '0.583'
+1 : 2Dgrid_E_10000000 :  -r 3 : '0.274', '0.274', '0.275'
+incrementalST : 24 : weighted time, min=0.445 median=0.45 mean=0.452
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randLocalGraph_E_5_10000000 :  -r 3 : '0.389', '0.389', '0.389'
+1 : rMatGraph_E_5_10000000 :  -r 3 : '0.507', '0.505', '0.505'
+1 : 2Dgrid_E_10000000 :  -r 3 : '0.252', '0.248', '0.247'
+incrementalST : 28 : weighted time, min=0.38 median=0.38 mean=0.381
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randLocalGraph_E_5_10000000 :  -r 3 : '0.362', '0.353', '0.354'
+1 : rMatGraph_E_5_10000000 :  -r 3 : '0.469', '0.469', '0.47'
+1 : 2Dgrid_E_10000000 :  -r 3 : '0.234', '0.31', '0.243'
+incrementalST : 32 : weighted time, min=0.352 median=0.355 mean=0.362
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randLocalGraph_E_5_10000000 :  -r 3 : '0.347', '0.355', '0.361'
+1 : rMatGraph_E_5_10000000 :  -r 3 : '0.447', '0.464', '0.447'
+1 : 2Dgrid_E_10000000 :  -r 3 : '0.232', '0.242', '0.23'
+incrementalST : 36 : weighted time, min=0.341 median=0.344 mean=0.347
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randLocalGraph_E_5_10000000 :  -r 3 : '0.381', '0.382', '0.382'
+1 : rMatGraph_E_5_10000000 :  -r 3 : '0.466', '0.466', '0.481'
+1 : 2Dgrid_E_10000000 :  -r 3 : '0.229', '0.222', '0.221'
+incrementalST : 40 : weighted time, min=0.356 median=0.356 mean=0.358
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randLocalGraph_E_5_10000000 :  -r 3 : '0.327', '0.329', '0.329'
+1 : rMatGraph_E_5_10000000 :  -r 3 : '0.41', '0.427', '0.429'
+1 : 2Dgrid_E_10000000 :  -r 3 : '0.329', '0.232', '0.232'
+incrementalST : 44 : weighted time, min=0.323 median=0.329 mean=0.338
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randLocalGraph_E_5_10000000 :  -r 3 : '0.324', '0.324', '0.324'
+1 : rMatGraph_E_5_10000000 :  -r 3 : '0.422', '0.402', '0.419'
+1 : 2Dgrid_E_10000000 :  -r 3 : '0.223', '0.225', '0.225'
+incrementalST : 48 : weighted time, min=0.316 median=0.322 mean=0.32
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randLocalGraph_E_5_10000000 :  -r 3 : '0.327', '0.327', '0.318'
+1 : rMatGraph_E_5_10000000 :  -r 3 : '0.423', '0.407', '0.424'
+1 : 2Dgrid_E_10000000 :  -r 3 : '0.215', '0.212', '0.222'
+incrementalST : 52 : weighted time, min=0.312 median=0.321 mean=0.319
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randLocalGraph_E_5_10000000 :  -r 3 : '0.316', '0.32', '0.318'
+1 : rMatGraph_E_5_10000000 :  -r 3 : '0.432', '0.798', '0.433'
+1 : 2Dgrid_E_10000000 :  -r 3 : '0.208', '0.209', '0.209'
+incrementalST : 56 : weighted time, min=0.318 median=0.32 mean=0.36
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randLocalGraph_E_5_10000000 :  -r 3 : '0.34', '0.342', '0.342'
+1 : rMatGraph_E_5_10000000 :  -r 3 : '0.468', '0.469', '0.469'
+1 : 2Dgrid_E_10000000 :  -r 3 : '0.216', '0.216', '0.207'
+incrementalST : 60 : weighted time, min=0.338 median=0.342 mean=0.341
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randLocalGraph_E_5_10000000 :  -r 3 : '0.304', '0.305', '0.303'
+1 : rMatGraph_E_5_10000000 :  -r 3 : '0.47', '0.468', '0.471'
+1 : 2Dgrid_E_10000000 :  -r 3 : '0.206', '0.202', '0.206'
+incrementalST : 64 : weighted time, min=0.324 median=0.326 mean=0.326
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randLocalGraph_J_5_10000000 :  -r 3 -o /tmp/ofile737391_538049 : '4.16', '4.16', '4.16'
+1 : rMatGraph_J_5_10000000 :  -r 3 -o /tmp/ofile728230_327879 : '4.79', '4.79', '4.79'
+1 : 3Dgrid_J_10000000 :  -r 3 -o /tmp/ofile573314_79102 : '2.92', '2.92', '2.92'
+serialBFS : 0 : weighted time, min=3.956 median=3.956 mean=3.956
+
+1 : randLocalGraph_J_5_10000000 :  -r 3 : '6.35', '6.07', '6.01'
+1 : rMatGraph_J_5_10000000 :  -r 3 : '6.87', '6.74', '6.73'
+1 : 3Dgrid_J_10000000 :  -r 3 : '3.35', '3.35', '3.35'
+ndBFS : 1 : weighted time, min=5.363 median=5.386 mean=5.424
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randLocalGraph_J_5_10000000 :  -r 3 : '3.57', '3.57', '3.57'
+1 : rMatGraph_J_5_10000000 :  -r 3 : '3.96', '3.95', '3.94'
+1 : 3Dgrid_J_10000000 :  -r 3 : '2.16', '2.07', '2.04'
+ndBFS : 2 : weighted time, min=3.183 median=3.196 mean=3.203
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randLocalGraph_J_5_10000000 :  -r 3 : '1.95', '1.92', '1.88'
+1 : rMatGraph_J_5_10000000 :  -r 3 : '2.23', '2.14', '2.14'
+1 : 3Dgrid_J_10000000 :  -r 3 : '1.25', '1.25', '1.25'
+ndBFS : 4 : weighted time, min=1.756 median=1.77 mean=1.778
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randLocalGraph_J_5_10000000 :  -r 3 : '1.01', '0.971', '1.01'
+1 : rMatGraph_J_5_10000000 :  -r 3 : '1.11', '1.11', '1.11'
+1 : 3Dgrid_J_10000000 :  -r 3 : '0.696', '0.695', '0.696'
+ndBFS : 8 : weighted time, min=0.925 median=0.938 mean=0.934
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randLocalGraph_J_5_10000000 :  -r 3 : '0.656', '0.655', '0.655'
+1 : rMatGraph_J_5_10000000 :  -r 3 : '0.76', '0.759', '0.759'
+1 : 3Dgrid_J_10000000 :  -r 3 : '0.523', '0.524', '0.524'
+ndBFS : 12 : weighted time, min=0.645 median=0.646 mean=0.646
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randLocalGraph_J_5_10000000 :  -r 3 : '0.512', '0.574', '0.511'
+1 : rMatGraph_J_5_10000000 :  -r 3 : '0.586', '0.584', '0.584'
+1 : 3Dgrid_J_10000000 :  -r 3 : '0.434', '0.434', '0.434'
+ndBFS : 16 : weighted time, min=0.509 median=0.51 mean=0.517
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randLocalGraph_J_5_10000000 :  -r 3 : '0.417', '0.418', '0.417'
+1 : rMatGraph_J_5_10000000 :  -r 3 : '0.515', '0.658', '0.515'
+1 : 3Dgrid_J_10000000 :  -r 3 : '0.391', '0.391', '0.39'
+ndBFS : 20 : weighted time, min=0.44 median=0.441 mean=0.456
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randLocalGraph_J_5_10000000 :  -r 3 : '0.361', '0.353', '0.352'
+1 : rMatGraph_J_5_10000000 :  -r 3 : '0.448', '0.449', '0.45'
+1 : 3Dgrid_J_10000000 :  -r 3 : '0.361', '0.361', '0.361'
+ndBFS : 24 : weighted time, min=0.387 median=0.387 mean=0.388
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randLocalGraph_J_5_10000000 :  -r 3 : '0.316', '0.315', '0.316'
+1 : rMatGraph_J_5_10000000 :  -r 3 : '0.369', '0.368', '0.369'
+1 : 3Dgrid_J_10000000 :  -r 3 : '0.348', '0.345', '0.345'
+ndBFS : 28 : weighted time, min=0.342 median=0.343 mean=0.343
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randLocalGraph_J_5_10000000 :  -r 3 : '0.302', '0.302', '0.302'
+1 : rMatGraph_J_5_10000000 :  -r 3 : '0.376', '0.603', '0.376'
+1 : 3Dgrid_J_10000000 :  -r 3 : '0.329', '0.329', '0.328'
+ndBFS : 32 : weighted time, min=0.335 median=0.335 mean=0.36
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randLocalGraph_J_5_10000000 :  -r 3 : '0.318', '0.325', '0.319'
+1 : rMatGraph_J_5_10000000 :  -r 3 : '0.333', '0.601', '0.333'
+1 : 3Dgrid_J_10000000 :  -r 3 : '0.341', '0.343', '0.342'
+ndBFS : 36 : weighted time, min=0.33 median=0.331 mean=0.361
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randLocalGraph_J_5_10000000 :  -r 3 : '0.262', '0.262', '0.261'
+1 : rMatGraph_J_5_10000000 :  -r 3 : '0.331', '0.605', '0.331'
+1 : 3Dgrid_J_10000000 :  -r 3 : '0.351', '0.352', '0.352'
+ndBFS : 40 : weighted time, min=0.314 median=0.315 mean=0.345
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randLocalGraph_J_5_10000000 :  -r 3 : '0.257', '0.257', '0.257'
+1 : rMatGraph_J_5_10000000 :  -r 3 : '0.322', '0.322', '0.324'
+1 : 3Dgrid_J_10000000 :  -r 3 : '0.357', '0.358', '0.359'
+ndBFS : 44 : weighted time, min=0.312 median=0.312 mean=0.312
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randLocalGraph_J_5_10000000 :  -r 3 : '0.272', '0.273', '0.287'
+1 : rMatGraph_J_5_10000000 :  -r 3 : '0.307', '0.307', '0.307'
+1 : 3Dgrid_J_10000000 :  -r 3 : '0.348', '0.347', '0.348'
+ndBFS : 48 : weighted time, min=0.308 median=0.309 mean=0.31
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randLocalGraph_J_5_10000000 :  -r 3 : '0.251', '0.25', '0.258'
+1 : rMatGraph_J_5_10000000 :  -r 3 : '0.322', '0.321', '0.321'
+1 : 3Dgrid_J_10000000 :  -r 3 : '0.411', '0.409', '0.41'
+ndBFS : 52 : weighted time, min=0.326 median=0.327 mean=0.328
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randLocalGraph_J_5_10000000 :  -r 3 : '0.258', '0.258', '0.259'
+1 : rMatGraph_J_5_10000000 :  -r 3 : '0.302', '0.303', '0.304'
+1 : 3Dgrid_J_10000000 :  -r 3 : '0.343', '0.341', '0.339'
+ndBFS : 56 : weighted time, min=0.299 median=0.3 mean=0.3
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randLocalGraph_J_5_10000000 :  -r 3 : '0.245', '0.245', '0.247'
+1 : rMatGraph_J_5_10000000 :  -r 3 : '0.304', '0.313', '0.303'
+1 : 3Dgrid_J_10000000 :  -r 3 : '0.332', '0.334', '0.333'
+ndBFS : 60 : weighted time, min=0.293 median=0.294 mean=0.295
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randLocalGraph_J_5_10000000 :  -r 3 : '0.228', '0.237', '0.227'
+1 : rMatGraph_J_5_10000000 :  -r 3 : '0.305', '0.312', '0.302'
+1 : 3Dgrid_J_10000000 :  -r 3 : '0.319', '0.324', '0.331'
+ndBFS : 64 : weighted time, min=0.282 median=0.285 mean=0.287
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randLocalGraph_J_5_10000000 :  -r 3 : '7.1', '7.1', '7.1'
+1 : rMatGraph_J_5_10000000 :  -r 3 : '9.22', '9.22', '9.24'
+1 : 3Dgrid_J_10000000 :  -r 3 : '5.03', '5.03', '5.03'
+deterministicBFS : 1 : weighted time, min=7.116 median=7.116 mean=7.118
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randLocalGraph_J_5_10000000 :  -r 3 : '4.22', '4.22', '4.21'
+1 : rMatGraph_J_5_10000000 :  -r 3 : '5.45', '5.45', '5.46'
+1 : 3Dgrid_J_10000000 :  -r 3 : '3.13', '3.05', '3.'
+deterministicBFS : 2 : weighted time, min=4.22 median=4.239 mean=4.243
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randLocalGraph_J_5_10000000 :  -r 3 : '2.14', '2.17', '2.15'
+1 : rMatGraph_J_5_10000000 :  -r 3 : '2.97', '2.91', '2.9'
+1 : 3Dgrid_J_10000000 :  -r 3 : '1.83', '1.84', '1.81'
+deterministicBFS : 4 : weighted time, min=2.283 median=2.296 mean=2.302
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randLocalGraph_J_5_10000000 :  -r 3 : '1.16', '1.16', '1.16'
+1 : rMatGraph_J_5_10000000 :  -r 3 : '1.5', '1.5', '1.48'
+1 : 3Dgrid_J_10000000 :  -r 3 : '0.99', '0.988', '0.989'
+deterministicBFS : 8 : weighted time, min=1.209 median=1.216 mean=1.214
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randLocalGraph_J_5_10000000 :  -r 3 : '0.788', '0.788', '0.788'
+1 : rMatGraph_J_5_10000000 :  -r 3 : '1.01', '1.01', '1.01'
+1 : 3Dgrid_J_10000000 :  -r 3 : '0.714', '0.714', '0.713'
+deterministicBFS : 12 : weighted time, min=0.837 median=0.837 mean=0.837
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randLocalGraph_J_5_10000000 :  -r 3 : '0.587', '0.588', '0.588'
+1 : rMatGraph_J_5_10000000 :  -r 3 : '0.804', '0.802', '0.803'
+1 : 3Dgrid_J_10000000 :  -r 3 : '0.571', '0.622', '0.572'
+deterministicBFS : 16 : weighted time, min=0.653 median=0.654 mean=0.659
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randLocalGraph_J_5_10000000 :  -r 3 : '0.477', '0.478', '0.477'
+1 : rMatGraph_J_5_10000000 :  -r 3 : '0.644', '0.643', '0.644'
+1 : 3Dgrid_J_10000000 :  -r 3 : '0.493', '0.494', '0.494'
+deterministicBFS : 20 : weighted time, min=0.537 median=0.538 mean=0.538
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randLocalGraph_J_5_10000000 :  -r 3 : '0.425', '0.425', '0.425'
+1 : rMatGraph_J_5_10000000 :  -r 3 : '0.558', '0.558', '0.558'
+1 : 3Dgrid_J_10000000 :  -r 3 : '0.537', '0.537', '0.537'
+deterministicBFS : 24 : weighted time, min=0.506 median=0.506 mean=0.506
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randLocalGraph_J_5_10000000 :  -r 3 : '0.358', '0.359', '0.359'
+1 : rMatGraph_J_5_10000000 :  -r 3 : '0.479', '0.479', '0.478'
+1 : 3Dgrid_J_10000000 :  -r 3 : '0.415', '0.414', '0.415'
+deterministicBFS : 28 : weighted time, min=0.416 median=0.417 mean=0.417
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randLocalGraph_J_5_10000000 :  -r 3 : '0.321', '0.321', '0.321'
+1 : rMatGraph_J_5_10000000 :  -r 3 : '0.424', '0.425', '0.424'
+1 : 3Dgrid_J_10000000 :  -r 3 : '0.395', '0.396', '0.395'
+deterministicBFS : 32 : weighted time, min=0.38 median=0.38 mean=0.38
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randLocalGraph_J_5_10000000 :  -r 3 : '0.323', '0.324', '0.325'
+1 : rMatGraph_J_5_10000000 :  -r 3 : '0.6', '0.592', '0.592'
+1 : 3Dgrid_J_10000000 :  -r 3 : '0.39', '0.39', '0.39'
+deterministicBFS : 36 : weighted time, min=0.435 median=0.435 mean=0.436
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randLocalGraph_J_5_10000000 :  -r 3 : '0.325', '0.326', '0.324'
+1 : rMatGraph_J_5_10000000 :  -r 3 : '0.403', '0.408', '0.662'
+1 : 3Dgrid_J_10000000 :  -r 3 : '0.383', '0.383', '0.383'
+deterministicBFS : 40 : weighted time, min=0.37 median=0.372 mean=0.399
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randLocalGraph_J_5_10000000 :  -r 3 : '0.296', '0.296', '0.296'
+1 : rMatGraph_J_5_10000000 :  -r 3 : '0.392', '0.392', '0.393'
+1 : 3Dgrid_J_10000000 :  -r 3 : '0.519', '0.379', '0.379'
+deterministicBFS : 44 : weighted time, min=0.355 median=0.355 mean=0.371
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randLocalGraph_J_5_10000000 :  -r 3 : '0.3', '0.301', '0.3'
+1 : rMatGraph_J_5_10000000 :  -r 3 : '0.381', '0.381', '0.381'
+1 : 3Dgrid_J_10000000 :  -r 3 : '0.377', '0.374', '0.376'
+deterministicBFS : 48 : weighted time, min=0.351 median=0.352 mean=0.352
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randLocalGraph_J_5_10000000 :  -r 3 : '0.269', '0.277', '0.269'
+1 : rMatGraph_J_5_10000000 :  -r 3 : '0.37', '0.371', '0.371'
+1 : 3Dgrid_J_10000000 :  -r 3 : '0.365', '0.368', '0.521'
+deterministicBFS : 52 : weighted time, min=0.334 median=0.336 mean=0.353
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randLocalGraph_J_5_10000000 :  -r 3 : '0.277', '0.279', '0.289'
+1 : rMatGraph_J_5_10000000 :  -r 3 : '0.351', '0.35', '0.351'
+1 : 3Dgrid_J_10000000 :  -r 3 : '0.364', '0.364', '0.365'
+deterministicBFS : 56 : weighted time, min=0.33 median=0.331 mean=0.332
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randLocalGraph_J_5_10000000 :  -r 3 : '0.26', '0.26', '0.26'
+1 : rMatGraph_J_5_10000000 :  -r 3 : '0.371', '0.371', '0.371'
+1 : 3Dgrid_J_10000000 :  -r 3 : '0.352', '0.351', '0.352'
+deterministicBFS : 60 : weighted time, min=0.327 median=0.327 mean=0.327
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randLocalGraph_J_5_10000000 :  -r 3 : '0.258', '0.257', '0.257'
+1 : rMatGraph_J_5_10000000 :  -r 3 : '0.374', '0.382', '0.38'
+1 : 3Dgrid_J_10000000 :  -r 3 : '0.343', '0.344', '0.342'
+deterministicBFS : 64 : weighted time, min=0.324 median=0.326 mean=0.326
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randLocalGraph_J_5_10000000 :  -r 3 -o /tmp/ofile987169_73097 : '0.448', '0.448', '0.448'
+1 : rMatGraph_J_5_10000000 :  -r 3 -o /tmp/ofile187488_979046 : '0.672', '0.671', '0.671'
+1 : 3Dgrid_J_10000000 :  -r 3 -o /tmp/ofile456911_62509 : '0.388', '0.388', '0.387'
+serialMIS : 0 : weighted time, min=0.502 median=0.502 mean=0.502
+
+1 : randLocalGraph_J_5_10000000 :  -r 3 : '1.49', '1.49', '1.49'
+1 : rMatGraph_J_5_10000000 :  -r 3 : '2.14', '2.14', '2.14'
+1 : 3Dgrid_J_10000000 :  -r 3 : '1.38', '1.33', '1.33'
+ndMIS : 1 : weighted time, min=1.653 median=1.653 mean=1.658
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randLocalGraph_J_5_10000000 :  -r 3 : '0.856', '0.858', '0.858'
+1 : rMatGraph_J_5_10000000 :  -r 3 : '1.26', '1.21', '1.21'
+1 : 3Dgrid_J_10000000 :  -r 3 : '0.786', '0.786', '0.785'
+ndMIS : 2 : weighted time, min=0.95 median=0.951 mean=0.956
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randLocalGraph_J_5_10000000 :  -r 3 : '0.435', '0.438', '0.431'
+1 : rMatGraph_J_5_10000000 :  -r 3 : '0.63', '0.633', '0.633'
+1 : 3Dgrid_J_10000000 :  -r 3 : '0.4', '0.402', '0.4'
+ndMIS : 4 : weighted time, min=0.486 median=0.489 mean=0.489
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randLocalGraph_J_5_10000000 :  -r 3 : '0.219', '0.219', '0.217'
+1 : rMatGraph_J_5_10000000 :  -r 3 : '0.32', '0.318', '0.319'
+1 : 3Dgrid_J_10000000 :  -r 3 : '0.202', '0.202', '0.203'
+ndMIS : 8 : weighted time, min=0.245 median=0.246 mean=0.246
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randLocalGraph_J_5_10000000 :  -r 3 : '0.152', '0.152', '0.154'
+1 : rMatGraph_J_5_10000000 :  -r 3 : '0.218', '0.216', '0.217'
+1 : 3Dgrid_J_10000000 :  -r 3 : '0.137', '0.137', '0.137'
+ndMIS : 12 : weighted time, min=0.168 median=0.168 mean=0.168
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randLocalGraph_J_5_10000000 :  -r 3 : '0.115', '0.115', '0.115'
+1 : rMatGraph_J_5_10000000 :  -r 3 : '0.165', '0.165', '0.165'
+1 : 3Dgrid_J_10000000 :  -r 3 : '0.105', '0.12', '0.105'
+ndMIS : 16 : weighted time, min=0.128 median=0.128 mean=0.13
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randLocalGraph_J_5_10000000 :  -r 3 : '0.099', '0.098', '0.099'
+1 : rMatGraph_J_5_10000000 :  -r 3 : '0.139', '0.163', '0.139'
+1 : 3Dgrid_J_10000000 :  -r 3 : '0.086', '0.086', '0.086'
+ndMIS : 20 : weighted time, min=0.108 median=0.108 mean=0.11
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randLocalGraph_J_5_10000000 :  -r 3 : '0.082', '0.083', '0.082'
+1 : rMatGraph_J_5_10000000 :  -r 3 : '0.117', '0.117', '0.117'
+1 : 3Dgrid_J_10000000 :  -r 3 : '0.075', '0.074', '0.074'
+ndMIS : 24 : weighted time, min=0.091 median=0.091 mean=0.091
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randLocalGraph_J_5_10000000 :  -r 3 : '0.07', '0.07', '0.071'
+1 : rMatGraph_J_5_10000000 :  -r 3 : '0.1', '0.1', '0.1'
+1 : 3Dgrid_J_10000000 :  -r 3 : '0.061', '0.061', '0.061'
+ndMIS : 28 : weighted time, min=0.077 median=0.077 mean=0.077
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randLocalGraph_J_5_10000000 :  -r 3 : '0.067', '0.067', '0.067'
+1 : rMatGraph_J_5_10000000 :  -r 3 : '0.092', '0.092', '0.092'
+1 : 3Dgrid_J_10000000 :  -r 3 : '0.056', '0.062', '0.056'
+ndMIS : 32 : weighted time, min=0.072 median=0.072 mean=0.072
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randLocalGraph_J_5_10000000 :  -r 3 : '0.059', '0.06', '0.059'
+1 : rMatGraph_J_5_10000000 :  -r 3 : '0.088', '0.088', '0.088'
+1 : 3Dgrid_J_10000000 :  -r 3 : '0.056', '0.057', '0.057'
+ndMIS : 36 : weighted time, min=0.067 median=0.068 mean=0.068
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randLocalGraph_J_5_10000000 :  -r 3 : '0.056', '0.057', '0.057'
+1 : rMatGraph_J_5_10000000 :  -r 3 : '0.081', '0.082', '0.084'
+1 : 3Dgrid_J_10000000 :  -r 3 : '0.061', '0.057', '0.057'
+ndMIS : 40 : weighted time, min=0.065 median=0.065 mean=0.066
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randLocalGraph_J_5_10000000 :  -r 3 : '0.06', '0.06', '0.06'
+1 : rMatGraph_J_5_10000000 :  -r 3 : '0.084', '0.085', '0.084'
+1 : 3Dgrid_J_10000000 :  -r 3 : '0.051', '0.051', '0.053'
+ndMIS : 44 : weighted time, min=0.065 median=0.065 mean=0.065
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randLocalGraph_J_5_10000000 :  -r 3 : '0.059', '0.059', '0.058'
+1 : rMatGraph_J_5_10000000 :  -r 3 : '0.087', '0.086', '0.086'
+1 : 3Dgrid_J_10000000 :  -r 3 : '0.047', '0.048', '0.048'
+ndMIS : 48 : weighted time, min=0.064 median=0.064 mean=0.064
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randLocalGraph_J_5_10000000 :  -r 3 : '0.051', '0.051', '0.051'
+1 : rMatGraph_J_5_10000000 :  -r 3 : '0.09', '0.087', '0.089'
+1 : 3Dgrid_J_10000000 :  -r 3 : '0.066', '0.05', '0.066'
+ndMIS : 52 : weighted time, min=0.062 median=0.068 mean=0.067
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randLocalGraph_J_5_10000000 :  -r 3 : '0.056', '0.056', '0.056'
+1 : rMatGraph_J_5_10000000 :  -r 3 : '0.073', '0.072', '0.076'
+1 : 3Dgrid_J_10000000 :  -r 3 : '0.047', '0.047', '0.054'
+ndMIS : 56 : weighted time, min=0.058 median=0.059 mean=0.06
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randLocalGraph_J_5_10000000 :  -r 3 : '0.057', '0.057', '0.073'
+1 : rMatGraph_J_5_10000000 :  -r 3 : '0.072', '0.072', '0.073'
+1 : 3Dgrid_J_10000000 :  -r 3 : '0.045', '0.06', '0.045'
+ndMIS : 60 : weighted time, min=0.058 median=0.058 mean=0.061
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randLocalGraph_J_5_10000000 :  -r 3 : '0.047', '0.046', '0.047'
+1 : rMatGraph_J_5_10000000 :  -r 3 : '0.086', '0.077', '0.08'
+1 : 3Dgrid_J_10000000 :  -r 3 : '0.041', '0.041', '0.041'
+ndMIS : 64 : weighted time, min=0.055 median=0.056 mean=0.056
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randLocalGraph_J_5_10000000 :  -r 3 : '0.669', '0.669', '0.67'
+1 : rMatGraph_J_5_10000000 :  -r 3 : '1.08', '1.08', '1.08'
+1 : 3Dgrid_J_10000000 :  -r 3 : '0.597', '0.595', '0.595'
+incrementalMIS : 1 : weighted time, min=0.781 median=0.781 mean=0.781
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randLocalGraph_J_5_10000000 :  -r 3 : '0.404', '0.408', '0.403'
+1 : rMatGraph_J_5_10000000 :  -r 3 : '0.634', '0.633', '0.633'
+1 : 3Dgrid_J_10000000 :  -r 3 : '0.338', '0.342', '0.336'
+incrementalMIS : 2 : weighted time, min=0.457 median=0.458 mean=0.459
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randLocalGraph_J_5_10000000 :  -r 3 : '0.221', '0.223', '0.221'
+1 : rMatGraph_J_5_10000000 :  -r 3 : '0.33', '0.332', '0.332'
+1 : 3Dgrid_J_10000000 :  -r 3 : '0.185', '0.191', '0.186'
+incrementalMIS : 4 : weighted time, min=0.245 median=0.246 mean=0.246
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randLocalGraph_J_5_10000000 :  -r 3 : '0.119', '0.12', '0.119'
+1 : rMatGraph_J_5_10000000 :  -r 3 : '0.175', '0.176', '0.175'
+1 : 3Dgrid_J_10000000 :  -r 3 : '0.106', '0.105', '0.102'
+incrementalMIS : 8 : weighted time, min=0.131 median=0.132 mean=0.133
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randLocalGraph_J_5_10000000 :  -r 3 : '0.086', '0.085', '0.086'
+1 : rMatGraph_J_5_10000000 :  -r 3 : '0.123', '0.124', '0.124'
+1 : 3Dgrid_J_10000000 :  -r 3 : '0.072', '0.072', '0.072'
+incrementalMIS : 12 : weighted time, min=0.093 median=0.094 mean=0.094
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randLocalGraph_J_5_10000000 :  -r 3 : '0.074', '0.073', '0.073'
+1 : rMatGraph_J_5_10000000 :  -r 3 : '0.1', '0.099', '0.101'
+1 : 3Dgrid_J_10000000 :  -r 3 : '0.06', '0.059', '0.059'
+incrementalMIS : 16 : weighted time, min=0.077 median=0.077 mean=0.077
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randLocalGraph_J_5_10000000 :  -r 3 : '0.066', '0.067', '0.069'
+1 : rMatGraph_J_5_10000000 :  -r 3 : '0.091', '0.091', '0.09'
+1 : 3Dgrid_J_10000000 :  -r 3 : '0.051', '0.051', '0.052'
+incrementalMIS : 20 : weighted time, min=0.069 median=0.07 mean=0.07
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randLocalGraph_J_5_10000000 :  -r 3 : '0.055', '0.055', '0.055'
+1 : rMatGraph_J_5_10000000 :  -r 3 : '0.078', '0.078', '0.078'
+1 : 3Dgrid_J_10000000 :  -r 3 : '0.053', '0.052', '0.052'
+incrementalMIS : 24 : weighted time, min=0.062 median=0.062 mean=0.062
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randLocalGraph_J_5_10000000 :  -r 3 : '0.051', '0.051', '0.051'
+1 : rMatGraph_J_5_10000000 :  -r 3 : '0.072', '0.072', '0.072'
+1 : 3Dgrid_J_10000000 :  -r 3 : '0.047', '0.047', '0.047'
+incrementalMIS : 28 : weighted time, min=0.056 median=0.057 mean=0.057
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randLocalGraph_J_5_10000000 :  -r 3 : '0.055', '0.055', '0.054'
+1 : rMatGraph_J_5_10000000 :  -r 3 : '0.07', '0.068', '0.067'
+1 : 3Dgrid_J_10000000 :  -r 3 : '0.043', '0.043', '0.043'
+incrementalMIS : 32 : weighted time, min=0.055 median=0.055 mean=0.055
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randLocalGraph_J_5_10000000 :  -r 3 : '0.055', '0.055', '0.056'
+1 : rMatGraph_J_5_10000000 :  -r 3 : '0.073', '0.074', '0.075'
+1 : 3Dgrid_J_10000000 :  -r 3 : '0.045', '0.045', '0.044'
+incrementalMIS : 36 : weighted time, min=0.058 median=0.058 mean=0.058
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randLocalGraph_J_5_10000000 :  -r 3 : '0.054', '0.054', '0.053'
+1 : rMatGraph_J_5_10000000 :  -r 3 : '0.072', '0.072', '0.072'
+1 : 3Dgrid_J_10000000 :  -r 3 : '0.045', '0.044', '0.044'
+incrementalMIS : 40 : weighted time, min=0.056 median=0.057 mean=0.057
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randLocalGraph_J_5_10000000 :  -r 3 : '0.062', '0.05', '0.049'
+1 : rMatGraph_J_5_10000000 :  -r 3 : '0.074', '0.073', '0.073'
+1 : 3Dgrid_J_10000000 :  -r 3 : '0.045', '0.045', '0.046'
+incrementalMIS : 44 : weighted time, min=0.056 median=0.056 mean=0.058
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randLocalGraph_J_5_10000000 :  -r 3 : '0.053', '0.053', '0.053'
+1 : rMatGraph_J_5_10000000 :  -r 3 : '0.077', '0.077', '0.077'
+1 : 3Dgrid_J_10000000 :  -r 3 : '0.045', '0.046', '0.046'
+incrementalMIS : 48 : weighted time, min=0.058 median=0.059 mean=0.059
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randLocalGraph_J_5_10000000 :  -r 3 : '0.052', '0.052', '0.052'
+1 : rMatGraph_J_5_10000000 :  -r 3 : '0.067', '0.067', '0.067'
+1 : 3Dgrid_J_10000000 :  -r 3 : '0.046', '0.046', '0.048'
+incrementalMIS : 52 : weighted time, min=0.055 median=0.055 mean=0.055
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randLocalGraph_J_5_10000000 :  -r 3 : '0.051', '0.052', '0.051'
+1 : rMatGraph_J_5_10000000 :  -r 3 : '0.068', '0.069', '0.074'
+1 : 3Dgrid_J_10000000 :  -r 3 : '0.046', '0.046', '0.047'
+incrementalMIS : 56 : weighted time, min=0.055 median=0.056 mean=0.056
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randLocalGraph_J_5_10000000 :  -r 3 : '0.048', '0.047', '0.048'
+1 : rMatGraph_J_5_10000000 :  -r 3 : '0.067', '0.067', '0.068'
+1 : 3Dgrid_J_10000000 :  -r 3 : '0.043', '0.045', '0.046'
+incrementalMIS : 60 : weighted time, min=0.053 median=0.053 mean=0.053
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randLocalGraph_J_5_10000000 :  -r 3 : '0.048', '0.068', '0.052'
+1 : rMatGraph_J_5_10000000 :  -r 3 : '0.066', '0.066', '0.066'
+1 : 3Dgrid_J_10000000 :  -r 3 : '0.041', '0.042', '0.042'
+incrementalMIS : 64 : weighted time, min=0.052 median=0.053 mean=0.055
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : 2DinCube_10M :  -r 3 -o /tmp/ofile788165_216531 : '64.599', '70.4', '70.4'
+1 : 2Dkuzmin_10M :  -r 3 -o /tmp/ofile299608_495217 : '58.6', '58.8', '58.9'
+serialDelaunay : 0 : weighted time, min=61.599 median=64.599 mean=63.616
+
+1 : 2DinCube_10M :  -r 3 : '77.9', '76.9', '76.8'
+1 : 2Dkuzmin_10M :  -r 3 : '84.5', '84.7', '84.'
+incrementalDelaunay : 1 : weighted time, min=80.4 median=80.7 mean=80.8
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : 2DinCube_10M :  -r 3 : '47.', '46.7', '46.3'
+1 : 2Dkuzmin_10M :  -r 3 : '50.1', '50.1', '51.'
+incrementalDelaunay : 2 : weighted time, min=48.2 median=48.4 mean=48.533
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : 2DinCube_10M :  -r 3 : '25.1', '25.2', '25.2'
+1 : 2Dkuzmin_10M :  -r 3 : '27.4', '27.7', '27.8'
+incrementalDelaunay : 4 : weighted time, min=26.25 median=26.45 mean=26.4
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : 2DinCube_10M :  -r 3 : '12.7', '12.3', '12.3'
+1 : 2Dkuzmin_10M :  -r 3 : '13.9', '13.8', '13.8'
+incrementalDelaunay : 8 : weighted time, min=13.05 median=13.05 mean=13.133
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : 2DinCube_10M :  -r 3 : '8.76', '8.7', '8.39'
+1 : 2Dkuzmin_10M :  -r 3 : '9.75', '9.21', '9.55'
+incrementalDelaunay : 12 : weighted time, min=8.8 median=9.125 mean=9.06
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : 2DinCube_10M :  -r 3 : '6.78', '6.74', '6.76'
+1 : 2Dkuzmin_10M :  -r 3 : '7.54', '7.51', '7.52'
+incrementalDelaunay : 16 : weighted time, min=7.125 median=7.14 mean=7.141
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : 2DinCube_10M :  -r 3 : '5.6', '5.74', '5.63'
+1 : 2Dkuzmin_10M :  -r 3 : '6.27', '6.4', '6.2'
+incrementalDelaunay : 20 : weighted time, min=5.9 median=5.949 mean=5.973
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : 2DinCube_10M :  -r 3 : '4.89', '5.08', '5.03'
+1 : 2Dkuzmin_10M :  -r 3 : '5.5', '5.68', '5.63'
+incrementalDelaunay : 24 : weighted time, min=5.195 median=5.33 mean=5.301
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : 2DinCube_10M :  -r 3 : '4.47', '4.67', '4.5'
+1 : 2Dkuzmin_10M :  -r 3 : '5.09', '5.1', '5.23'
+incrementalDelaunay : 28 : weighted time, min=4.779 median=4.8 mean=4.843
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : 2DinCube_10M :  -r 3 : '4.', '4.19', '4.18'
+1 : 2Dkuzmin_10M :  -r 3 : '4.56', '4.79', '4.74'
+incrementalDelaunay : 32 : weighted time, min=4.279 median=4.46 mean=4.41
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : 2DinCube_10M :  -r 3 : '3.89', '4.08', '4.12'
+1 : 2Dkuzmin_10M :  -r 3 : '4.54', '4.71', '4.68'
+incrementalDelaunay : 36 : weighted time, min=4.215 median=4.38 mean=4.336
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : 2DinCube_10M :  -r 3 : '3.83', '3.98', '4.'
+1 : 2Dkuzmin_10M :  -r 3 : '4.4', '4.69', '4.65'
+incrementalDelaunay : 40 : weighted time, min=4.115 median=4.315 mean=4.258
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : 2DinCube_10M :  -r 3 : '3.61', '3.71', '3.89'
+1 : 2Dkuzmin_10M :  -r 3 : '4.36', '4.59', '4.32'
+incrementalDelaunay : 44 : weighted time, min=3.965 median=4.035 mean=4.08
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : 2DinCube_10M :  -r 3 : '3.52', '3.49', '3.79'
+1 : 2Dkuzmin_10M :  -r 3 : '4.27', '4.53', '4.48'
+incrementalDelaunay : 48 : weighted time, min=3.88 median=4. mean=4.013
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : 2DinCube_10M :  -r 3 : '3.49', '3.73', '3.74'
+1 : 2Dkuzmin_10M :  -r 3 : '4.24', '4.49', '4.51'
+incrementalDelaunay : 52 : weighted time, min=3.865 median=4.11 mean=4.033
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : 2DinCube_10M :  -r 3 : '3.33', '3.46', '3.57'
+1 : 2Dkuzmin_10M :  -r 3 : '4.14', '4.29', '4.4'
+incrementalDelaunay : 56 : weighted time, min=3.735 median=3.875 mean=3.864
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : 2DinCube_10M :  -r 3 : '3.32', '3.59', '3.62'
+1 : 2Dkuzmin_10M :  -r 3 : '4.18', '4.45', '4.42'
+incrementalDelaunay : 60 : weighted time, min=3.75 median=4.005 mean=3.93
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : 2DinCube_10M :  -r 3 : '3.35', '3.49', '3.65'
+1 : 2Dkuzmin_10M :  -r 3 : '4.38', '4.49', '4.5'
+incrementalDelaunay : 64 : weighted time, min=3.865 median=3.99 mean=3.976
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : 2DinCubeDelaunay_5000000 :  -r 3 : '105.', '103.', '103.'
+1 : 2DkuzminDelaunay_5000000 :  -r 3 : '105.', '103.', '103.'
+incrementalRefine : 1 : weighted time, min=103. median=103. mean=103.666
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : 2DinCubeDelaunay_5000000 :  -r 3 : '62.7', '62.6', '62.2'
+1 : 2DkuzminDelaunay_5000000 :  -r 3 : '62.9', '61.7', '63.4'
+incrementalRefine : 2 : weighted time, min=61.95 median=62.75 mean=62.583
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : 2DinCubeDelaunay_5000000 :  -r 3 : '34.7', '34.7', '35.2'
+1 : 2DkuzminDelaunay_5000000 :  -r 3 : '34.4', '34.3', '34.4'
+incrementalRefine : 4 : weighted time, min=34.5 median=34.55 mean=34.616
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : 2DinCubeDelaunay_5000000 :  -r 3 : '18.3', '18.8', '18.7'
+1 : 2DkuzminDelaunay_5000000 :  -r 3 : '18.1', '18.6', '18.5'
+incrementalRefine : 8 : weighted time, min=18.2 median=18.6 mean=18.5
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : 2DinCubeDelaunay_5000000 :  -r 3 : '13.1', '13.7', '13.7'
+1 : 2DkuzminDelaunay_5000000 :  -r 3 : '13.', '13.5', '13.4'
+incrementalRefine : 12 : weighted time, min=13.05 median=13.55 mean=13.399
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : 2DinCubeDelaunay_5000000 :  -r 3 : '10.6', '11.2', '11.1'
+1 : 2DkuzminDelaunay_5000000 :  -r 3 : '10.5', '11.1', '10.9'
+incrementalRefine : 16 : weighted time, min=10.55 median=11. mean=10.9
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : 2DinCubeDelaunay_5000000 :  -r 3 : '9.06', '9.61', '9.57'
+1 : 2DkuzminDelaunay_5000000 :  -r 3 : '8.96', '9.58', '9.51'
+incrementalRefine : 20 : weighted time, min=9.01 median=9.54 mean=9.381
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : 2DinCubeDelaunay_5000000 :  -r 3 : '8.15', '8.67', '7.4'
+1 : 2DkuzminDelaunay_5000000 :  -r 3 : '8.039', '8.64', '8.62'
+incrementalRefine : 24 : weighted time, min=7.72 median=8.385 mean=8.253
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : 2DinCubeDelaunay_5000000 :  -r 3 : '7.46', '7.67', '8.1'
+1 : 2DkuzminDelaunay_5000000 :  -r 3 : '7.5', '6.83', '8.02'
+incrementalRefine : 28 : weighted time, min=7.145 median=7.585 mean=7.596
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : 2DinCubeDelaunay_5000000 :  -r 3 : '7.09', '7.63', '7.7'
+1 : 2DkuzminDelaunay_5000000 :  -r 3 : '7.', '7.56', '7.58'
+incrementalRefine : 32 : weighted time, min=7.045 median=7.595 mean=7.426
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : 2DinCubeDelaunay_5000000 :  -r 3 : '6.73', '7.49', '8.02'
+1 : 2DkuzminDelaunay_5000000 :  -r 3 : '6.67', '7.35', '6.75'
+incrementalRefine : 36 : weighted time, min=6.7 median=7.12 mean=7.168
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : 2DinCubeDelaunay_5000000 :  -r 3 : '6.58', '6.85', '7.3'
+1 : 2DkuzminDelaunay_5000000 :  -r 3 : '6.42', '7.28', '7.22'
+incrementalRefine : 40 : weighted time, min=6.5 median=7.035 mean=6.941
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : 2DinCubeDelaunay_5000000 :  -r 3 : '6.31', '7.14', '7.1'
+1 : 2DkuzminDelaunay_5000000 :  -r 3 : '6.17', '7.04', '7.04'
+incrementalRefine : 44 : weighted time, min=6.24 median=7.07 mean=6.8
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : 2DinCubeDelaunay_5000000 :  -r 3 : '6.49', '6.87', '6.86'
+1 : 2DkuzminDelaunay_5000000 :  -r 3 : '6.06', '6.8', '6.87'
+incrementalRefine : 48 : weighted time, min=6.275 median=6.83 mean=6.658
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : 2DinCubeDelaunay_5000000 :  -r 3 : '6.1', '6.83', '6.81'
+1 : 2DkuzminDelaunay_5000000 :  -r 3 : '5.96', '6.74', '6.71'
+incrementalRefine : 52 : weighted time, min=6.029 median=6.76 mean=6.525
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : 2DinCubeDelaunay_5000000 :  -r 3 : '5.94', '6.58', '6.62'
+1 : 2DkuzminDelaunay_5000000 :  -r 3 : '5.83', '6.58', '6.56'
+incrementalRefine : 56 : weighted time, min=5.885 median=6.57 mean=6.351
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : 2DinCubeDelaunay_5000000 :  -r 3 : '5.82', '6.56', '6.42'
+1 : 2DkuzminDelaunay_5000000 :  -r 3 : '5.76', '6.5', '6.42'
+incrementalRefine : 60 : weighted time, min=5.79 median=6.42 mean=6.246
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : 2DinCubeDelaunay_5000000 :  -r 3 : '5.78', '6.42', '6.37'
+1 : 2DkuzminDelaunay_5000000 :  -r 3 : '5.61', '6.34', '6.29'
+incrementalRefine : 64 : weighted time, min=5.695 median=6.33 mean=6.135
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randomSeq_10M_int :  -r 3 -o /tmp/ofile385927_107595 : '0.659', '0.657', '0.66'
+1 : randomSeq_10M_100K_int :  -r 3 -o /tmp/ofile970375_236606 : '0.313', '0.318', '0.309'
+1 : exptSeq_10M_int :  -r 3 -o /tmp/ofile15577_633813 : '0.501', '0.5', '0.496'
+3 : trigramSeq_10M :  -r 3 -o /tmp/ofile122487_662825 : '0.856', '0.855', '0.857'
+3 : trigramSeq_10M_pair_int :  -r 3 -o /tmp/ofile819316_80845 : '1.32', '1.32', '1.31'
+serialHash : 0 : weighted time, min=0.884 median=0.888 mean=0.887
+
+1 : randomSeq_10M_int :  -r 3 : '1.07', '1.13', '1.14'
+1 : randomSeq_10M_100K_int :  -r 3 : '0.419', '0.418', '0.417'
+1 : exptSeq_10M_int :  -r 3 : '0.66', '0.66', '0.66'
+3 : trigramSeq_10M :  -r 3 : '1.', '1.', '1.'
+3 : trigramSeq_10M_pair_int :  -r 3 : '1.46', '1.46', '1.45'
+deterministicHash : 1 : weighted time, min=1.055 median=1.065 mean=1.062
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randomSeq_10M_int :  -r 3 : '0.522', '0.526', '0.52'
+1 : randomSeq_10M_100K_int :  -r 3 : '0.222', '0.222', '0.225'
+1 : exptSeq_10M_int :  -r 3 : '0.369', '0.374', '0.373'
+3 : trigramSeq_10M :  -r 3 : '0.545', '0.535', '0.552'
+3 : trigramSeq_10M_pair_int :  -r 3 : '0.818', '0.805', '0.804'
+deterministicHash : 2 : weighted time, min=0.569 median=0.574 mean=0.575
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randomSeq_10M_int :  -r 3 : '0.279', '0.279', '0.281'
+1 : randomSeq_10M_100K_int :  -r 3 : '0.116', '0.113', '0.116'
+1 : exptSeq_10M_int :  -r 3 : '0.186', '0.188', '0.187'
+3 : trigramSeq_10M :  -r 3 : '0.283', '0.281', '0.279'
+3 : trigramSeq_10M_pair_int :  -r 3 : '0.419', '0.416', '0.417'
+deterministicHash : 4 : weighted time, min=0.295 median=0.297 mean=0.297
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randomSeq_10M_int :  -r 3 : '0.14', '0.142', '0.176'
+1 : randomSeq_10M_100K_int :  -r 3 : '0.058', '0.058', '0.058'
+1 : exptSeq_10M_int :  -r 3 : '0.094', '0.095', '0.094'
+3 : trigramSeq_10M :  -r 3 : '0.198', '0.144', '0.144'
+3 : trigramSeq_10M_pair_int :  -r 3 : '0.212', '0.211', '0.212'
+deterministicHash : 8 : weighted time, min=0.15 median=0.151 mean=0.158
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randomSeq_10M_int :  -r 3 : '0.095', '0.095', '0.095'
+1 : randomSeq_10M_100K_int :  -r 3 : '0.04', '0.04', '0.04'
+1 : exptSeq_10M_int :  -r 3 : '0.064', '0.063', '0.064'
+3 : trigramSeq_10M :  -r 3 : '0.099', '0.099', '0.1'
+3 : trigramSeq_10M_pair_int :  -r 3 : '0.144', '0.144', '0.144'
+deterministicHash : 12 : weighted time, min=0.103 median=0.103 mean=0.103
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randomSeq_10M_int :  -r 3 : '0.076', '0.127', '0.084'
+1 : randomSeq_10M_100K_int :  -r 3 : '0.032', '0.032', '0.032'
+1 : exptSeq_10M_int :  -r 3 : '0.049', '0.05', '0.05'
+3 : trigramSeq_10M :  -r 3 : '0.077', '0.078', '0.169'
+3 : trigramSeq_10M_pair_int :  -r 3 : '0.113', '0.112', '0.112'
+deterministicHash : 16 : weighted time, min=0.08 median=0.082 mean=0.093
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randomSeq_10M_int :  -r 3 : '0.096', '0.062', '0.07'
+1 : randomSeq_10M_100K_int :  -r 3 : '0.027', '0.027', '0.027'
+1 : exptSeq_10M_int :  -r 3 : '0.041', '0.042', '0.041'
+3 : trigramSeq_10M :  -r 3 : '0.065', '0.064', '0.065'
+3 : trigramSeq_10M_pair_int :  -r 3 : '0.151', '0.091', '0.091'
+deterministicHash : 20 : weighted time, min=0.066 median=0.067 mean=0.075
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randomSeq_10M_int :  -r 3 : '0.052', '0.052', '0.052'
+1 : randomSeq_10M_100K_int :  -r 3 : '0.023', '0.023', '0.023'
+1 : exptSeq_10M_int :  -r 3 : '0.036', '0.036', '0.037'
+3 : trigramSeq_10M :  -r 3 : '0.056', '0.056', '0.057'
+3 : trigramSeq_10M_pair_int :  -r 3 : '0.08', '0.08', '0.08'
+deterministicHash : 24 : weighted time, min=0.058 median=0.058 mean=0.058
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randomSeq_10M_int :  -r 3 : '0.047', '0.047', '0.047'
+1 : randomSeq_10M_100K_int :  -r 3 : '0.021', '0.021', '0.021'
+1 : exptSeq_10M_int :  -r 3 : '0.032', '0.081', '0.033'
+3 : trigramSeq_10M :  -r 3 : '0.112', '0.051', '0.051'
+3 : trigramSeq_10M_pair_int :  -r 3 : '0.07', '0.07', '0.07'
+deterministicHash : 28 : weighted time, min=0.051 median=0.052 mean=0.06
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randomSeq_10M_int :  -r 3 : '0.043', '0.042', '0.042'
+1 : randomSeq_10M_100K_int :  -r 3 : '0.02', '0.02', '0.02'
+1 : exptSeq_10M_int :  -r 3 : '0.03', '0.029', '0.03'
+3 : trigramSeq_10M :  -r 3 : '0.046', '0.047', '0.142'
+3 : trigramSeq_10M_pair_int :  -r 3 : '0.063', '0.063', '0.064'
+deterministicHash : 32 : weighted time, min=0.047 median=0.047 mean=0.057
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randomSeq_10M_int :  -r 3 : '0.041', '0.042', '0.041'
+1 : randomSeq_10M_100K_int :  -r 3 : '0.02', '0.02', '0.02'
+1 : exptSeq_10M_int :  -r 3 : '0.08', '0.029', '0.029'
+3 : trigramSeq_10M :  -r 3 : '0.045', '0.045', '0.045'
+3 : trigramSeq_10M_pair_int :  -r 3 : '0.069', '0.061', '0.069'
+deterministicHash : 36 : weighted time, min=0.045 median=0.048 mean=0.049
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randomSeq_10M_int :  -r 3 : '0.041', '0.04', '0.04'
+1 : randomSeq_10M_100K_int :  -r 3 : '0.019', '0.02', '0.02'
+1 : exptSeq_10M_int :  -r 3 : '0.028', '0.028', '0.028'
+3 : trigramSeq_10M :  -r 3 : '0.044', '0.043', '0.044'
+3 : trigramSeq_10M_pair_int :  -r 3 : '0.059', '0.059', '0.059'
+deterministicHash : 40 : weighted time, min=0.044 median=0.044 mean=0.044
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randomSeq_10M_int :  -r 3 : '0.039', '0.04', '0.04'
+1 : randomSeq_10M_100K_int :  -r 3 : '0.019', '0.02', '0.02'
+1 : exptSeq_10M_int :  -r 3 : '0.028', '0.028', '0.028'
+3 : trigramSeq_10M :  -r 3 : '0.042', '0.042', '0.042'
+3 : trigramSeq_10M_pair_int :  -r 3 : '0.058', '0.058', '0.057'
+deterministicHash : 44 : weighted time, min=0.043 median=0.043 mean=0.043
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randomSeq_10M_int :  -r 3 : '0.039', '0.039', '0.039'
+1 : randomSeq_10M_100K_int :  -r 3 : '0.02', '0.019', '0.02'
+1 : exptSeq_10M_int :  -r 3 : '0.027', '0.037', '0.027'
+3 : trigramSeq_10M :  -r 3 : '0.041', '0.041', '0.041'
+3 : trigramSeq_10M_pair_int :  -r 3 : '0.056', '0.056', '0.056'
+deterministicHash : 48 : weighted time, min=0.041 median=0.042 mean=0.042
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randomSeq_10M_int :  -r 3 : '0.038', '0.038', '0.038'
+1 : randomSeq_10M_100K_int :  -r 3 : '0.02', '0.019', '0.019'
+1 : exptSeq_10M_int :  -r 3 : '0.026', '0.026', '0.027'
+3 : trigramSeq_10M :  -r 3 : '0.04', '0.04', '0.04'
+3 : trigramSeq_10M_pair_int :  -r 3 : '0.054', '0.054', '0.063'
+deterministicHash : 52 : weighted time, min=0.04 median=0.04 mean=0.041
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randomSeq_10M_int :  -r 3 : '0.037', '0.037', '0.037'
+1 : randomSeq_10M_100K_int :  -r 3 : '0.019', '0.019', '0.019'
+1 : exptSeq_10M_int :  -r 3 : '0.026', '0.026', '0.026'
+3 : trigramSeq_10M :  -r 3 : '0.039', '0.131', '0.047'
+3 : trigramSeq_10M_pair_int :  -r 3 : '0.054', '0.053', '0.053'
+deterministicHash : 56 : weighted time, min=0.04 median=0.043 mean=0.051
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randomSeq_10M_int :  -r 3 : '0.058', '0.081', '0.036'
+1 : randomSeq_10M_100K_int :  -r 3 : '0.019', '0.019', '0.019'
+1 : exptSeq_10M_int :  -r 3 : '0.026', '0.026', '0.026'
+3 : trigramSeq_10M :  -r 3 : '0.038', '0.038', '0.038'
+3 : trigramSeq_10M_pair_int :  -r 3 : '0.051', '0.052', '0.052'
+deterministicHash : 60 : weighted time, min=0.039 median=0.041 mean=0.041
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randomSeq_10M_int :  -r 3 : '0.036', '0.036', '0.036'
+1 : randomSeq_10M_100K_int :  -r 3 : '0.019', '0.019', '0.019'
+1 : exptSeq_10M_int :  -r 3 : '0.026', '0.025', '0.025'
+3 : trigramSeq_10M :  -r 3 : '0.055', '0.127', '0.043'
+3 : trigramSeq_10M_pair_int :  -r 3 : '0.051', '0.052', '0.051'
+deterministicHash : 64 : weighted time, min=0.04 median=0.044 mean=0.051
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randomSeq_10M_double :  -r 3 -o /tmp/ofile910849_518764 : '1.43', '1.43', '1.43'
+1 : exptSeq_10M_double :  -r 3 -o /tmp/ofile834187_557377 : '1.12', '1.11', '1.11'
+1 : almostSortedSeq_10M_double :  -r 3 -o /tmp/ofile635711_918926 : '0.281', '0.28', '0.279'
+3 : trigramSeq_10M :  -r 3 -o /tmp/ofile591203_469421 : '4.74', '4.26', '4.26'
+3 : trigramSeq_10M : -p -r 3 -o /tmp/ofile336998_859061 : '5.78', '5.56', '5.56'
+serialSort : 0 : weighted time, min=3.586 median=3.586 mean=3.664
+
+1 : randomSeq_10M_double :  -r 3 -o /tmp/ofile591834_85576 : '0.123', '0.12', '0.113'
+1 : exptSeq_10M_double :  -r 3 -o /tmp/ofile981100_629579 : '0.056', '0.059', '0.055'
+1 : almostSortedSeq_10M_double :  -r 3 -o /tmp/ofile528131_894062 : '0.067', '0.066', '0.065'
+3 : trigramSeq_10M :  -r 3 -o /tmp/ofile505477_13316 : '0.136', '0.137', '0.137'
+3 : trigramSeq_10M : -p -r 3 -o /tmp/ofile555423_557210 : '0.381', '0.373', '0.386'
+stlParallelSort : 0 : weighted time, min=0.195 median=0.199 mean=0.199
+
+1 : randomSeq_10M_double :  -r 3 : '2.06', '2.06', '1.8'
+1 : exptSeq_10M_double :  -r 3 : '1.51', '1.51', '1.51'
+1 : almostSortedSeq_10M_double :  -r 3 : '0.634', '0.635', '0.635'
+3 : trigramSeq_10M :  -r 3 : '3.49', '3.35', '3.05'
+3 : trigramSeq_10M : -p -r 3 : '4.45', '4.', '4.'
+sampleSort : 1 : weighted time, min=2.788 median=2.917 mean=2.939
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randomSeq_10M_double :  -r 3 : '1.08', '1.07', '1.07'
+1 : exptSeq_10M_double :  -r 3 : '0.781', '0.779', '0.777'
+1 : almostSortedSeq_10M_double :  -r 3 : '0.343', '0.343', '0.343'
+3 : trigramSeq_10M :  -r 3 : '1.82', '1.82', '1.8'
+3 : trigramSeq_10M : -p -r 3 : '2.36', '2.37', '2.28'
+sampleSort : 2 : weighted time, min=1.603 median=1.636 mean=1.627
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randomSeq_10M_double :  -r 3 : '0.556', '0.56', '0.565'
+1 : exptSeq_10M_double :  -r 3 : '0.401', '0.405', '0.404'
+1 : almostSortedSeq_10M_double :  -r 3 : '0.183', '0.184', '0.184'
+3 : trigramSeq_10M :  -r 3 : '0.905', '0.909', '0.919'
+3 : trigramSeq_10M : -p -r 3 : '1.16', '1.16', '1.15'
+sampleSort : 4 : weighted time, min=0.811 median=0.817 mean=0.816
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randomSeq_10M_double :  -r 3 : '0.283', '0.281', '0.282'
+1 : exptSeq_10M_double :  -r 3 : '0.205', '0.208', '0.203'
+1 : almostSortedSeq_10M_double :  -r 3 : '0.093', '0.096', '0.094'
+3 : trigramSeq_10M :  -r 3 : '0.456', '0.457', '0.46'
+3 : trigramSeq_10M : -p -r 3 : '0.584', '0.586', '0.585'
+sampleSort : 8 : weighted time, min=0.41 median=0.411 mean=0.412
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randomSeq_10M_double :  -r 3 : '0.187', '0.186', '0.206'
+1 : exptSeq_10M_double :  -r 3 : '0.145', '0.138', '0.139'
+1 : almostSortedSeq_10M_double :  -r 3 : '0.066', '0.066', '0.094'
+3 : trigramSeq_10M :  -r 3 : '0.309', '0.308', '0.308'
+3 : trigramSeq_10M : -p -r 3 : '0.396', '0.397', '0.392'
+sampleSort : 12 : weighted time, min=0.276 median=0.278 mean=0.279
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randomSeq_10M_double :  -r 3 : '0.144', '0.144', '0.144'
+1 : exptSeq_10M_double :  -r 3 : '0.107', '0.107', '0.107'
+1 : almostSortedSeq_10M_double :  -r 3 : '0.052', '0.051', '0.052'
+3 : trigramSeq_10M :  -r 3 : '0.24', '0.239', '0.236'
+3 : trigramSeq_10M : -p -r 3 : '0.3', '0.299', '0.299'
+sampleSort : 16 : weighted time, min=0.211 median=0.213 mean=0.212
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randomSeq_10M_double :  -r 3 : '0.117', '0.116', '0.116'
+1 : exptSeq_10M_double :  -r 3 : '0.086', '0.086', '0.086'
+1 : almostSortedSeq_10M_double :  -r 3 : '0.044', '0.043', '0.043'
+3 : trigramSeq_10M :  -r 3 : '0.191', '0.193', '0.192'
+3 : trigramSeq_10M : -p -r 3 : '0.244', '0.244', '0.244'
+sampleSort : 20 : weighted time, min=0.172 median=0.172 mean=0.172
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randomSeq_10M_double :  -r 3 : '0.098', '0.097', '0.097'
+1 : exptSeq_10M_double :  -r 3 : '0.075', '0.075', '0.074'
+1 : almostSortedSeq_10M_double :  -r 3 : '0.038', '0.037', '0.038'
+3 : trigramSeq_10M :  -r 3 : '0.161', '0.163', '0.163'
+3 : trigramSeq_10M : -p -r 3 : '0.206', '0.206', '0.206'
+sampleSort : 24 : weighted time, min=0.145 median=0.146 mean=0.146
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randomSeq_10M_double :  -r 3 : '0.087', '0.087', '0.086'
+1 : exptSeq_10M_double :  -r 3 : '0.065', '0.065', '0.065'
+1 : almostSortedSeq_10M_double :  -r 3 : '0.034', '0.035', '0.035'
+3 : trigramSeq_10M :  -r 3 : '0.142', '0.143', '0.142'
+3 : trigramSeq_10M : -p -r 3 : '0.183', '0.182', '0.183'
+sampleSort : 28 : weighted time, min=0.128 median=0.129 mean=0.129
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randomSeq_10M_double :  -r 3 : '0.077', '0.076', '0.077'
+1 : exptSeq_10M_double :  -r 3 : '0.059', '0.058', '0.058'
+1 : almostSortedSeq_10M_double :  -r 3 : '0.032', '0.032', '0.032'
+3 : trigramSeq_10M :  -r 3 : '0.136', '0.128', '0.128'
+3 : trigramSeq_10M : -p -r 3 : '0.161', '0.162', '0.161'
+sampleSort : 32 : weighted time, min=0.114 median=0.115 mean=0.115
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randomSeq_10M_double :  -r 3 : '0.071', '0.071', '0.071'
+1 : exptSeq_10M_double :  -r 3 : '0.055', '0.053', '0.054'
+1 : almostSortedSeq_10M_double :  -r 3 : '0.031', '0.031', '0.032'
+3 : trigramSeq_10M :  -r 3 : '0.124', '0.12', '0.12'
+3 : trigramSeq_10M : -p -r 3 : '0.154', '0.155', '0.155'
+sampleSort : 36 : weighted time, min=0.108 median=0.109 mean=0.109
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randomSeq_10M_double :  -r 3 : '0.068', '0.067', '0.067'
+1 : exptSeq_10M_double :  -r 3 : '0.051', '0.051', '0.051'
+1 : almostSortedSeq_10M_double :  -r 3 : '0.03', '0.03', '0.032'
+3 : trigramSeq_10M :  -r 3 : '0.117', '0.116', '0.115'
+3 : trigramSeq_10M : -p -r 3 : '0.196', '0.15', '0.149'
+sampleSort : 40 : weighted time, min=0.104 median=0.105 mean=0.11
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randomSeq_10M_double :  -r 3 : '0.065', '0.064', '0.064'
+1 : exptSeq_10M_double :  -r 3 : '0.049', '0.049', '0.048'
+1 : almostSortedSeq_10M_double :  -r 3 : '0.031', '0.03', '0.031'
+3 : trigramSeq_10M :  -r 3 : '0.163', '0.127', '0.113'
+3 : trigramSeq_10M : -p -r 3 : '0.148', '0.147', '0.148'
+sampleSort : 44 : weighted time, min=0.102 median=0.107 mean=0.11
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randomSeq_10M_double :  -r 3 : '0.074', '0.062', '0.111'
+1 : exptSeq_10M_double :  -r 3 : '0.047', '0.097', '0.047'
+1 : almostSortedSeq_10M_double :  -r 3 : '0.082', '0.045', '0.03'
+3 : trigramSeq_10M :  -r 3 : '0.108', '0.109', '0.108'
+3 : trigramSeq_10M : -p -r 3 : '0.144', '0.144', '0.143'
+sampleSort : 48 : weighted time, min=0.099 median=0.102 mean=0.106
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randomSeq_10M_double :  -r 3 : '0.076', '0.06', '0.059'
+1 : exptSeq_10M_double :  -r 3 : '0.045', '0.046', '0.045'
+1 : almostSortedSeq_10M_double :  -r 3 : '0.045', '0.03', '0.029'
+3 : trigramSeq_10M :  -r 3 : '0.105', '0.105', '0.104'
+3 : trigramSeq_10M : -p -r 3 : '0.138', '0.14', '0.14'
+sampleSort : 52 : weighted time, min=0.095 median=0.096 mean=0.097
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randomSeq_10M_double :  -r 3 : '0.075', '0.057', '0.056'
+1 : exptSeq_10M_double :  -r 3 : '0.044', '0.045', '0.044'
+1 : almostSortedSeq_10M_double :  -r 3 : '0.045', '0.075', '0.029'
+3 : trigramSeq_10M :  -r 3 : '0.102', '0.101', '0.103'
+3 : trigramSeq_10M : -p -r 3 : '0.138', '0.14', '0.136'
+sampleSort : 56 : weighted time, min=0.093 median=0.096 mean=0.097
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randomSeq_10M_double :  -r 3 : '0.054', '0.055', '0.055'
+1 : exptSeq_10M_double :  -r 3 : '0.066', '0.042', '0.042'
+1 : almostSortedSeq_10M_double :  -r 3 : '0.029', '0.029', '0.028'
+3 : trigramSeq_10M :  -r 3 : '0.151', '0.099', '0.099'
+3 : trigramSeq_10M : -p -r 3 : '0.133', '0.132', '0.133'
+sampleSort : 60 : weighted time, min=0.091 median=0.091 mean=0.097
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randomSeq_10M_double :  -r 3 : '0.053', '0.075', '0.053'
+1 : exptSeq_10M_double :  -r 3 : '0.04', '0.042', '0.044'
+1 : almostSortedSeq_10M_double :  -r 3 : '0.028', '0.028', '0.028'
+3 : trigramSeq_10M :  -r 3 : '0.096', '0.097', '0.099'
+3 : trigramSeq_10M : -p -r 3 : '0.131', '0.134', '0.133'
+sampleSort : 64 : weighted time, min=0.089 median=0.09 mean=0.091
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randomSeq_10M_double :  -r 3 : '1.59', '1.59', '1.58'
+1 : exptSeq_10M_double :  -r 3 : '1.07', '1.07', '1.07'
+1 : almostSortedSeq_10M_double :  -r 3 : '0.357', '0.356', '0.358'
+3 : trigramSeq_10M :  -r 3 : '3.7', '3.48', '3.3'
+3 : trigramSeq_10M : -p -r 3 : '5.22', '5.', '5.'
+quickSort : 1 : weighted time, min=3.1 median=3.161 mean=3.19
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randomSeq_10M_double :  -r 3 : '0.83', '0.841', '0.832'
+1 : exptSeq_10M_double :  -r 3 : '0.573', '0.573', '0.573'
+1 : almostSortedSeq_10M_double :  -r 3 : '0.197', '0.206', '0.212'
+3 : trigramSeq_10M :  -r 3 : '2.', '2.', '1.98'
+3 : trigramSeq_10M : -p -r 3 : '3.', '3.', '2.93'
+quickSort : 2 : weighted time, min=1.814 median=1.845 mean=1.835
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randomSeq_10M_double :  -r 3 : '0.463', '0.471', '0.47'
+1 : exptSeq_10M_double :  -r 3 : '0.344', '0.338', '0.338'
+1 : almostSortedSeq_10M_double :  -r 3 : '0.122', '0.123', '0.124'
+3 : trigramSeq_10M :  -r 3 : '1.07', '1.1', '1.06'
+3 : trigramSeq_10M : -p -r 3 : '1.94', '1.98', '1.94'
+quickSort : 4 : weighted time, min=1.102 median=1.106 mean=1.113
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randomSeq_10M_double :  -r 3 : '0.281', '0.282', '0.282'
+1 : exptSeq_10M_double :  -r 3 : '0.227', '0.228', '0.229'
+1 : almostSortedSeq_10M_double :  -r 3 : '0.092', '0.091', '0.091'
+3 : trigramSeq_10M :  -r 3 : '0.692', '0.683', '0.681'
+3 : trigramSeq_10M : -p -r 3 : '1.54', '1.36', '1.52'
+quickSort : 8 : weighted time, min=0.746 median=0.801 mean=0.786
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randomSeq_10M_double :  -r 3 : '0.224', '0.225', '0.224'
+1 : exptSeq_10M_double :  -r 3 : '0.194', '0.195', '0.195'
+1 : almostSortedSeq_10M_double :  -r 3 : '0.08', '0.079', '0.077'
+3 : trigramSeq_10M :  -r 3 : '0.61', '0.63', '0.591'
+3 : trigramSeq_10M : -p -r 3 : '1.52', '1.27', '1.53'
+quickSort : 12 : weighted time, min=0.675 median=0.765 mean=0.738
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randomSeq_10M_double :  -r 3 : '0.202', '0.203', '0.205'
+1 : exptSeq_10M_double :  -r 3 : '0.181', '0.178', '0.181'
+1 : almostSortedSeq_10M_double :  -r 3 : '0.074', '0.075', '0.072'
+3 : trigramSeq_10M :  -r 3 : '0.571', '0.545', '0.564'
+3 : trigramSeq_10M : -p -r 3 : '1.55', '1.29', '1.28'
+quickSort : 16 : weighted time, min=0.658 median=0.668 mean=0.695
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randomSeq_10M_double :  -r 3 : '0.19', '0.196', '0.192'
+1 : exptSeq_10M_double :  -r 3 : '0.175', '0.174', '0.176'
+1 : almostSortedSeq_10M_double :  -r 3 : '0.068', '0.07', '0.071'
+3 : trigramSeq_10M :  -r 3 : '0.538', '0.559', '0.55'
+3 : trigramSeq_10M : -p -r 3 : '1.6', '1.57', '1.61'
+quickSort : 20 : weighted time, min=0.75 median=0.765 mean=0.762
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randomSeq_10M_double :  -r 3 : '0.19', '0.189', '0.187'
+1 : exptSeq_10M_double :  -r 3 : '0.173', '0.172', '0.172'
+1 : almostSortedSeq_10M_double :  -r 3 : '0.067', '0.066', '0.066'
+3 : trigramSeq_10M :  -r 3 : '0.553', '0.545', '0.551'
+3 : trigramSeq_10M : -p -r 3 : '1.61', '1.61', '1.59'
+quickSort : 24 : weighted time, min=0.758 median=0.767 mean=0.765
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randomSeq_10M_double :  -r 3 : '0.189', '0.188', '0.188'
+1 : exptSeq_10M_double :  -r 3 : '0.172', '0.171', '0.172'
+1 : almostSortedSeq_10M_double :  -r 3 : '0.065', '0.065', '0.066'
+3 : trigramSeq_10M :  -r 3 : '0.56', '0.558', '0.553'
+3 : trigramSeq_10M : -p -r 3 : '1.9', '1.58', '1.94'
+quickSort : 28 : weighted time, min=0.758 median=0.866 mean=0.835
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randomSeq_10M_double :  -r 3 : '0.19', '0.188', '0.187'
+1 : exptSeq_10M_double :  -r 3 : '0.172', '0.172', '0.172'
+1 : almostSortedSeq_10M_double :  -r 3 : '0.066', '0.063', '0.066'
+3 : trigramSeq_10M :  -r 3 : '0.562', '0.554', '0.562'
+3 : trigramSeq_10M : -p -r 3 : '1.33', '1.55', '1.55'
+quickSort : 32 : weighted time, min=0.674 median=0.751 mean=0.725
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randomSeq_10M_double :  -r 3 : '0.216', '0.213', '0.207'
+1 : exptSeq_10M_double :  -r 3 : '0.172', '0.195', '0.18'
+1 : almostSortedSeq_10M_double :  -r 3 : '0.078', '0.068', '0.077'
+3 : trigramSeq_10M :  -r 3 : '0.675', '0.649', '0.63'
+3 : trigramSeq_10M : -p -r 3 : '2.39', '1.55', '2.33'
+quickSort : 36 : weighted time, min=0.776 median=1.045 mean=0.965
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randomSeq_10M_double :  -r 3 : '0.21', '0.199', '0.209'
+1 : exptSeq_10M_double :  -r 3 : '0.204', '0.196', '0.197'
+1 : almostSortedSeq_10M_double :  -r 3 : '0.071', '0.076', '0.068'
+3 : trigramSeq_10M :  -r 3 : '0.579', '0.675', '0.648'
+3 : trigramSeq_10M : -p -r 3 : '1.95', '2.42', '1.63'
+quickSort : 40 : weighted time, min=0.787 median=0.919 mean=0.931
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randomSeq_10M_double :  -r 3 : '0.223', '0.227', '0.206'
+1 : exptSeq_10M_double :  -r 3 : '0.204', '0.206', '0.189'
+1 : almostSortedSeq_10M_double :  -r 3 : '0.081', '0.082', '0.078'
+3 : trigramSeq_10M :  -r 3 : '0.724', '0.769', '0.734'
+3 : trigramSeq_10M : -p -r 3 : '1.66', '2.48', '2.04'
+quickSort : 44 : weighted time, min=0.847 median=0.981 mean=0.989
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randomSeq_10M_double :  -r 3 : '0.228', '0.214', '0.229'
+1 : exptSeq_10M_double :  -r 3 : '0.183', '0.213', '0.208'
+1 : almostSortedSeq_10M_double :  -r 3 : '0.081', '0.079', '0.086'
+3 : trigramSeq_10M :  -r 3 : '0.716', '0.673', '0.769'
+3 : trigramSeq_10M : -p -r 3 : '2.8', '1.79', '2.86'
+quickSort : 48 : weighted time, min=0.873 median=1.229 mean=1.123
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randomSeq_10M_double :  -r 3 : '0.226', '0.226', '0.227'
+1 : exptSeq_10M_double :  -r 3 : '0.185', '0.206', '0.214'
+1 : almostSortedSeq_10M_double :  -r 3 : '0.081', '0.069', '0.074'
+3 : trigramSeq_10M :  -r 3 : '0.687', '0.676', '0.731'
+3 : trigramSeq_10M : -p -r 3 : '2.6', '2.38', '2.67'
+quickSort : 52 : weighted time, min=1.072 median=1.151 mean=1.138
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randomSeq_10M_double :  -r 3 : '0.212', '0.229', '0.21'
+1 : exptSeq_10M_double :  -r 3 : '0.208', '0.214', '0.206'
+1 : almostSortedSeq_10M_double :  -r 3 : '0.081', '0.079', '0.086'
+3 : trigramSeq_10M :  -r 3 : '0.733', '0.73', '0.718'
+3 : trigramSeq_10M : -p -r 3 : '2.32', '2.32', '2.33'
+quickSort : 56 : weighted time, min=1.067 median=1.072 mean=1.073
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randomSeq_10M_double :  -r 3 : '0.239', '0.232', '0.231'
+1 : exptSeq_10M_double :  -r 3 : '0.198', '0.209', '0.21'
+1 : almostSortedSeq_10M_double :  -r 3 : '0.081', '0.081', '0.081'
+3 : trigramSeq_10M :  -r 3 : '0.764', '0.742', '0.738'
+3 : trigramSeq_10M : -p -r 3 : '2.58', '2.59', '2.17'
+quickSort : 60 : weighted time, min=1.026 median=1.165 mean=1.122
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : randomSeq_10M_double :  -r 3 : '0.241', '0.24', '0.24'
+1 : exptSeq_10M_double :  -r 3 : '0.215', '0.214', '0.215'
+1 : almostSortedSeq_10M_double :  -r 3 : '0.082', '0.083', '0.084'
+3 : trigramSeq_10M :  -r 3 : '0.753', '0.766', '0.762'
+3 : trigramSeq_10M : -p -r 3 : '1.95', '2.', '2.36'
+quickSort : 64 : weighted time, min=0.96 median=0.98 mean=1.014
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : 2DinCube_10M : -d 2 -k 1 -r 3 : '16.6', '16.7', '16.7'
+1 : 2Dkuzmin_10M : -d 2 -k 1 -r 3 : '32.1', '32.2', '32.299'
+1 : 3DinCube_10M : -d 3 -k 1 -r 3 : '22.2', '22.5', '22.5'
+1 : 3DonSphere_10M : -d 3 -k 1 -r 3 : '20.2', '23.6', '23.1'
+1 : 3DinCube_10M : -d 3 -k 10 -r 3 : '55.2', '55.7', '55.7'
+1 : 3Dplummer_10M : -d 3 -k 10 -r 3 : '76.9', '77.2', '77.2'
+octTreeNeighbors : 1 : weighted time, min=37.2 median=37.9 mean=37.7
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : 2DinCube_10M : -d 2 -k 1 -r 3 : '9.69', '9.25', '9.18'
+1 : 2Dkuzmin_10M : -d 2 -k 1 -r 3 : '18.4', '18.2', '19.4'
+1 : 3DinCube_10M : -d 3 -k 1 -r 3 : '13.', '12.4', '12.4'
+1 : 3DonSphere_10M : -d 3 -k 1 -r 3 : '12.4', '12.2', '11.7'
+1 : 3DinCube_10M : -d 3 -k 10 -r 3 : '28.7', '28.9', '29.2'
+1 : 3Dplummer_10M : -d 3 -k 10 -r 3 : '41.7', '42.', '44.6'
+octTreeNeighbors : 2 : weighted time, min=20.313 median=20.525 mean=20.74
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : 2DinCube_10M : -d 2 -k 1 -r 3 : '5.19', '5.41', '5.38'
+1 : 2Dkuzmin_10M : -d 2 -k 1 -r 3 : '12.8', '13.8', '17.5'
+1 : 3DinCube_10M : -d 3 -k 1 -r 3 : '7.11', '7.57', '7.44'
+1 : 3DonSphere_10M : -d 3 -k 1 -r 3 : '7.', '7.65', '6.81'
+1 : 3DinCube_10M : -d 3 -k 10 -r 3 : '16.8', '16.1', '15.3'
+1 : 3Dplummer_10M : -d 3 -k 10 -r 3 : '23.6', '25.', '24.5'
+octTreeNeighbors : 4 : weighted time, min=11.801 median=12.37 mean=12.497
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : 2DinCube_10M : -d 2 -k 1 -r 3 : '3.08', '3.54', '3.14'
+1 : 2Dkuzmin_10M : -d 2 -k 1 -r 3 : '7.89', '7.85', '8.08'
+1 : 3DinCube_10M : -d 3 -k 1 -r 3 : '4.25', '4.13', '4.07'
+1 : 3DonSphere_10M : -d 3 -k 1 -r 3 : '4.1', '4.26', '4.'
+1 : 3DinCube_10M : -d 3 -k 10 -r 3 : '9.21', '8.33', '8.09'
+1 : 3Dplummer_10M : -d 3 -k 10 -r 3 : '13.1', '14.5', '13.5'
+octTreeNeighbors : 8 : weighted time, min=6.698 median=6.848 mean=6.951
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : 2DinCube_10M : -d 2 -k 1 -r 3 : '2.11', '2.28', '2.24'
+1 : 2Dkuzmin_10M : -d 2 -k 1 -r 3 : '6.12', '6.2', '6.17'
+1 : 3DinCube_10M : -d 3 -k 1 -r 3 : '3.25', '3.09', '2.96'
+1 : 3DonSphere_10M : -d 3 -k 1 -r 3 : '3.61', '3.13', '3.04'
+1 : 3DinCube_10M : -d 3 -k 10 -r 3 : '6.4', '6.29', '5.84'
+1 : 3Dplummer_10M : -d 3 -k 10 -r 3 : '9.84', '10.6', '10.4'
+octTreeNeighbors : 12 : weighted time, min=4.985 median=5.22 mean=5.198
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : 2DinCube_10M : -d 2 -k 1 -r 3 : '1.69', '1.86', '1.8'
+1 : 2Dkuzmin_10M : -d 2 -k 1 -r 3 : '4.91', '4.69', '4.52'
+1 : 3DinCube_10M : -d 3 -k 1 -r 3 : '2.93', '2.39', '2.38'
+1 : 3DonSphere_10M : -d 3 -k 1 -r 3 : '3.23', '2.64', '2.46'
+1 : 3DinCube_10M : -d 3 -k 10 -r 3 : '5.27', '5.03', '4.83'
+1 : 3Dplummer_10M : -d 3 -k 10 -r 3 : '7.27', '7.56', '7.93'
+octTreeNeighbors : 16 : weighted time, min=3.858 median=4.018 mean=4.077
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : 2DinCube_10M : -d 2 -k 1 -r 3 : '1.47', '1.6', '1.55'
+1 : 2Dkuzmin_10M : -d 2 -k 1 -r 3 : '4.01', '4.18', '4.25'
+1 : 3DinCube_10M : -d 3 -k 1 -r 3 : '2.54', '2.07', '1.97'
+1 : 3DonSphere_10M : -d 3 -k 1 -r 3 : '2.99', '2.3', '2.47'
+1 : 3DinCube_10M : -d 3 -k 10 -r 3 : '4.6', '4.01', '3.96'
+1 : 3Dplummer_10M : -d 3 -k 10 -r 3 : '6.22', '6.83', '6.98'
+octTreeNeighbors : 20 : weighted time, min=3.321 median=3.518 mean=3.555
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : 2DinCube_10M : -d 2 -k 1 -r 3 : '1.41', '1.41', '1.38'
+1 : 2Dkuzmin_10M : -d 2 -k 1 -r 3 : '3.18', '3.83', '3.44'
+1 : 3DinCube_10M : -d 3 -k 1 -r 3 : '2.49', '1.98', '1.78'
+1 : 3DonSphere_10M : -d 3 -k 1 -r 3 : '2.77', '2.15', '1.9'
+1 : 3DinCube_10M : -d 3 -k 10 -r 3 : '4.04', '3.58', '3.52'
+1 : 3Dplummer_10M : -d 3 -k 10 -r 3 : '6.09', '6.17', '6.19'
+octTreeNeighbors : 24 : weighted time, min=2.975 median=3.121 mean=3.183
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : 2DinCube_10M : -d 2 -k 1 -r 3 : '1.27', '1.29', '1.17'
+1 : 2Dkuzmin_10M : -d 2 -k 1 -r 3 : '3.34', '3.51', '3.62'
+1 : 3DinCube_10M : -d 3 -k 1 -r 3 : '2.36', '1.69', '1.66'
+1 : 3DonSphere_10M : -d 3 -k 1 -r 3 : '2.81', '2.05', '1.76'
+1 : 3DinCube_10M : -d 3 -k 10 -r 3 : '3.8', '3.16', '3.04'
+1 : 3Dplummer_10M : -d 3 -k 10 -r 3 : '5.3', '5.37', '5.33'
+octTreeNeighbors : 28 : weighted time, min=2.711 median=2.834 mean=2.918
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : 2DinCube_10M : -d 2 -k 1 -r 3 : '1.2', '1.22', '1.14'
+1 : 2Dkuzmin_10M : -d 2 -k 1 -r 3 : '2.64', '3.25', '3.17'
+1 : 3DinCube_10M : -d 3 -k 1 -r 3 : '2.29', '1.55', '1.49'
+1 : 3DonSphere_10M : -d 3 -k 1 -r 3 : '2.65', '1.72', '1.61'
+1 : 3DinCube_10M : -d 3 -k 10 -r 3 : '3.44', '2.9', '2.84'
+1 : 3Dplummer_10M : -d 3 -k 10 -r 3 : '5.31', '4.76', '5.22'
+octTreeNeighbors : 32 : weighted time, min=2.413 median=2.626 mean=2.688
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : 2DinCube_10M : -d 2 -k 1 -r 3 : '1.27', '1.17', '1.17'
+1 : 2Dkuzmin_10M : -d 2 -k 1 -r 3 : '2.57', '3.04', '2.94'
+1 : 3DinCube_10M : -d 3 -k 1 -r 3 : '3.9', '2.98', '1.61'
+1 : 3DonSphere_10M : -d 3 -k 1 -r 3 : '4.23', '2.02', '1.74'
+1 : 3DinCube_10M : -d 3 -k 10 -r 3 : '4.79', '3.08', '2.94'
+1 : 3Dplummer_10M : -d 3 -k 10 -r 3 : '5.34', '5.04', '4.54'
+octTreeNeighbors : 36 : weighted time, min=2.428 median=2.871 mean=3.02
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : 2DinCube_10M : -d 2 -k 1 -r 3 : '1.18', '1.02', '1.02'
+1 : 2Dkuzmin_10M : -d 2 -k 1 -r 3 : '2.49', '2.79', '2.77'
+1 : 3DinCube_10M : -d 3 -k 1 -r 3 : '3.83', '2.029', '1.43'
+1 : 3DonSphere_10M : -d 3 -k 1 -r 3 : '6.38', '2.31', '1.56'
+1 : 3DinCube_10M : -d 3 -k 10 -r 3 : '5.48', '4.07', '2.83'
+1 : 3Dplummer_10M : -d 3 -k 10 -r 3 : '6.21', '4.93', '5.14'
+octTreeNeighbors : 40 : weighted time, min=2.376 median=2.89 mean=3.192
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : 2DinCube_10M : -d 2 -k 1 -r 3 : '1.23', '1.08', '1.06'
+1 : 2Dkuzmin_10M : -d 2 -k 1 -r 3 : '2.49', '2.71', '2.72'
+1 : 3DinCube_10M : -d 3 -k 1 -r 3 : '4.22', '2.06', '1.52'
+1 : 3DonSphere_10M : -d 3 -k 1 -r 3 : '6.05', '2.95', '1.81'
+1 : 3DinCube_10M : -d 3 -k 10 -r 3 : '5.29', '3.29', '2.67'
+1 : 3Dplummer_10M : -d 3 -k 10 -r 3 : '4.93', '5.78', '4.92'
+octTreeNeighbors : 44 : weighted time, min=2.411 median=2.836 mean=3.154
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : 2DinCube_10M : -d 2 -k 1 -r 3 : '1.93', '1.09', '1.12'
+1 : 2Dkuzmin_10M : -d 2 -k 1 -r 3 : '2.72', '2.74', '2.7'
+1 : 3DinCube_10M : -d 3 -k 1 -r 3 : '4.23', '2.39', '1.54'
+1 : 3DonSphere_10M : -d 3 -k 1 -r 3 : '4.65', '3.43', '2.13'
+1 : 3DinCube_10M : -d 3 -k 10 -r 3 : '6.25', '3.95', '2.72'
+1 : 3Dplummer_10M : -d 3 -k 10 -r 3 : '7.31', '5.98', '4.62'
+octTreeNeighbors : 48 : weighted time, min=2.466 median=3.265 mean=3.416
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : 2DinCube_10M : -d 2 -k 1 -r 3 : '1.22', '1.08', '1.02'
+1 : 2Dkuzmin_10M : -d 2 -k 1 -r 3 : '2.37', '2.78', '2.63'
+1 : 3DinCube_10M : -d 3 -k 1 -r 3 : '3.81', '2.44', '1.78'
+1 : 3DonSphere_10M : -d 3 -k 1 -r 3 : '5.32', '4.86', '2.53'
+1 : 3DinCube_10M : -d 3 -k 10 -r 3 : '5.91', '3.64', '2.7'
+1 : 3Dplummer_10M : -d 3 -k 10 -r 3 : '6.14', '4.83', '4.29'
+octTreeNeighbors : 52 : weighted time, min=2.448 median=3.246 mean=3.297
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : 2DinCube_10M : -d 2 -k 1 -r 3 : '2.18', '1.43', '1.01'
+1 : 2Dkuzmin_10M : -d 2 -k 1 -r 3 : '2.4', '2.81', '2.62'
+1 : 3DinCube_10M : -d 3 -k 1 -r 3 : '4.27', '4.74', '1.74'
+1 : 3DonSphere_10M : -d 3 -k 1 -r 3 : '4.86', '3.18', '2.99'
+1 : 3DinCube_10M : -d 3 -k 10 -r 3 : '5.21', '4.27', '3.34'
+1 : 3Dplummer_10M : -d 3 -k 10 -r 3 : '6.26', '8.55', '5.13'
+octTreeNeighbors : 56 : weighted time, min=2.768 median=3.671 mean=3.721
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : 2DinCube_10M : -d 2 -k 1 -r 3 : '2.49', '1.39', '1.04'
+1 : 2Dkuzmin_10M : -d 2 -k 1 -r 3 : '2.38', '2.65', '2.57'
+1 : 3DinCube_10M : -d 3 -k 1 -r 3 : '4.2', '3.8', '5.84'
+1 : 3DonSphere_10M : -d 3 -k 1 -r 3 : '7.36', '3.78', '2.49'
+1 : 3DinCube_10M : -d 3 -k 10 -r 3 : '10.', '6.19', '3.9'
+1 : 3Dplummer_10M : -d 3 -k 10 -r 3 : '8.35', '6.84', '5.87'
+octTreeNeighbors : 60 : weighted time, min=3.246 median=4.161 mean=4.507
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+
+1 : 2DinCube_10M : -d 2 -k 1 -r 3 : '2.85', '1.19', '1.03'
+1 : 2Dkuzmin_10M : -d 2 -k 1 -r 3 : '3.05', '2.78', '2.63'
+1 : 3DinCube_10M : -d 3 -k 1 -r 3 : '9.7', '4.64', '2.21'
+1 : 3DonSphere_10M : -d 3 -k 1 -r 3 : '10.6', '4.29', '5.41'
+1 : 3DinCube_10M : -d 3 -k 10 -r 3 : '5.04', '4.21', '5.54'
+1 : 3Dplummer_10M : -d 3 -k 10 -r 3 : '6.21', '6.91', '5.48'
+octTreeNeighbors : 64 : weighted time, min=3.308 median=4.211 mean=4.653
+('Could not insert result in database. Error:', <type 'exceptions.NameError'>)
+[1, 2, 4, 8, 12, 16, 20, 24, 28, 32, 36, 40, 44, 48, 52, 56, 60, 64]

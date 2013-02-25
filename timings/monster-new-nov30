@@ -1,0 +1,242 @@
+HOSTNAME: monster
+Path: .
+URL: https://freyja.aladdin.cs.cmu.edu/svn/pbbs/trunk/benchmarks
+Repository Root: https://freyja.aladdin.cs.cmu.edu/svn/pbbs
+Repository UUID: 62bc7976-c1cc-4065-800b-67e61e609b9e
+Revision: 280
+Node Kind: directory
+Schedule: normal
+Last Changed Author: guyb@CS.CMU.EDU
+Last Changed Rev: 280
+Last Changed Date: 2010-12-01 08:18:59 -0500 (Wed, 01 Dec 2010)
+
+
+1 : randomSeq_10M_int :  -r 3 : '0.261', '0.261', '0.261'
+1 : exptSeq_10M_int :  -r 3 : '0.326', '0.326', '0.327'
+1 : randomSeq_10M_int_pair_int :  -r 3 : '0.435', '0.436', '0.433'
+1 : randomSeq_10M_256_int_pair_int :  -r 3 : '0.214', '0.213', '0.212'
+blockRadixSort : 1 : weighted time, min=0.308 median=0.308 mean=0.308
+
+1 : randomSeq_10M_int :  -r 3 : '0.146', '0.144', '0.143'
+1 : exptSeq_10M_int :  -r 3 : '0.183', '0.181', '0.179'
+1 : randomSeq_10M_int_pair_int :  -r 3 : '0.238', '0.238', '0.246'
+1 : randomSeq_10M_256_int_pair_int :  -r 3 : '0.126', '0.13', '0.128'
+blockRadixSort : 2 : weighted time, min=0.171 median=0.172 mean=0.173
+
+1 : randomSeq_10M_int :  -r 3 : '0.075', '0.071', '0.07'
+1 : exptSeq_10M_int :  -r 3 : '0.089', '0.094', '0.091'
+1 : randomSeq_10M_int_pair_int :  -r 3 : '0.131', '0.127', '0.131'
+1 : randomSeq_10M_256_int_pair_int :  -r 3 : '0.066', '0.067', '0.067'
+blockRadixSort : 4 : weighted time, min=0.088 median=0.09 mean=0.09
+
+1 : randomSeq_10M_int :  -r 3 : '0.041', '0.042', '0.041'
+1 : exptSeq_10M_int :  -r 3 : '0.055', '0.056', '0.055'
+1 : randomSeq_10M_int_pair_int :  -r 3 : '0.072', '0.072', '0.074'
+1 : randomSeq_10M_256_int_pair_int :  -r 3 : '0.035', '0.034', '0.035'
+blockRadixSort : 8 : weighted time, min=0.05 median=0.051 mean=0.051
+
+1 : randomSeq_10M_int :  -r 3 : '0.024', '0.024', '0.026'
+1 : exptSeq_10M_int :  -r 3 : '0.035', '0.03', '0.031'
+1 : randomSeq_10M_int_pair_int :  -r 3 : '0.043', '0.045', '0.044'
+1 : randomSeq_10M_256_int_pair_int :  -r 3 : '0.023', '0.024', '0.023'
+blockRadixSort : 16 : weighted time, min=0.03 median=0.031 mean=0.031
+
+1 : randomSeq_10M_int :  -r 3 : '0.023', '0.019', '0.027'
+1 : exptSeq_10M_int :  -r 3 : '0.021', '0.019', '0.033'
+1 : randomSeq_10M_int_pair_int :  -r 3 : '0.036', '0.03', '0.03'
+1 : randomSeq_10M_256_int_pair_int :  -r 3 : '0.02', '0.02', '0.016'
+blockRadixSort : 32 : weighted time, min=0.021 median=0.023 mean=0.024
+
+1 : randomSeq_10M_int :  -r 3 : '0.016', '0.015', '0.023'
+1 : exptSeq_10M_int :  -r 3 : '0.018', '0.019', '0.021'
+1 : randomSeq_10M_int_pair_int :  -r 3 : '0.037', '0.033', '0.033'
+1 : randomSeq_10M_256_int_pair_int :  -r 3 : '0.019', '0.018', '0.035'
+blockRadixSort : 64 : weighted time, min=0.021 median=0.022 mean=0.024
+
+1 : randomSeq_10M_int :  -r 1 -o /tmp/ofile : '0.017'
+1 : exptSeq_10M_int :  -r 1 -o /tmp/ofile : '0.023'
+1 : randomSeq_10M_int_pair_int :  -r 1 -o /tmp/ofile : '0.033'
+1 : randomSeq_10M_256_int_pair_int :  -r 1 -o /tmp/ofile : '0.017'
+blockRadixSort : 64 : weighted time, min=0.022 median=0.022 mean=0.022
+
+1 : randomSeq_10M_int :  -r 3 : '0.997', '0.997', '0.994'
+1 : randomSeq_10M_100K_int :  -r 3 : '0.438', '0.441', '0.439'
+1 : exptSeq_10M_int :  -r 3 : '0.71', '0.709', '0.71'
+3 : trigramSeq_10M :  -r 3 : '1.02', '1.02', '1.02'
+3 : trigramSeq_10M_pair_int :  -r 3 : '1.48', '1.48', '1.48'
+deterministicHash : 1 : weighted time, min=1.071 median=1.071 mean=1.071
+
+1 : randomSeq_10M_int :  -r 3 : '0.593', '0.593', '0.573'
+1 : randomSeq_10M_100K_int :  -r 3 : '0.227', '0.231', '0.229'
+1 : exptSeq_10M_int :  -r 3 : '0.401', '0.391', '0.4'
+3 : trigramSeq_10M :  -r 3 : '0.565', '0.558', '0.558'
+3 : trigramSeq_10M_pair_int :  -r 3 : '0.826', '0.822', '0.804'
+deterministicHash : 2 : weighted time, min=0.586 median=0.595 mean=0.593
+
+1 : randomSeq_10M_int :  -r 3 : '0.297', '0.296', '0.297'
+1 : randomSeq_10M_100K_int :  -r 3 : '0.166', '0.166', '0.163'
+1 : exptSeq_10M_int :  -r 3 : '0.2', '0.198', '0.2'
+3 : trigramSeq_10M :  -r 3 : '0.285', '0.286', '0.28'
+3 : trigramSeq_10M_pair_int :  -r 3 : '0.414', '0.413', '0.408'
+deterministicHash : 4 : weighted time, min=0.302 median=0.306 mean=0.305
+
+1 : randomSeq_10M_int :  -r 3 : '0.149', '0.15', '0.149'
+1 : randomSeq_10M_100K_int :  -r 3 : '0.07', '0.062', '0.065'
+1 : exptSeq_10M_int :  -r 3 : '0.097', '0.097', '0.097'
+3 : trigramSeq_10M :  -r 3 : '0.145', '0.145', '0.145'
+3 : trigramSeq_10M_pair_int :  -r 3 : '0.213', '0.211', '0.214'
+deterministicHash : 8 : weighted time, min=0.153 median=0.153 mean=0.153
+
+1 : randomSeq_10M_int :  -r 3 : '0.102', '0.102', '0.102'
+1 : randomSeq_10M_100K_int :  -r 3 : '0.035', '0.036', '0.036'
+1 : exptSeq_10M_int :  -r 3 : '0.062', '0.061', '0.06'
+3 : trigramSeq_10M :  -r 3 : '0.093', '0.085', '0.081'
+3 : trigramSeq_10M_pair_int :  -r 3 : '0.117', '0.115', '0.117'
+deterministicHash : 16 : weighted time, min=0.087 median=0.089 mean=0.089
+
+1 : randomSeq_10M_int :  -r 3 : '0.077', '0.061', '0.053'
+1 : randomSeq_10M_100K_int :  -r 3 : '0.025', '0.024', '0.025'
+1 : exptSeq_10M_int :  -r 3 : '0.043', '0.041', '0.037'
+3 : trigramSeq_10M :  -r 3 : '0.069', '0.055', '0.059'
+3 : trigramSeq_10M_pair_int :  -r 3 : '0.08', '0.078', '0.071'
+deterministicHash : 32 : weighted time, min=0.055 median=0.06 mean=0.06
+
+1 : randomSeq_10M_int :  -r 3 : '0.043', '0.05', '0.043'
+1 : randomSeq_10M_100K_int :  -r 3 : '0.072', '0.086', '0.063'
+1 : exptSeq_10M_int :  -r 3 : '0.037', '0.031', '0.035'
+3 : trigramSeq_10M :  -r 3 : '0.052', '0.07', '0.053'
+3 : trigramSeq_10M_pair_int :  -r 3 : '0.064', '0.064', '0.08'
+deterministicHash : 64 : weighted time, min=0.054 median=0.056 mean=0.059
+
+1 : randomSeq_10M_int :  -r 1 -o /tmp/ofile : '0.045'
+1 : randomSeq_10M_100K_int :  -r 1 -o /tmp/ofile : '0.03'
+1 : exptSeq_10M_int :  -r 1 -o /tmp/ofile : '0.041'
+3 : trigramSeq_10M :  -r 1 -o /tmp/ofile : '0.067'
+3 : trigramSeq_10M_pair_int :  -r 1 -o /tmp/ofile : '0.068'
+deterministicHash : 64 : weighted time, min=0.058 median=0.058 mean=0.058
+
+1 : randomSeq_10M_double :  -r 3 -o /tmp/ofile : '1.43', '1.43', '1.43'
+1 : exptSeq_10M_double :  -r 3 -o /tmp/ofile : '1.1', '1.1', '1.1'
+1 : almostSortedSeq_10M_double :  -r 3 -o /tmp/ofile : '0.285', '0.282', '0.282'
+3 : trigramSeq_10M :  -r 3 -o /tmp/ofile : '4.73', '4.25', '4.25'
+3 : trigramSeq_10M : -p -r 3 -o /tmp/ofile : '5.78', '5.56', '5.56'
+serialSort : 0 : weighted time, min=3.582 median=3.582 mean=3.66
+
+1 : randomSeq_10M_double :  -r 3 -o /tmp/ofile : '0.06', '0.062', '0.061'
+1 : exptSeq_10M_double :  -r 3 -o /tmp/ofile : '0.108', '0.099', '0.083'
+1 : almostSortedSeq_10M_double :  -r 3 -o /tmp/ofile : '0.092', '0.125', '0.104'
+3 : trigramSeq_10M :  -r 3 -o /tmp/ofile : '0.134', '0.136', '0.133'
+3 : trigramSeq_10M : -p -r 3 -o /tmp/ofile : '0.398', '0.367', '0.355'
+stlParallelSort : 0 : weighted time, min=0.188 median=0.196 mean=0.198
+
+1 : randomSeq_10M_double :  -r 3 : '2.09', '2.09', '1.81'
+1 : exptSeq_10M_double :  -r 3 : '1.51', '1.51', '1.51'
+1 : almostSortedSeq_10M_double :  -r 3 : '0.644', '0.644', '0.644'
+3 : trigramSeq_10M :  -r 3 : '3.5', '3.32', '3.05'
+3 : trigramSeq_10M : -p -r 3 : '4.38', '4.', '4.'
+sampleSort : 1 : weighted time, min=2.79 median=2.911 mean=2.933
+
+1 : randomSeq_10M_double :  -r 3 : '1.07', '1.07', '1.09'
+1 : exptSeq_10M_double :  -r 3 : '0.792', '0.789', '0.777'
+1 : almostSortedSeq_10M_double :  -r 3 : '0.359', '0.359', '0.354'
+3 : trigramSeq_10M :  -r 3 : '1.77', '1.77', '1.78'
+3 : trigramSeq_10M : -p -r 3 : '2.33', '2.33', '2.32'
+sampleSort : 2 : weighted time, min=1.607 median=1.613 mean=1.613
+
+1 : randomSeq_10M_double :  -r 3 : '0.545', '0.547', '0.548'
+1 : exptSeq_10M_double :  -r 3 : '0.395', '0.399', '0.396'
+1 : almostSortedSeq_10M_double :  -r 3 : '0.18', '0.182', '0.179'
+3 : trigramSeq_10M :  -r 3 : '0.911', '0.901', '0.896'
+3 : trigramSeq_10M : -p -r 3 : '1.16', '1.16', '1.16'
+sampleSort : 4 : weighted time, min=0.809 median=0.811 mean=0.812
+
+1 : randomSeq_10M_double :  -r 3 : '0.285', '0.29', '0.29'
+1 : exptSeq_10M_double :  -r 3 : '0.2', '0.203', '0.203'
+1 : almostSortedSeq_10M_double :  -r 3 : '0.093', '0.094', '0.091'
+3 : trigramSeq_10M :  -r 3 : '0.487', '0.485', '0.485'
+3 : trigramSeq_10M : -p -r 3 : '0.666', '0.693', '0.693'
+sampleSort : 8 : weighted time, min=0.447 median=0.457 mean=0.454
+
+1 : randomSeq_10M_double :  -r 3 : '0.156', '0.156', '0.157'
+1 : exptSeq_10M_double :  -r 3 : '0.118', '0.117', '0.119'
+1 : almostSortedSeq_10M_double :  -r 3 : '0.06', '0.059', '0.06'
+3 : trigramSeq_10M :  -r 3 : '0.274', '0.263', '0.249'
+3 : trigramSeq_10M : -p -r 3 : '0.367', '0.361', '0.357'
+sampleSort : 16 : weighted time, min=0.238 median=0.245 mean=0.245
+
+1 : randomSeq_10M_double :  -r 3 : '0.083', '0.084', '0.084'
+1 : exptSeq_10M_double :  -r 3 : '0.083', '0.096', '0.081'
+1 : almostSortedSeq_10M_double :  -r 3 : '0.054', '0.048', '0.054'
+3 : trigramSeq_10M :  -r 3 : '0.15', '0.139', '0.137'
+3 : trigramSeq_10M : -p -r 3 : '0.179', '0.178', '0.181'
+sampleSort : 32 : weighted time, min=0.128 median=0.13 mean=0.132
+
+1 : randomSeq_10M_double :  -r 3 : '0.074', '0.095', '0.084'
+1 : exptSeq_10M_double :  -r 3 : '0.063', '0.078', '0.059'
+1 : almostSortedSeq_10M_double :  -r 3 : '0.052', '0.041', '0.047'
+3 : trigramSeq_10M :  -r 3 : '0.114', '0.118', '0.123'
+3 : trigramSeq_10M : -p -r 3 : '0.16', '0.15', '0.162'
+sampleSort : 64 : weighted time, min=0.107 median=0.114 mean=0.113
+
+1 : randomSeq_10M_double :  -r 1 -o /tmp/ofile : '0.071'
+1 : exptSeq_10M_double :  -r 1 -o /tmp/ofile : '0.066'
+1 : almostSortedSeq_10M_double :  -r 1 -o /tmp/ofile : '0.045'
+3 : trigramSeq_10M :  -r 1 -o /tmp/ofile : '0.125'
+3 : trigramSeq_10M : -p -r 1 -o /tmp/ofile : '0.155'
+sampleSort : 64 : weighted time, min=0.113 median=0.113 mean=0.113
+
+1 : randomSeq_10M_double :  -r 3 : '1.64', '1.64', '1.58'
+1 : exptSeq_10M_double :  -r 3 : '1.12', '1.12', '1.12'
+1 : almostSortedSeq_10M_double :  -r 3 : '0.405', '0.404', '0.404'
+3 : trigramSeq_10M :  -r 3 : '3.79', '3.53', '3.39'
+3 : trigramSeq_10M : -p -r 3 : '5.39', '5.27', '5.28'
+quickSort : 1 : weighted time, min=3.231 median=3.288 mean=3.31
+
+1 : randomSeq_10M_double :  -r 3 : '0.859', '0.859', '0.859'
+1 : exptSeq_10M_double :  -r 3 : '0.601', '0.601', '0.601'
+1 : almostSortedSeq_10M_double :  -r 3 : '0.233', '0.236', '0.235'
+3 : trigramSeq_10M :  -r 3 : '2.04', '2.04', '2.029'
+3 : trigramSeq_10M : -p -r 3 : '3.2', '3.19', '3.19'
+quickSort : 2 : weighted time, min=1.928 median=1.931 mean=1.931
+
+1 : randomSeq_10M_double :  -r 3 : '0.477', '0.478', '0.481'
+1 : exptSeq_10M_double :  -r 3 : '0.353', '0.353', '0.365'
+1 : almostSortedSeq_10M_double :  -r 3 : '0.137', '0.136', '0.135'
+3 : trigramSeq_10M :  -r 3 : '1.09', '1.09', '1.08'
+3 : trigramSeq_10M : -p -r 3 : '1.92', '1.89', '1.91'
+quickSort : 4 : weighted time, min=1.097 median=1.107 mean=1.105
+
+1 : randomSeq_10M_double :  -r 3 : '0.296', '0.296', '0.3'
+1 : exptSeq_10M_double :  -r 3 : '0.245', '0.242', '0.242'
+1 : almostSortedSeq_10M_double :  -r 3 : '0.101', '0.102', '0.106'
+3 : trigramSeq_10M :  -r 3 : '0.761', '0.729', '0.696'
+3 : trigramSeq_10M : -p -r 3 : '1.62', '1.61', '1.59'
+quickSort : 8 : weighted time, min=0.833 median=0.85 mean=0.849
+
+1 : randomSeq_10M_double :  -r 3 : '0.218', '0.227', '0.22'
+1 : exptSeq_10M_double :  -r 3 : '0.196', '0.191', '0.19'
+1 : almostSortedSeq_10M_double :  -r 3 : '0.117', '0.119', '0.128'
+3 : trigramSeq_10M :  -r 3 : '0.598', '0.583', '0.601'
+3 : trigramSeq_10M : -p -r 3 : '2.82', '1.93', '1.94'
+quickSort : 16 : weighted time, min=0.896 median=0.904 mean=1.
+
+1 : randomSeq_10M_double :  -r 3 : '0.208', '0.206', '0.226'
+1 : exptSeq_10M_double :  -r 3 : '0.213', '0.24', '0.229'
+1 : almostSortedSeq_10M_double :  -r 3 : '0.118', '0.119', '0.117'
+3 : trigramSeq_10M :  -r 3 : '0.873', '0.759', '0.719'
+3 : trigramSeq_10M : -p -r 3 : '1.74', '1.74', '1.74'
+quickSort : 32 : weighted time, min=0.879 median=0.894 mean=0.903
+
+1 : randomSeq_10M_double :  -r 3 : '0.27', '0.294', '0.317'
+1 : exptSeq_10M_double :  -r 3 : '0.279', '0.239', '0.325'
+1 : almostSortedSeq_10M_double :  -r 3 : '0.093', '0.098', '0.09'
+3 : trigramSeq_10M :  -r 3 : '0.937', '0.781', '0.834'
+3 : trigramSeq_10M : -p -r 3 : '2.23', '2.38', '2.15'
+quickSort : 64 : weighted time, min=1.043 median=1.095 mean=1.108
+
+1 : randomSeq_10M_double :  -r 1 -o /tmp/ofile : '0.287'
+1 : exptSeq_10M_double :  -r 1 -o /tmp/ofile : '0.372'
+1 : almostSortedSeq_10M_double :  -r 1 -o /tmp/ofile : '0.166'
+3 : trigramSeq_10M :  -r 1 -o /tmp/ofile : '1.26'
+3 : trigramSeq_10M : -p -r 1 -o /tmp/ofile : '2.25'
+quickSort : 64 : weighted time, min=1.261 median=1.261 mean=1.261

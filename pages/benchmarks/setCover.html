@@ -1,0 +1,75 @@
+<html>
+<head>
+  <!--#include virtual="header.html" -->
+  <title>Problem Based Benchmark Suite : Set Cover</title>
+</head>
+
+<body>
+<!--#include virtual="navbar.html" -->
+<div class=center>
+
+<h2>Set Cover (SC):</h2> 
+
+The (unweighted) <a href="http://en.wikipedia.org/wiki/Set_cover_problem">set cover problem</a> is: given a set of sets S to find a
+minimum sized subset T of S such that the union of elements in T
+contains all elements in the union of elements in S (i.e. T covers all
+the elements covered by S).  The set cover problem is NP hard and this
+benchmark is to find an approximate minimum sized set cover.  The
+maximum allowed size of the returned set cover is specified as part of
+the data specification.
+
+<h4>Input and Output Format</h4>
+
+<p>
+The input is represented as a bipartite graph in the in the <a
+href="benchmarks/graphIO.html">adjacency graph</a> format.  Each
+vertex represents a set and the integers included in each adjacency
+list are the elements the set covers.  Let m be the maximum element
+label in any of these adjacency lists.  Not all integers between 0 and
+m need to be in a set, although it is assumed that the element labels
+are relatively dense.  The output is a sequence of integers
+corresponding to the sets included in the set cover (0 based).  The
+output needs to be in the <a
+href="benchmarks/sequenceIO.html">sequence</a> format.  The vertex
+indices need not be sorted in the output.
+</p>
+
+<h4>Distributions</h4>
+
+<p>
+Each distribution should be run for <tt>n=10,000,000</tt>.  
+The weights
+used for average time are given in parentheses (all equal).
+</p>
+
+<ul>
+<li>
+(1) Random local graph with approximately 10 edges per vertex.  This
+graph is generated so that the probability of each edge out of a
+vertex is biased to nearby vertices.
+
+<blockquote>
+<tt>randLocalGraph -j -d 3 -m &lt;5*n&gt; &lt;n&gt; &lt;filename&gt;</tt><br>
+</blockquote>
+</li>
+
+<li>
+(1) An RMAT graph with parameters (.3,.1,.1,.5) and about 5n edges.
+
+<blockquote>
+<tt>rMatGraph -j -a .5 -b .1 -m &lt;5*n&gt; &lt;n&gt; &lt;filename&gt;</tt><br>
+</blockquote>
+</li>
+
+<li>
+(1) A 3 dimensional grid.
+<blockquote>
+<tt>gridGraph -j -d 3 &lt;n&gt; &lt;filename&gt;</tt><br>
+</blockquote>
+</li>
+</ul>
+
+</div>
+<!--#include virtual="footer.html" -->
+</body>
+<html>

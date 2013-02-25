@@ -1,0 +1,15 @@
+## Makefile for building binaries in a separate directory
+
+SOURCE_DIR := ../../
+
+include $(SOURCE_DIR)/default.config
+
+## Load compiler rules
+include $(SOURCE_DIR)/parallelDefs.mk
+
+## Load benchmark-specific setup
+include $(SOURCE_DIR)/../common/recipe.mk
+
+## Load default benchmark Makefile
+include $(SOURCE_DIR)/Makebench.mk
+

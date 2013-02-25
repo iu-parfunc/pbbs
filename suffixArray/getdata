@@ -1,0 +1,2 @@
+#!/bin/sh
+cd sequenceData/data; make etext99.bz2; make chr22.dna.bz2; make wikisamp.xml.bz2

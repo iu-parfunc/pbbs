@@ -1,0 +1,54 @@
+1 ~/data/galois2DinCube_10M.node median: 114738
+1 ~/data/galois2Dkuzmin_10M.node median: 120965
+1 weighted average = 117851
+2 ~/data/galois2DinCube_10M.node median: 81724
+2 ~/data/galois2Dkuzmin_10M.node median: 84769
+2 weighted average = 83246
+4 ~/data/galois2DinCube_10M.node median: 62460
+4 ~/data/galois2Dkuzmin_10M.node median: 58952
+4 weighted average = 60706
+8 ~/data/galois2DinCube_10M.node median: 52359
+8 ~/data/galois2Dkuzmin_10M.node median: 44955
+8 weighted average = 48657
+12 ~/data/galois2DinCube_10M.node median: 48144
+12 ~/data/galois2Dkuzmin_10M.node median: 37993
+12 weighted average = 43068
+16 ~/data/galois2DinCube_10M.node median: 43852
+16 ~/data/galois2Dkuzmin_10M.node median: 38225
+16 weighted average = 41038
+20 ~/data/galois2DinCube_10M.node median: 43838
+20 ~/data/galois2Dkuzmin_10M.node median: 37179
+20 weighted average = 40508
+24 ~/data/galois2DinCube_10M.node median: 44599
+24 ~/data/galois2Dkuzmin_10M.node median: 45427
+24 weighted average = 45013
+28 ~/data/galois2DinCube_10M.node median: 40439
+28 ~/data/galois2Dkuzmin_10M.node median: 67256
+28 weighted average = 53847
+32 ~/data/galois2DinCube_10M.node median: 40272
+32 ~/data/galois2Dkuzmin_10M.node median: 51344
+32 weighted average = 45808
+36 ~/data/galois2DinCube_10M.node median: 44383
+36 ~/data/galois2Dkuzmin_10M.node median: 93886
+36 weighted average = 69134
+40 ~/data/galois2DinCube_10M.node median: 47685
+40 ~/data/galois2Dkuzmin_10M.node median: 79418
+40 weighted average = 63551
+44 ~/data/galois2DinCube_10M.node median: 47927
+44 ~/data/galois2Dkuzmin_10M.node median: 74851
+44 weighted average = 61389
+48 ~/data/galois2DinCube_10M.node median: 48427
+48 ~/data/galois2Dkuzmin_10M.node median: 106843
+48 weighted average = 77635
+52 ~/data/galois2DinCube_10M.node median: 47027
+52 ~/data/galois2Dkuzmin_10M.node median: 84995
+52 weighted average = 66011
+56 ~/data/galois2DinCube_10M.node median: 47296
+56 ~/data/galois2Dkuzmin_10M.node median: 118884
+56 weighted average = 83090
+60 ~/data/galois2DinCube_10M.node median: 45776
+60 ~/data/galois2Dkuzmin_10M.node median: 96234
+60 weighted average = 71005
+64 ~/data/galois2DinCube_10M.node median: 50751
+64 ~/data/galois2Dkuzmin_10M.node median: 86398
+64 weighted average = 68574

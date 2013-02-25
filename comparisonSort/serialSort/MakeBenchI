@@ -1,0 +1,54 @@
+# ********************
+# GENERIC MAKEFILE FOR MOST BENCHMARKS THAT INCLUDE THE IMPLEMENTATION
+# INTO THE TIMING CODE AS AN INCLUDE FILE
+#    BNCHMRK : the name of the benchmark
+#    GLOBAL_REQUIRE : implementation files needed from global common
+#    BENCH_REQUIRE : implementation files needed from benchmark common
+#    INCLUDE : implementation include file
+#    TIME_GLOBAL_REQUIRE : timing files needed from global common
+#    TIME_REQUIRE : timing files needed from benchmark common
+#    PCC : the compiler
+#    PCFLAGS : compiler flags
+#    PLFLAGS : compiler link flags
+# ********************
+
+CHECK = $(BNCHMRK)Check
+TIME = $(BNCHMRK)Time
+TEST_FILES = testInputs
+
+# Make the benchmark, and make the output check code in the common directory
+all : $(BNCHMRK) testInputs
+	cd ../common; make -s $(CHECK)
+
+# Files copied from toplevel common directory
+# The sort used to remove duplicates
+GLOBAL = $(sort $(TIME_GLOBAL_REQUIRE) $(GLOBAL_REQUIRE))
+
+$(GLOBAL) :
+	ln -s ../../common/$@ .
+
+# Files copied from benchmark common directory
+BENCH = $(TIME).C $(sort $(TIME_REQUIRE) $(BENCH_REQUIRE)) $(TEST_FILES)
+
+$(BENCH) :
+	ln -s ../common/$@ .
+
+# Make all implementation objects
+%.o : %.C $(GLOBAL_REQUIRE) $(BENCH_REQUIRE)
+	$(PCC) $(PCFLAGS) -c $< -o $@
+
+# Make timing code object file
+$(TIME).o : $(BENCH) $(GLOBAL)
+	$(PCC) $(PCFLAGS) -include $(INCLUDE) -c $< -o $@
+
+# Make benchmark
+$(BNCHMRK) : $(TIME).o 
+	$(PCC) $(PLFLAGS) -o $@ $(TIME).o
+
+clean :
+	rm -f $(BNCHMRK) *.o
+
+cleansrc :
+	make -s clean
+	rm -f $(GLOBAL) $(BENCH)
+

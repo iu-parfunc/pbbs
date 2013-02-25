@@ -1,0 +1,23 @@
+#!/usr/bin/python
+#
+# make releases for all benchmarks in the "release" file
+#
+
+import os
+import sys
+targetName = "/tmp/pbbs/"
+
+dataFormats = ["geometryData/geometryIO.html",
+               "graphData/graphIO.html",
+               "sequenceData/sequenceIO.html"]
+
+for dataFormat in dataFormats :
+  os.system("cp testData/" + dataFormat + " " + targetName)
+  
+benchmarks = (open("release").read()).split('\n')
+benchmarks = benchmarks[0:len(benchmarks)-1]
+
+for benchmark in benchmarks :
+  os.system("./makeRelease " + benchmark)
+
+

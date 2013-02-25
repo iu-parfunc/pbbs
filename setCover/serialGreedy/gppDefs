@@ -1,0 +1,9 @@
+ifdef LONG
+INTT = -DLONG
+endif
+
+PCC = g++
+PLFLAGS = $(LFLAGS)
+PCFLAGS = -O2 $(INTT)
+#PCFLAGS = -O0 -g $(INTT)
+

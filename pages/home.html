@@ -1,0 +1,77 @@
+<html>
+<head>
+  <title>Problem Based Benchmark Suite</title>
+  <!--#include virtual="header.html" -->
+</head>
+
+<body>
+<!--#include virtual="navbar.html" -->
+
+<div class="center">
+
+<h2>Overview</h2>
+The problem based benchmark suite (PBBS) is designed to be an open
+source repository to compare different parallel programming
+methodologies in terms of performance and code quality.  The
+benchmarks define problems in terms of the function they implement and
+not the particular algorithm or code they use. We encourage people to
+implement the benchmarks using any algorithm, with any programming
+language, with any form of parallelism (or sequentially), and for any
+machine.  The problems are selected so they:
+
+<ul type="square">
+<li> Are representative of a reasonably wide variety of real-world tasks</li>
+<li> The problem can be defined concisely
+<li> Are simple enough that reasonably efficient solutions 
+can be implemented in 500 lines of code, but not trivial microbencharks
+<li> Have outputs that can be easily tested for correctness and possibly quality
+</ul>
+
+<strong>This is currently work in early progress, and these pages are preliminary.</strong>
+
+The plan is to supply:
+
+<ol>
+<li> The definition of the problems in terms of their function specification (the input they take and the required output given the input).
+
+<li>
+For each problem a weighted set of input distributions on which to test and time implementations.
+<li>
+Input generators for each of the input distributions.
+<li>
+Output testers for testing the correctness and/or quality of the output
+<li>
+A sequential and a parallel base implementation for each problem
+<li>
+A set of criteria for measuring the quality of code
+<li>
+A repository of submitted implementations.
+</ol>
+
+Currently the benchmarks include the following:
+
+<ul>
+<li> Comparison sort (SORT)
+<li> Integer sort (ISORT)
+<li> Remove Duplicates (RDUPS)
+<li> Dictionary (RDUPS)
+<li> Suffix Array (SA)
+<li> Breadth First Search Tree (BFS)
+<li> Maximal Independent Set (MIS)
+<li> Maximal Matching (MIS)
+<li> Minimum Spanning Tree (MST)
+<li> Spanning Tree (MST)
+<li> Convex Hull (CH)
+<li> Delaunay Triangulation (DT)
+<li> Delaunay Refinement (DR)
+<li> K-Nearest Neighbors (KNN)
+<li> Ray-Triangle Intersection (RAY)
+<li> Nbody Forces (NBODY)
+</ul>
+
+These are described on the Benchmarks Page.
+
+</div>
+<!--#include virtual="footer.html" -->
+</body>
+</html>

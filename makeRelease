@@ -1,0 +1,58 @@
+#!/usr/bin/python
+#
+# make the release of one of the  benchmarks
+#   -- cleans the directories
+#   -- does a test compile
+#   -- copies all links into the directories
+#   -- removes svn info
+#   -- creates tar file and copies .html file to /tmp/pbbs/
+
+
+import os
+import sys
+
+dirname = sys.argv[1]
+if(dirname.endswith("/")):
+       dirname = dirname[:-1]
+
+copyFiles = ["README"]
+targetName = "/tmp/" + dirname
+
+print("Removing old directory from /tmp")
+os.system("rm -fr " + targetName)
+
+print("Cleaning, Copying all files into directories, and Trial Make")
+os.system("mkdir " + targetName);
+for file in copyFiles :
+  os.system("cp -L " + dirname + "/" + file + " " + targetName);
+
+releaseDirs = (open(dirname + "/release").read()).split('\n')
+for implementation in releaseDirs[0:len(releaseDirs)-1] :
+    imp = dirname + "/" + implementation
+    print("making: " + imp)
+    os.system("cd " + imp + "; make; make clean")
+    os.system("cd " + dirname + "/common; make clean")
+
+if(os.path.exists(dirname + "/getdata")):
+   os.system("cd " + dirname + "; ./getdata")
+
+for implementation in releaseDirs[0:len(releaseDirs)-1] :
+    imp = dirname + "/" + implementation
+    os.system("cp -rL " + imp + " " + targetName);
+
+os.system("cp -rL " + dirname + "/common " + targetName);
+
+print("Removing all .svn directories")
+os.system("rm -fr /tmp/" + dirname + "/*/.svn");
+os.system("rm -fr /tmp/" + dirname + "/*/*/.svn");
+
+if(not os.path.exists("/tmp/pbbs")):
+    print("Creating /tmp/pbbs directory");
+    os.system("mkdir /tmp/pbbs");
+os.system("cp -L " + dirname + "/" + dirname + ".html " + targetName);
+os.system("cp -L " + dirname + "/" + dirname + ".html " + "/tmp/pbbs");
+
+os.system("cp /tmp/" + dirname + "/" + dirname + ".html /tmp/pbbs/.");
+
+print("Taring the result")
+os.system("cd /tmp/; tar -chf pbbs/" + dirname + ".tar " + dirname)

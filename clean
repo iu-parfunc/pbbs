@@ -1,0 +1,96 @@
+#!/bin/sh
+
+make cleansrc -s -C removeDuplicates/common
+make cleansrc -s -C removeDuplicates/deterministicHash
+make cleansrc -s -C removeDuplicates/serialHash
+
+make cleansrc -s -C dictionary/common
+make cleansrc -s -C dictionary/deterministicHash
+make cleansrc -s -C dictionary/serialHash
+
+make cleansrc -s -C integerSort/common
+make cleansrc -s -C integerSort/blockRadixSort
+make cleansrc -s -C integerSort/serialRadixSort
+
+make cleansrc -s -C nearestNeighbors/common
+make cleansrc -s -C nearestNeighbors/octTreeNeighbors
+make cleansrc -s -C nearestNeighbors/octTree2Neighbors
+
+make cleansrc -s -C rayCast/common
+make cleansrc -s -C rayCast/kdTree
+
+make cleansrc -s -C nBody/common
+make cleansrc -s -C nBody/parallelBarnesHut
+make cleansrc -s -C nBody/parallelCK
+
+make cleansrc -s -C suffixArray/common
+make cleansrc -s -C suffixArray/parallelKS
+make cleansrc -s -C suffixArray/parallelRange
+make cleansrc -s -C suffixArray/serialKS
+
+make cleansrc -s -C delaunayTriangulation/common
+make cleansrc -s -C delaunayTriangulation/incrementalDelaunay
+make cleansrc -s -C delaunayTriangulation/serialDelaunay
+
+make cleansrc -s -C delaunayRefine/common
+make cleansrc -s -C delaunayRefine/incrementalRefine
+
+make cleansrc -s -C convexHull/common
+make cleansrc -s -C convexHull/quickHull
+make cleansrc -s -C convexHull/serialHull
+
+make cleansrc -s -C comparisonSort/common
+make cleansrc -s -C comparisonSort/serialSort
+make cleansrc -s -C comparisonSort/stlParallelSort
+make cleansrc -s -C comparisonSort/sampleSort
+make cleansrc -s -C comparisonSort/quickSort
+
+make cleansrc -s -C breadthFirstSearch/common
+make cleansrc -s -C breadthFirstSearch/ndBFS
+make cleansrc -s -C breadthFirstSearch/serialBFS
+make cleansrc -s -C breadthFirstSearch/deterministicBFS
+
+make cleansrc -s -C maximalMatching/common
+make cleansrc -s -C maximalMatching/ndMatching
+make cleansrc -s -C maximalMatching/serialMatching
+make cleansrc -s -C maximalMatching/incrementalMatching
+
+make cleansrc -s -C maximalIndependentSet/common
+make cleansrc -s -C maximalIndependentSet/incrementalMIS
+make cleansrc -s -C maximalIndependentSet/ndMIS
+make cleansrc -s -C maximalIndependentSet/serialMIS
+make cleansrc -s -C maximalIndependentSet/luby
+
+make cleansrc -s -C minSpanningTree/common
+make cleansrc -s -C minSpanningTree/parallelKruskal
+make cleansrc -s -C minSpanningTree/serialMST
+
+make cleansrc -s -C spanningTree/common
+make cleansrc -s -C spanningTree/incrementalST
+make cleansrc -s -C spanningTree/serialST
+make cleansrc -s -C spanningTree/newST
+make cleansrc -s -C spanningTree/ndST
+
+make cleansrc -s -C lassoRegression/common
+make cleansrc -s -C lassoRegression/parallelShootingLasso
+make cleansrc -s -C lassoRegression/parallelShootingLasso2
+
+make cleansrc -s -C setCover/common
+make cleansrc -s -C setCover/manis
+make cleansrc -s -C setCover/serialDFG
+make cleansrc -s -C setCover/serialGreedy
+
+make cleansrc -s -C spmv/common
+make cleansrc -s -C spmv/pSPMV
+make cleansrc -s -C spmv/sSPMV
+
+make cleansrc -s -C testData/sequenceData
+make clean -s -C testData/sequenceData/data
+
+make cleansrc -s -C testData/graphData
+make clean -s -C testData/graphData/data
+
+make cleansrc -s -C testData/geometryData
+make clean -s -C testData/geometryData/data
+
+

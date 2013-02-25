@@ -1,0 +1,1862 @@
+HOSTNAME: monster
+Path: .
+URL: https://freyja.aladdin.cs.cmu.edu/svn/pbbs/trunk/benchmarks
+Repository Root: https://freyja.aladdin.cs.cmu.edu/svn/pbbs
+Repository UUID: 62bc7976-c1cc-4065-800b-67e61e609b9e
+Revision: 634
+Node Kind: directory
+Schedule: normal
+Last Changed Author: guyb@CS.CMU.EDU
+Last Changed Rev: 634
+Last Changed Date: 2011-08-15 17:57:13 -0400 (Mon, 15 Aug 2011)
+
+
+1 : 3DonSphere_1000000 :  -r 3 : '42.5', '41.1', '41.2'
+1 : 3DinCube_1000000 :  -r 3 : '110.', '109.', '109.'
+1 : 3Dplummer_1000000 :  -r 3 : '219.', '218.', '218.'
+parallelCK : 1 : weighted time, min=122.7 median=122.733 mean=123.088
+
+1 : 3DonSphere_1000000 :  -r 3 : '22.1', '20.7', '20.8'
+1 : 3DinCube_1000000 :  -r 3 : '56.6', '54.8', '54.9'
+1 : 3Dplummer_1000000 :  -r 3 : '111.', '110.', '110.'
+parallelCK : 2 : weighted time, min=61.833 median=61.9 mean=62.322
+
+1 : 3DonSphere_1000000 :  -r 3 : '12.1', '12.1', '12.'
+1 : 3DinCube_1000000 :  -r 3 : '30.5', '29.6', '29.5'
+1 : 3Dplummer_1000000 :  -r 3 : '58.3', '57.6', '58.1'
+parallelCK : 4 : weighted time, min=33.033 median=33.266 mean=33.311
+
+1 : 3DonSphere_1000000 :  -r 3 : '6.31', '6.22', '6.23'
+1 : 3DinCube_1000000 :  -r 3 : '15.9', '16.1', '15.9'
+1 : 3Dplummer_1000000 :  -r 3 : '30.6', '30.6', '30.2'
+parallelCK : 8 : weighted time, min=17.44 median=17.576 mean=17.562
+
+1 : 3DonSphere_1000000 :  -r 3 : '4.29', '4.25', '4.26'
+1 : 3DinCube_1000000 :  -r 3 : '11.1', '11.', '11.'
+1 : 3Dplummer_1000000 :  -r 3 : '21.4', '21.5', '21.7'
+parallelCK : 12 : weighted time, min=12.216 median=12.253 mean=12.277
+
+1 : 3DonSphere_1000000 :  -r 3 : '3.32', '3.27', '3.25'
+1 : 3DinCube_1000000 :  -r 3 : '8.49', '8.42', '8.34'
+1 : 3Dplummer_1000000 :  -r 3 : '16.7', '16.3', '16.6'
+parallelCK : 16 : weighted time, min=9.296 median=9.43 mean=9.41
+
+1 : 3DonSphere_1000000 :  -r 3 : '2.75', '2.67', '2.64'
+1 : 3DinCube_1000000 :  -r 3 : '6.9', '6.8', '6.8'
+1 : 3Dplummer_1000000 :  -r 3 : '14.5', '14.6', '14.3'
+parallelCK : 20 : weighted time, min=7.913 median=7.989 mean=7.995
+
+1 : 3DonSphere_1000000 :  -r 3 : '2.34', '2.3', '2.27'
+1 : 3DinCube_1000000 :  -r 3 : '5.85', '5.8', '5.77'
+1 : 3Dplummer_1000000 :  -r 3 : '12.7', '12.5', '12.9'
+parallelCK : 24 : weighted time, min=6.846 median=6.933 mean=6.936
+
+1 : 3DonSphere_1000000 :  -r 3 : '2.02', '1.98', '1.96'
+1 : 3DinCube_1000000 :  -r 3 : '5.', '4.94', '5.'
+1 : 3Dplummer_1000000 :  -r 3 : '11.3', '11.7', '11.4'
+parallelCK : 28 : weighted time, min=6.066 median=6.126 mean=6.144
+
+1 : 3DonSphere_1000000 :  -r 3 : '1.82', '1.78', '1.77'
+1 : 3DinCube_1000000 :  -r 3 : '4.48', '4.48', '4.46'
+1 : 3Dplummer_1000000 :  -r 3 : '10.2', '10.4', '10.6'
+parallelCK : 32 : weighted time, min=5.476 median=5.553 mean=5.554
+
+1 : 3DonSphere_1000000 :  -r 3 : '1.78', '1.77', '1.81'
+1 : 3DinCube_1000000 :  -r 3 : '4.51', '4.48', '4.48'
+1 : 3Dplummer_1000000 :  -r 3 : '11.4', '11.5', '11.3'
+parallelCK : 36 : weighted time, min=5.85 median=5.886 mean=5.892
+
+1 : 3DonSphere_1000000 :  -r 3 : '1.78', '1.75', '1.7'
+1 : 3DinCube_1000000 :  -r 3 : '4.64', '4.53', '4.52'
+1 : 3Dplummer_1000000 :  -r 3 : '11.3', '10.9', '11.'
+parallelCK : 40 : weighted time, min=5.706 median=5.76 mean=5.791
+
+1 : 3DonSphere_1000000 :  -r 3 : '1.74', '1.75', '1.73'
+1 : 3DinCube_1000000 :  -r 3 : '4.47', '4.4', '4.38'
+1 : 3Dplummer_1000000 :  -r 3 : '10.6', '10.6', '11.'
+parallelCK : 44 : weighted time, min=5.57 median=5.58 mean=5.63
+
+1 : 3DonSphere_1000000 :  -r 3 : '1.76', '1.7', '1.7'
+1 : 3DinCube_1000000 :  -r 3 : '4.42', '4.37', '4.37'
+1 : 3Dplummer_1000000 :  -r 3 : '10.9', '11.8', '11.2'
+parallelCK : 48 : weighted time, min=5.656 median=5.756 mean=5.802
+
+1 : 3DonSphere_1000000 :  -r 3 : '1.72', '1.69', '1.68'
+1 : 3DinCube_1000000 :  -r 3 : '4.35', '4.33', '4.29'
+1 : 3Dplummer_1000000 :  -r 3 : '11.9', '10.8', '11.6'
+parallelCK : 52 : weighted time, min=5.59 median=5.873 mean=5.817
+
+1 : 3DonSphere_1000000 :  -r 3 : '1.7', '1.68', '1.69'
+1 : 3DinCube_1000000 :  -r 3 : '4.32', '4.28', '4.34'
+1 : 3Dplummer_1000000 :  -r 3 : '11.4', '11.5', '11.1'
+parallelCK : 56 : weighted time, min=5.686 median=5.803 mean=5.778
+
+1 : 3DonSphere_1000000 :  -r 3 : '1.68', '1.64', '1.63'
+1 : 3DinCube_1000000 :  -r 3 : '4.28', '4.25', '4.25'
+1 : 3Dplummer_1000000 :  -r 3 : '11.4', '12.5', '11.1'
+parallelCK : 60 : weighted time, min=5.66 median=5.763 mean=5.858
+
+1 : 3DonSphere_1000000 :  -r 3 : '1.67', '1.63', '1.62'
+1 : 3DinCube_1000000 :  -r 3 : '4.31', '4.31', '4.3'
+1 : 3Dplummer_1000000 :  -r 3 : '11.5', '11.3', '11.1'
+parallelCK : 64 : weighted time, min=5.673 median=5.746 mean=5.748
+
+1 : 3DonSphere_1000000 :  -r 1 -o /tmp/ofile41000_725262 : '1.67'
+1 : 3DinCube_1000000 :  -r 1 -o /tmp/ofile856413_519840 : '4.28'
+1 : 3Dplummer_1000000 :  -r 1 -o /tmp/ofile955148_895532 : '11.1'
+parallelCK : 64 : weighted time, min=5.683 median=5.683 mean=5.683
+
+1 : happyTriangles happyRays :  -r 3 : '14.3', '13.5', '13.5'
+1 : angelTriangles angelRays :  -r 3 : '4.62', '4.53', '4.05'
+1 : dragonTriangles dragonRays :  -r 3 : '9.08', '8.18', '8.18'
+kdTree : 1 : weighted time, min=8.576 median=8.736 mean=8.882
+
+1 : happyTriangles happyRays :  -r 3 : '8.28', '8.15', '7.76'
+1 : angelTriangles angelRays :  -r 3 : '2.57', '2.49', '2.56'
+1 : dragonTriangles dragonRays :  -r 3 : '4.9', '4.91', '5.'
+kdTree : 2 : weighted time, min=5.05 median=5.206 mean=5.18
+
+1 : happyTriangles happyRays :  -r 3 : '4.08', '4.15', '4.12'
+1 : angelTriangles angelRays :  -r 3 : '1.35', '1.4', '1.39'
+1 : dragonTriangles dragonRays :  -r 3 : '2.73', '2.62', '2.52'
+kdTree : 4 : weighted time, min=2.65 median=2.709 mean=2.706
+
+1 : happyTriangles happyRays :  -r 3 : '2.14', '2.21', '2.21'
+1 : angelTriangles angelRays :  -r 3 : '0.72', '0.689', '0.7'
+1 : dragonTriangles dragonRays :  -r 3 : '1.46', '1.5', '1.49'
+kdTree : 8 : weighted time, min=1.429 median=1.466 mean=1.457
+
+1 : happyTriangles happyRays :  -r 3 : '1.55', '1.57', '1.59'
+1 : angelTriangles angelRays :  -r 3 : '0.53', '0.507', '0.512'
+1 : dragonTriangles dragonRays :  -r 3 : '0.99', '1.03', '1.02'
+kdTree : 12 : weighted time, min=1.015 median=1.034 mean=1.033
+
+1 : happyTriangles happyRays :  -r 3 : '1.19', '1.26', '1.23'
+1 : angelTriangles angelRays :  -r 3 : '0.401', '0.424', '0.412'
+1 : dragonTriangles dragonRays :  -r 3 : '0.769', '0.82', '0.819'
+kdTree : 16 : weighted time, min=0.786 median=0.82 mean=0.813
+
+1 : happyTriangles happyRays :  -r 3 : '1.02', '1.07', '1.06'
+1 : angelTriangles angelRays :  -r 3 : '0.344', '0.352', '0.363'
+1 : dragonTriangles dragonRays :  -r 3 : '0.661', '0.687', '0.672'
+kdTree : 20 : weighted time, min=0.674 median=0.694 mean=0.692
+
+1 : happyTriangles happyRays :  -r 3 : '0.885', '0.926', '0.948'
+1 : angelTriangles angelRays :  -r 3 : '0.297', '0.308', '0.316'
+1 : dragonTriangles dragonRays :  -r 3 : '0.567', '0.62', '0.617'
+kdTree : 24 : weighted time, min=0.583 median=0.617 mean=0.609
+
+1 : happyTriangles happyRays :  -r 3 : '0.768', '0.842', '0.84'
+1 : angelTriangles angelRays :  -r 3 : '0.282', '0.293', '0.294'
+1 : dragonTriangles dragonRays :  -r 3 : '0.522', '0.55', '0.547'
+kdTree : 28 : weighted time, min=0.524 median=0.56 mean=0.548
+
+1 : happyTriangles happyRays :  -r 3 : '0.726', '0.763', '0.751'
+1 : angelTriangles angelRays :  -r 3 : '0.25', '0.263', '0.265'
+1 : dragonTriangles dragonRays :  -r 3 : '0.494', '0.501', '0.517'
+kdTree : 32 : weighted time, min=0.49 median=0.505 mean=0.503
+
+1 : happyTriangles happyRays :  -r 3 : '0.693', '0.742', '0.746'
+1 : angelTriangles angelRays :  -r 3 : '0.248', '0.272', '0.261'
+1 : dragonTriangles dragonRays :  -r 3 : '0.471', '0.516', '0.494'
+kdTree : 36 : weighted time, min=0.47 median=0.499 mean=0.493
+
+1 : happyTriangles happyRays :  -r 3 : '0.684', '0.722', '0.708'
+1 : angelTriangles angelRays :  -r 3 : '0.247', '0.258', '0.263'
+1 : dragonTriangles dragonRays :  -r 3 : '0.455', '0.499', '0.505'
+kdTree : 40 : weighted time, min=0.462 median=0.488 mean=0.482
+
+1 : happyTriangles happyRays :  -r 3 : '0.661', '0.721', '0.703'
+1 : angelTriangles angelRays :  -r 3 : '0.243', '0.249', '0.257'
+1 : dragonTriangles dragonRays :  -r 3 : '0.447', '0.494', '0.486'
+kdTree : 44 : weighted time, min=0.45 median=0.479 mean=0.473
+
+1 : happyTriangles happyRays :  -r 3 : '0.651', '0.69', '0.672'
+1 : angelTriangles angelRays :  -r 3 : '0.251', '0.243', '0.24'
+1 : dragonTriangles dragonRays :  -r 3 : '0.444', '0.492', '0.479'
+kdTree : 48 : weighted time, min=0.445 median=0.464 mean=0.462
+
+1 : happyTriangles happyRays :  -r 3 : '0.626', '0.674', '0.675'
+1 : angelTriangles angelRays :  -r 3 : '0.225', '0.262', '0.246'
+1 : dragonTriangles dragonRays :  -r 3 : '0.428', '0.455', '0.479'
+kdTree : 52 : weighted time, min=0.426 median=0.458 mean=0.452
+
+1 : happyTriangles happyRays :  -r 3 : '0.622', '0.704', '0.659'
+1 : angelTriangles angelRays :  -r 3 : '0.228', '0.254', '0.234'
+1 : dragonTriangles dragonRays :  -r 3 : '0.44', '0.451', '0.449'
+kdTree : 56 : weighted time, min=0.43 median=0.447 mean=0.449
+
+1 : happyTriangles happyRays :  -r 3 : '0.602', '0.67', '0.637'
+1 : angelTriangles angelRays :  -r 3 : '0.228', '0.245', '0.252'
+1 : dragonTriangles dragonRays :  -r 3 : '0.439', '0.481', '0.446'
+kdTree : 60 : weighted time, min=0.423 median=0.442 mean=0.444
+
+1 : happyTriangles happyRays :  -r 3 : '0.609', '0.65', '0.628'
+1 : angelTriangles angelRays :  -r 3 : '0.227', '0.252', '0.239'
+1 : dragonTriangles dragonRays :  -r 3 : '0.419', '0.481', '0.482'
+kdTree : 64 : weighted time, min=0.418 median=0.449 mean=0.443
+
+1 : happyTriangles happyRays :  -r 1 -o /tmp/ofile756748_384070 : '0.589'
+1 : angelTriangles angelRays :  -r 1 -o /tmp/ofile633763_144465 : '0.224'
+1 : dragonTriangles dragonRays :  -r 1 -o /tmp/ofile137835_718304 : '0.436'
+kdTree : 64 : weighted time, min=0.416 median=0.416 mean=0.416
+
+20 : trigramString_10000000 :  -r 3 : '5.15', '5.08', '4.71'
+6 : chr22.dna :  -r 3 : '24.9', '25.8', '25.7'
+1 : etext99 :  -r 3 : '81.', '79.7', '79.8'
+1 : wikisamp.xml :  -r 3 : '68.1', '67.', '66.9'
+parallelKS : 1 : weighted time, min=13.935 median=14.378 mean=14.282
+
+20 : trigramString_10000000 :  -r 3 : '2.79', '2.76', '2.74'
+6 : chr22.dna :  -r 3 : '12.6', '11.9', '12.'
+1 : etext99 :  -r 3 : '45.9', '45.3', '45.2'
+1 : wikisamp.xml :  -r 3 : '39.5', '38.8', '38.9'
+parallelKS : 2 : weighted time, min=7.507 median=7.55 mean=7.6
+
+20 : trigramString_10000000 :  -r 3 : '1.39', '1.38', '1.4'
+6 : chr22.dna :  -r 3 : '6.51', '6.29', '6.08'
+1 : etext99 :  -r 3 : '24.1', '23.3', '23.4'
+1 : wikisamp.xml :  -r 3 : '21.4', '20.6', '20.7'
+parallelKS : 4 : weighted time, min=3.856 median=3.915 mean=3.93
+
+20 : trigramString_10000000 :  -r 3 : '0.719', '0.704', '0.697'
+6 : chr22.dna :  -r 3 : '3.53', '3.44', '3.42'
+1 : etext99 :  -r 3 : '13.1', '12.3', '12.6'
+1 : wikisamp.xml :  -r 3 : '11.1', '10.5', '10.6'
+parallelKS : 8 : weighted time, min=2.045 median=2.068 mean=2.082
+
+20 : trigramString_10000000 :  -r 3 : '0.518', '0.49', '0.485'
+6 : chr22.dna :  -r 3 : '2.47', '2.37', '2.36'
+1 : etext99 :  -r 3 : '9.43', '8.73', '8.83'
+1 : wikisamp.xml :  -r 3 : '8.35', '7.8', '7.79'
+parallelKS : 12 : weighted time, min=1.442 median=1.451 mean=1.476
+
+20 : trigramString_10000000 :  -r 3 : '0.464', '0.396', '0.405'
+6 : chr22.dna :  -r 3 : '2.15', '2.', '1.94'
+1 : etext99 :  -r 3 : '7.59', '7.14', '7.11'
+1 : wikisamp.xml :  -r 3 : '7.24', '6.38', '6.73'
+parallelKS : 16 : weighted time, min=1.18 median=1.213 mean=1.238
+
+20 : trigramString_10000000 :  -r 3 : '0.374', '0.332', '0.33'
+6 : chr22.dna :  -r 3 : '1.77', '1.71', '1.66'
+1 : etext99 :  -r 3 : '7.', '6.59', '7.'
+1 : wikisamp.xml :  -r 3 : '6.51', '6.44', '6.31'
+parallelKS : 20 : weighted time, min=1.052 median=1.083 mean=1.088
+
+20 : trigramString_10000000 :  -r 3 : '0.348', '0.306', '0.342'
+6 : chr22.dna :  -r 3 : '1.75', '1.63', '1.48'
+1 : etext99 :  -r 3 : '6.06', '5.89', '5.99'
+1 : wikisamp.xml :  -r 3 : '5.74', '5.44', '5.59'
+parallelKS : 24 : weighted time, min=0.94 median=1.007 mean=0.997
+
+20 : trigramString_10000000 :  -r 3 : '0.319', '0.274', '0.275'
+6 : chr22.dna :  -r 3 : '1.51', '1.38', '1.36'
+1 : etext99 :  -r 3 : '5.88', '5.68', '5.57'
+1 : wikisamp.xml :  -r 3 : '5.32', '4.83', '4.79'
+parallelKS : 28 : weighted time, min=0.857 median=0.867 mean=0.892
+
+20 : trigramString_10000000 :  -r 3 : '0.316', '0.271', '0.273'
+6 : chr22.dna :  -r 3 : '1.45', '1.31', '1.33'
+1 : etext99 :  -r 3 : '5.75', '5.39', '5.38'
+1 : wikisamp.xml :  -r 3 : '5.07', '4.77', '4.44'
+parallelKS : 32 : weighted time, min=0.825 median=0.842 mean=0.863
+
+20 : trigramString_10000000 :  -r 3 : '0.294', '0.254', '0.252'
+6 : chr22.dna :  -r 3 : '1.55', '1.42', '1.36'
+1 : etext99 :  -r 3 : '5.56', '5.05', '5.41'
+1 : wikisamp.xml :  -r 3 : '5.34', '5.1', '5.38'
+parallelKS : 36 : weighted time, min=0.833 median=0.869 mean=0.878
+
+20 : trigramString_10000000 :  -r 3 : '0.3', '0.255', '0.253'
+6 : chr22.dna :  -r 3 : '1.38', '1.28', '1.28'
+1 : etext99 :  -r 3 : '5.28', '4.73', '4.77'
+1 : wikisamp.xml :  -r 3 : '5.35', '4.93', '4.89'
+parallelKS : 40 : weighted time, min=0.798 median=0.802 mean=0.83
+
+20 : trigramString_10000000 :  -r 3 : '0.316', '0.267', '0.25'
+6 : chr22.dna :  -r 3 : '1.55', '1.54', '1.46'
+1 : etext99 :  -r 3 : '5.73', '5.46', '5.51'
+1 : wikisamp.xml :  -r 3 : '4.78', '4.51', '4.64'
+parallelKS : 44 : weighted time, min=0.847 median=0.883 mean=0.887
+
+20 : trigramString_10000000 :  -r 3 : '0.292', '0.258', '0.24'
+6 : chr22.dna :  -r 3 : '1.42', '1.41', '1.36'
+1 : etext99 :  -r 3 : '5.71', '5.32', '5.16'
+1 : wikisamp.xml :  -r 3 : '4.71', '4.42', '4.44'
+parallelKS : 48 : weighted time, min=0.804 median=0.835 mean=0.841
+
+20 : trigramString_10000000 :  -r 3 : '0.31', '0.259', '0.264'
+6 : chr22.dna :  -r 3 : '1.34', '1.24', '1.27'
+1 : etext99 :  -r 3 : '5.03', '4.85', '4.9'
+1 : wikisamp.xml :  -r 3 : '4.67', '4.35', '4.48'
+parallelKS : 52 : weighted time, min=0.779 median=0.795 mean=0.809
+
+20 : trigramString_10000000 :  -r 3 : '0.285', '0.239', '0.244'
+6 : chr22.dna :  -r 3 : '1.31', '1.2', '1.19'
+1 : etext99 :  -r 3 : '5.12', '4.76', '4.78'
+1 : wikisamp.xml :  -r 3 : '4.55', '4.27', '4.27'
+parallelKS : 56 : weighted time, min=0.748 median=0.754 mean=0.777
+
+20 : trigramString_10000000 :  -r 3 : '0.293', '0.247', '0.229'
+6 : chr22.dna :  -r 3 : '1.41', '1.3', '1.42'
+1 : etext99 :  -r 3 : '4.89', '4.73', '5.08'
+1 : wikisamp.xml :  -r 3 : '4.69', '4.64', '4.49'
+parallelKS : 60 : weighted time, min=0.771 median=0.818 mean=0.817
+
+20 : trigramString_10000000 :  -r 3 : '0.303', '0.269', '0.251'
+6 : chr22.dna :  -r 3 : '1.26', '1.16', '1.17'
+1 : etext99 :  -r 3 : '5.36', '5.21', '4.76'
+1 : wikisamp.xml :  -r 3 : '5.06', '4.56', '4.41'
+parallelKS : 64 : weighted time, min=0.755 median=0.791 mean=0.801
+
+20 : trigramString_10000000 :  -r 1 -o /tmp/ofile553340_559335 : '0.289'
+6 : chr22.dna :  -r 1 -o /tmp/ofile102218_109556 : '1.37'
+1 : etext99 :  -r 1 -o /tmp/ofile156194_447214 : '5.02'
+1 : wikisamp.xml :  -r 1 -o /tmp/ofile516134_121188 : '4.86'
+parallelKS : 64 : weighted time, min=0.852 median=0.852 mean=0.852
+
+1 : 2DinCube_10M :  -r 3 -o /tmp/ofile293962_394437 : '54.7', '54.8', '55.'
+1 : 2Dkuzmin_10M :  -r 3 -o /tmp/ofile385309_313954 : '58.7', '59.4', '58.8'
+serialDelaunay : 0 : weighted time, min=56.7 median=56.8 mean=56.9
+
+1 : 2DinCube_10M :  -r 3 : '77.3', '76.6', '76.6'
+1 : 2Dkuzmin_10M :  -r 3 : '85.1', '84.7', '84.7'
+incrementalDelaunay : 1 : weighted time, min=80.65 median=80.65 mean=80.833
+
+1 : 2DinCube_10M :  -r 3 : '46.5', '45.9', '46.'
+1 : 2Dkuzmin_10M :  -r 3 : '50.6', '51.4', '50.3'
+incrementalDelaunay : 2 : weighted time, min=48.099 median=48.3 mean=48.45
+
+1 : 2DinCube_10M :  -r 3 : '25.1', '25.2', '25.3'
+1 : 2Dkuzmin_10M :  -r 3 : '27.3', '27.8', '27.4'
+incrementalDelaunay : 4 : weighted time, min=26.2 median=26.299 mean=26.35
+
+1 : 2DinCube_10M :  -r 3 : '12.7', '12.6', '12.5'
+1 : 2Dkuzmin_10M :  -r 3 : '13.9', '13.6', '13.6'
+incrementalDelaunay : 8 : weighted time, min=13.05 median=13.1 mean=13.15
+
+1 : 2DinCube_10M :  -r 3 : '8.8', '8.68', '8.68'
+1 : 2Dkuzmin_10M :  -r 3 : '9.73', '9.36', '9.52'
+incrementalDelaunay : 12 : weighted time, min=9.02 median=9.1 mean=9.128
+
+1 : 2DinCube_10M :  -r 3 : '6.79', '6.86', '6.66'
+1 : 2Dkuzmin_10M :  -r 3 : '7.57', '7.54', '7.56'
+incrementalDelaunay : 16 : weighted time, min=7.1 median=7.175 mean=7.163
+
+1 : 2DinCube_10M :  -r 3 : '5.61', '5.75', '5.72'
+1 : 2Dkuzmin_10M :  -r 3 : '6.29', '6.37', '6.29'
+incrementalDelaunay : 20 : weighted time, min=5.95 median=6.005 mean=6.004
+
+1 : 2DinCube_10M :  -r 3 : '4.88', '4.91', '5.05'
+1 : 2Dkuzmin_10M :  -r 3 : '5.53', '5.61', '5.58'
+incrementalDelaunay : 24 : weighted time, min=5.205 median=5.245 mean=5.26
+
+1 : 2DinCube_10M :  -r 3 : '4.57', '4.68', '4.64'
+1 : 2Dkuzmin_10M :  -r 3 : '5.08', '5.27', '5.25'
+incrementalDelaunay : 28 : weighted time, min=4.825 median=4.945 mean=4.915
+
+1 : 2DinCube_10M :  -r 3 : '4.019', '4.16', '4.17'
+1 : 2Dkuzmin_10M :  -r 3 : '4.67', '4.58', '4.74'
+incrementalDelaunay : 32 : weighted time, min=4.3 median=4.415 mean=4.39
+
+1 : 2DinCube_10M :  -r 3 : '3.87', '4.07', '4.11'
+1 : 2Dkuzmin_10M :  -r 3 : '4.5', '4.65', '4.46'
+incrementalDelaunay : 36 : weighted time, min=4.165 median=4.285 mean=4.276
+
+1 : 2DinCube_10M :  -r 3 : '3.75', '4.', '3.98'
+1 : 2Dkuzmin_10M :  -r 3 : '4.44', '4.68', '4.67'
+incrementalDelaunay : 40 : weighted time, min=4.095 median=4.325 mean=4.253
+
+1 : 2DinCube_10M :  -r 3 : '3.62', '3.87', '3.72'
+1 : 2Dkuzmin_10M :  -r 3 : '4.33', '4.63', '4.55'
+incrementalDelaunay : 44 : weighted time, min=3.975 median=4.135 mean=4.12
+
+1 : 2DinCube_10M :  -r 3 : '3.52', '3.72', '3.75'
+1 : 2Dkuzmin_10M :  -r 3 : '4.28', '4.55', '4.53'
+incrementalDelaunay : 48 : weighted time, min=3.9 median=4.125 mean=4.058
+
+1 : 2DinCube_10M :  -r 3 : '3.59', '3.75', '3.75'
+1 : 2Dkuzmin_10M :  -r 3 : '4.18', '4.46', '4.51'
+incrementalDelaunay : 52 : weighted time, min=3.885 median=4.105 mean=4.04
+
+1 : 2DinCube_10M :  -r 3 : '3.31', '3.62', '3.61'
+1 : 2Dkuzmin_10M :  -r 3 : '4.19', '4.49', '4.43'
+incrementalDelaunay : 56 : weighted time, min=3.75 median=4.019 mean=3.941
+
+1 : 2DinCube_10M :  -r 3 : '3.32', '3.23', '3.57'
+1 : 2Dkuzmin_10M :  -r 3 : '4.18', '4.48', '4.11'
+incrementalDelaunay : 60 : weighted time, min=3.67 median=3.75 mean=3.815
+
+1 : 2DinCube_10M :  -r 3 : '3.33', '3.63', '3.62'
+1 : 2Dkuzmin_10M :  -r 3 : '4.2', '4.47', '4.45'
+incrementalDelaunay : 64 : weighted time, min=3.765 median=4.035 mean=3.95
+
+1 : 2DinCube_10M :  -r 1 -o /tmp/ofile183565_714306 : '3.31'
+1 : 2Dkuzmin_10M :  -r 1 -o /tmp/ofile679947_962541 : '4.17'
+incrementalDelaunay : 64 : weighted time, min=3.74 median=3.74 mean=3.74
+
+1 : randLocalGraph_WE_10M_50M :  -r 3 -o /tmp/ofile973095_361421 : '6.58', '6.59', '6.58'
+1 : rMatGraph_WE_10M_50M :  -r 3 -o /tmp/ofile368115_673980 : '8.91', '8.88', '8.89'
+1 : 2Dgrid_WE_10M :  -r 3 -o /tmp/ofile188777_215707 : '4.18', '4.18', '4.19'
+serialMST : 0 : weighted time, min=6.546 median=6.55 mean=6.553
+
+1 : randLocalGraph_WE_10M_50M :  -r 3 : '12.2', '12.2', '12.2'
+1 : rMatGraph_WE_10M_50M :  -r 3 : '16.2', '16.2', '16.2'
+1 : 2Dgrid_WE_10M :  -r 3 : '8.33', '8.92', '8.17'
+parallelKruskal : 1 : weighted time, min=12.19 median=12.243 mean=12.291
+
+1 : randLocalGraph_WE_10M_50M :  -r 3 : '6.67', '6.65', '6.65'
+1 : rMatGraph_WE_10M_50M :  -r 3 : '8.81', '8.83', '8.83'
+1 : 2Dgrid_WE_10M :  -r 3 : '4.54', '4.51', '4.46'
+parallelKruskal : 2 : weighted time, min=6.64 median=6.663 mean=6.661
+
+1 : randLocalGraph_WE_10M_50M :  -r 3 : '3.61', '3.56', '3.52'
+1 : rMatGraph_WE_10M_50M :  -r 3 : '4.7', '4.6', '4.54'
+1 : 2Dgrid_WE_10M :  -r 3 : '2.61', '2.54', '2.44'
+parallelKruskal : 4 : weighted time, min=3.5 median=3.566 mean=3.568
+
+1 : randLocalGraph_WE_10M_50M :  -r 3 : '2.05', '1.97', '1.96'
+1 : rMatGraph_WE_10M_50M :  -r 3 : '2.67', '2.56', '2.57'
+1 : 2Dgrid_WE_10M :  -r 3 : '1.44', '1.44', '1.44'
+parallelKruskal : 8 : weighted time, min=1.986 median=1.993 mean=2.011
+
+1 : randLocalGraph_WE_10M_50M :  -r 3 : '1.4', '1.4', '1.37'
+1 : rMatGraph_WE_10M_50M :  -r 3 : '1.81', '1.81', '1.69'
+1 : 2Dgrid_WE_10M :  -r 3 : '0.954', '0.951', '0.95'
+parallelKruskal : 12 : weighted time, min=1.336 median=1.386 mean=1.37
+
+1 : randLocalGraph_WE_10M_50M :  -r 3 : '1.14', '1.35', '1.14'
+1 : rMatGraph_WE_10M_50M :  -r 3 : '1.51', '1.5', '1.49'
+1 : 2Dgrid_WE_10M :  -r 3 : '0.818', '0.863', '0.763'
+parallelKruskal : 16 : weighted time, min=1.131 median=1.152 mean=1.174
+
+1 : randLocalGraph_WE_10M_50M :  -r 3 : '1.', '0.979', '0.976'
+1 : rMatGraph_WE_10M_50M :  -r 3 : '1.4', '1.4', '1.4'
+1 : 2Dgrid_WE_10M :  -r 3 : '0.653', '0.654', '0.654'
+parallelKruskal : 20 : weighted time, min=1.009 median=1.01 mean=1.012
+
+1 : randLocalGraph_WE_10M_50M :  -r 3 : '0.905', '0.91', '0.907'
+1 : rMatGraph_WE_10M_50M :  -r 3 : '1.12', '1.11', '1.11'
+1 : 2Dgrid_WE_10M :  -r 3 : '0.58', '0.579', '0.578'
+parallelKruskal : 24 : weighted time, min=0.864 median=0.865 mean=0.866
+
+1 : randLocalGraph_WE_10M_50M :  -r 3 : '0.934', '0.895', '0.927'
+1 : rMatGraph_WE_10M_50M :  -r 3 : '1.02', '1.08', '1.02'
+1 : 2Dgrid_WE_10M :  -r 3 : '0.5', '0.513', '0.499'
+parallelKruskal : 28 : weighted time, min=0.804 median=0.815 mean=0.82
+
+1 : randLocalGraph_WE_10M_50M :  -r 3 : '0.811', '0.81', '0.809'
+1 : rMatGraph_WE_10M_50M :  -r 3 : '0.927', '0.93', '0.931'
+1 : 2Dgrid_WE_10M :  -r 3 : '0.48', '0.481', '0.479'
+parallelKruskal : 32 : weighted time, min=0.738 median=0.74 mean=0.739
+
+1 : randLocalGraph_WE_10M_50M :  -r 3 : '0.712', '0.744', '0.715'
+1 : rMatGraph_WE_10M_50M :  -r 3 : '0.955', '0.955', '0.953'
+1 : 2Dgrid_WE_10M :  -r 3 : '0.482', '0.487', '0.488'
+parallelKruskal : 36 : weighted time, min=0.715 median=0.719 mean=0.721
+
+1 : randLocalGraph_WE_10M_50M :  -r 3 : '0.702', '0.704', '0.7'
+1 : rMatGraph_WE_10M_50M :  -r 3 : '1.04', '1.03', '0.933'
+1 : 2Dgrid_WE_10M :  -r 3 : '0.459', '0.468', '0.458'
+parallelKruskal : 40 : weighted time, min=0.697 median=0.73 mean=0.721
+
+1 : randLocalGraph_WE_10M_50M :  -r 3 : '0.761', '0.765', '0.753'
+1 : rMatGraph_WE_10M_50M :  -r 3 : '0.874', '0.924', '0.875'
+1 : 2Dgrid_WE_10M :  -r 3 : '0.447', '0.447', '0.448'
+parallelKruskal : 44 : weighted time, min=0.691 median=0.694 mean=0.699
+
+1 : randLocalGraph_WE_10M_50M :  -r 3 : '0.696', '0.747', '0.69'
+1 : rMatGraph_WE_10M_50M :  -r 3 : '0.918', '1.05', '0.916'
+1 : 2Dgrid_WE_10M :  -r 3 : '0.422', '0.426', '0.422'
+parallelKruskal : 48 : weighted time, min=0.676 median=0.678 mean=0.698
+
+1 : randLocalGraph_WE_10M_50M :  -r 3 : '0.672', '0.67', '0.671'
+1 : rMatGraph_WE_10M_50M :  -r 3 : '0.972', '0.872', '1.16'
+1 : 2Dgrid_WE_10M :  -r 3 : '0.423', '0.421', '0.423'
+parallelKruskal : 52 : weighted time, min=0.654 median=0.688 mean=0.698
+
+1 : randLocalGraph_WE_10M_50M :  -r 3 : '0.714', '0.651', '0.654'
+1 : rMatGraph_WE_10M_50M :  -r 3 : '0.964', '0.965', '0.969'
+1 : 2Dgrid_WE_10M :  -r 3 : '0.401', '0.403', '0.402'
+parallelKruskal : 56 : weighted time, min=0.672 median=0.673 mean=0.68
+
+1 : randLocalGraph_WE_10M_50M :  -r 3 : '0.737', '0.664', '0.669'
+1 : rMatGraph_WE_10M_50M :  -r 3 : '0.775', '0.776', '0.777'
+1 : 2Dgrid_WE_10M :  -r 3 : '0.431', '0.439', '0.454'
+parallelKruskal : 60 : weighted time, min=0.623 median=0.628 mean=0.635
+
+1 : randLocalGraph_WE_10M_50M :  -r 3 : '0.691', '0.691', '0.759'
+1 : rMatGraph_WE_10M_50M :  -r 3 : '0.83', '0.837', '0.835'
+1 : 2Dgrid_WE_10M :  -r 3 : '0.389', '0.388', '0.395'
+parallelKruskal : 64 : weighted time, min=0.636 median=0.638 mean=0.646
+
+1 : randLocalGraph_WE_10M_50M :  -r 1 -o /tmp/ofile95259_13905 : '0.729'
+1 : rMatGraph_WE_10M_50M :  -r 1 -o /tmp/ofile934699_614292 : '0.796'
+1 : 2Dgrid_WE_10M :  -r 1 -o /tmp/ofile512615_372560 : '0.391'
+parallelKruskal : 64 : weighted time, min=0.638 median=0.638 mean=0.638
+
+1 : randLocalGraph_E_10M_50M :  -r 3 -o /tmp/ofile999976_492799 : '2.53', '2.53', '2.53'
+1 : rMatGraph_E_10M_50M :  -r 3 -o /tmp/ofile729956_47541 : '3.43', '3.43', '3.43'
+1 : 2Dgrid_E_10M :  -r 3 -o /tmp/ofile496018_854541 : '2.1', '2.1', '2.029'
+serialST : 0 : weighted time, min=2.663 median=2.686 mean=2.678
+
+1 : randLocalGraph_E_10M_50M :  -r 3 : '5.51', '5.51', '5.51'
+1 : rMatGraph_E_10M_50M :  -r 3 : '7.37', '7.37', '7.37'
+1 : 2Dgrid_E_10M :  -r 3 : '4.08', '3.93', '3.88'
+incrementalST : 1 : weighted time, min=5.586 median=5.603 mean=5.614
+
+1 : randLocalGraph_E_10M_50M :  -r 3 : '3.17', '3.06', '3.04'
+1 : rMatGraph_E_10M_50M :  -r 3 : '4.23', '4.14', '4.14'
+1 : 2Dgrid_E_10M :  -r 3 : '2.27', '2.25', '2.26'
+incrementalST : 2 : weighted time, min=3.143 median=3.153 mean=3.173
+
+1 : randLocalGraph_E_10M_50M :  -r 3 : '1.7', '1.69', '1.7'
+1 : rMatGraph_E_10M_50M :  -r 3 : '2.3', '2.29', '2.23'
+1 : 2Dgrid_E_10M :  -r 3 : '1.25', '1.26', '1.25'
+incrementalST : 4 : weighted time, min=1.723 median=1.746 mean=1.741
+
+1 : randLocalGraph_E_10M_50M :  -r 3 : '0.907', '0.909', '0.907'
+1 : rMatGraph_E_10M_50M :  -r 3 : '1.23', '1.19', '1.19'
+1 : 2Dgrid_E_10M :  -r 3 : '0.655', '0.655', '0.655'
+incrementalST : 8 : weighted time, min=0.917 median=0.917 mean=0.922
+
+1 : randLocalGraph_E_10M_50M :  -r 3 : '0.63', '0.624', '0.631'
+1 : rMatGraph_E_10M_50M :  -r 3 : '0.848', '0.836', '0.834'
+1 : 2Dgrid_E_10M :  -r 3 : '0.459', '0.459', '0.458'
+incrementalST : 12 : weighted time, min=0.638 median=0.641 mean=0.642
+
+1 : randLocalGraph_E_10M_50M :  -r 3 : '0.5', '0.5', '0.5'
+1 : rMatGraph_E_10M_50M :  -r 3 : '0.673', '0.673', '0.656'
+1 : 2Dgrid_E_10M :  -r 3 : '0.358', '0.357', '0.36'
+incrementalST : 16 : weighted time, min=0.504 median=0.51 mean=0.508
+
+1 : randLocalGraph_E_10M_50M :  -r 3 : '0.415', '0.417', '0.417'
+1 : rMatGraph_E_10M_50M :  -r 3 : '0.547', '0.527', '0.526'
+1 : 2Dgrid_E_10M :  -r 3 : '0.308', '0.307', '0.308'
+incrementalST : 20 : weighted time, min=0.416 median=0.417 mean=0.419
+
+1 : randLocalGraph_E_10M_50M :  -r 3 : '0.384', '0.371', '0.371'
+1 : rMatGraph_E_10M_50M :  -r 3 : '0.494', '0.494', '0.495'
+1 : 2Dgrid_E_10M :  -r 3 : '0.267', '0.267', '0.268'
+incrementalST : 24 : weighted time, min=0.377 median=0.377 mean=0.379
+
+1 : randLocalGraph_E_10M_50M :  -r 3 : '0.352', '0.353', '0.354'
+1 : rMatGraph_E_10M_50M :  -r 3 : '0.439', '0.439', '0.439'
+1 : 2Dgrid_E_10M :  -r 3 : '0.255', '0.244', '0.261'
+incrementalST : 28 : weighted time, min=0.345 median=0.349 mean=0.348
+
+1 : randLocalGraph_E_10M_50M :  -r 3 : '0.317', '0.318', '0.318'
+1 : rMatGraph_E_10M_50M :  -r 3 : '0.412', '0.397', '0.397'
+1 : 2Dgrid_E_10M :  -r 3 : '0.229', '0.229', '0.248'
+incrementalST : 32 : weighted time, min=0.314 median=0.314 mean=0.318
+
+1 : randLocalGraph_E_10M_50M :  -r 3 : '0.317', '0.317', '0.317'
+1 : rMatGraph_E_10M_50M :  -r 3 : '0.443', '0.447', '0.422'
+1 : 2Dgrid_E_10M :  -r 3 : '0.245', '0.22', '0.221'
+incrementalST : 36 : weighted time, min=0.319 median=0.327 mean=0.327
+
+1 : randLocalGraph_E_10M_50M :  -r 3 : '0.317', '0.301', '0.301'
+1 : rMatGraph_E_10M_50M :  -r 3 : '0.421', '0.36', '0.393'
+1 : 2Dgrid_E_10M :  -r 3 : '0.218', '0.219', '0.219'
+incrementalST : 40 : weighted time, min=0.293 median=0.304 mean=0.305
+
+1 : randLocalGraph_E_10M_50M :  -r 3 : '0.289', '0.29', '0.289'
+1 : rMatGraph_E_10M_50M :  -r 3 : '0.386', '0.388', '0.367'
+1 : 2Dgrid_E_10M :  -r 3 : '0.246', '0.205', '0.228'
+incrementalST : 44 : weighted time, min=0.287 median=0.301 mean=0.298
+
+1 : randLocalGraph_E_10M_50M :  -r 3 : '0.285', '0.287', '0.287'
+1 : rMatGraph_E_10M_50M :  -r 3 : '0.458', '0.439', '0.385'
+1 : 2Dgrid_E_10M :  -r 3 : '0.212', '0.206', '0.207'
+incrementalST : 48 : weighted time, min=0.292 median=0.311 mean=0.307
+
+1 : randLocalGraph_E_10M_50M :  -r 3 : '0.307', '0.296', '0.297'
+1 : rMatGraph_E_10M_50M :  -r 3 : '0.446', '0.448', '0.448'
+1 : 2Dgrid_E_10M :  -r 3 : '0.198', '0.2', '0.201'
+incrementalST : 52 : weighted time, min=0.313 median=0.315 mean=0.315
+
+1 : randLocalGraph_E_10M_50M :  -r 3 : '0.278', '0.285', '0.286'
+1 : rMatGraph_E_10M_50M :  -r 3 : '0.404', '0.346', '0.37'
+1 : 2Dgrid_E_10M :  -r 3 : '0.193', '0.195', '0.195'
+incrementalST : 56 : weighted time, min=0.272 median=0.283 mean=0.283
+
+1 : randLocalGraph_E_10M_50M :  -r 3 : '0.283', '0.282', '0.283'
+1 : rMatGraph_E_10M_50M :  -r 3 : '0.357', '0.357', '0.375'
+1 : 2Dgrid_E_10M :  -r 3 : '0.193', '0.194', '0.206'
+incrementalST : 60 : weighted time, min=0.277 median=0.277 mean=0.281
+
+1 : randLocalGraph_E_10M_50M :  -r 3 : '0.274', '0.275', '0.275'
+1 : rMatGraph_E_10M_50M :  -r 3 : '0.337', '0.339', '0.336'
+1 : 2Dgrid_E_10M :  -r 3 : '0.186', '0.185', '0.186'
+incrementalST : 64 : weighted time, min=0.265 median=0.266 mean=0.265
+
+1 : randLocalGraph_E_10M_50M :  -r 1 -o /tmp/ofile969050_180227 : '0.27'
+1 : rMatGraph_E_10M_50M :  -r 1 -o /tmp/ofile131097_496788 : '0.344'
+1 : 2Dgrid_E_10M :  -r 1 -o /tmp/ofile788628_172529 : '0.185'
+incrementalST : 64 : weighted time, min=0.266 median=0.266 mean=0.266
+
+1 : randLocalGraph_J_10M_50M :  -r 3 -o /tmp/ofile407229_291082 : '4.17', '4.17', '4.17'
+1 : rMatGraph_J_10M_50M :  -r 3 -o /tmp/ofile251049_64462 : '4.79', '4.79', '4.79'
+1 : 3Dgrid_J_10M :  -r 3 -o /tmp/ofile241818_712347 : '2.89', '2.89', '2.89'
+serialBFS : 0 : weighted time, min=3.95 median=3.95 mean=3.95
+
+1 : randLocalGraph_J_10M_50M :  -r 3 : '6.12', '6.11', '6.11'
+1 : rMatGraph_J_10M_50M :  -r 3 : '6.84', '6.84', '6.85'
+1 : 3Dgrid_J_10M :  -r 3 : '3.35', '3.35', '3.35'
+ndBFS : 1 : weighted time, min=5.433 median=5.433 mean=5.435
+
+1 : randLocalGraph_J_10M_50M :  -r 3 : '3.61', '3.6', '3.6'
+1 : rMatGraph_J_10M_50M :  -r 3 : '4.07', '4.059', '4.08'
+1 : 3Dgrid_J_10M :  -r 3 : '2.17', '2.1', '2.029'
+ndBFS : 2 : weighted time, min=3.23 median=3.256 mean=3.257
+
+1 : randLocalGraph_J_10M_50M :  -r 3 : '1.97', '1.95', '1.9'
+1 : rMatGraph_J_10M_50M :  -r 3 : '2.25', '2.18', '2.16'
+1 : 3Dgrid_J_10M :  -r 3 : '1.25', '1.25', '1.25'
+ndBFS : 4 : weighted time, min=1.77 median=1.793 mean=1.795
+
+1 : randLocalGraph_J_10M_50M :  -r 3 : '0.987', '0.987', '0.986'
+1 : rMatGraph_J_10M_50M :  -r 3 : '1.13', '1.13', '1.18'
+1 : 3Dgrid_J_10M :  -r 3 : '0.699', '0.698', '0.699'
+ndBFS : 8 : weighted time, min=0.937 median=0.938 mean=0.944
+
+1 : randLocalGraph_J_10M_50M :  -r 3 : '0.661', '0.661', '0.661'
+1 : rMatGraph_J_10M_50M :  -r 3 : '0.77', '0.769', '0.77'
+1 : 3Dgrid_J_10M :  -r 3 : '0.521', '0.519', '0.518'
+ndBFS : 12 : weighted time, min=0.649 median=0.65 mean=0.65
+
+1 : randLocalGraph_J_10M_50M :  -r 3 : '0.518', '0.519', '0.518'
+1 : rMatGraph_J_10M_50M :  -r 3 : '0.587', '0.585', '0.587'
+1 : 3Dgrid_J_10M :  -r 3 : '0.443', '0.443', '0.442'
+ndBFS : 16 : weighted time, min=0.515 median=0.516 mean=0.515
+
+1 : randLocalGraph_J_10M_50M :  -r 3 : '0.417', '0.416', '0.417'
+1 : rMatGraph_J_10M_50M :  -r 3 : '0.516', '0.516', '0.517'
+1 : 3Dgrid_J_10M :  -r 3 : '0.39', '0.39', '0.39'
+ndBFS : 20 : weighted time, min=0.44 median=0.441 mean=0.441
+
+1 : randLocalGraph_J_10M_50M :  -r 3 : '0.355', '0.354', '0.355'
+1 : rMatGraph_J_10M_50M :  -r 3 : '0.412', '0.415', '0.42'
+1 : 3Dgrid_J_10M :  -r 3 : '0.362', '0.363', '0.362'
+ndBFS : 24 : weighted time, min=0.376 median=0.377 mean=0.377
+
+1 : randLocalGraph_J_10M_50M :  -r 3 : '0.345', '0.346', '0.345'
+1 : rMatGraph_J_10M_50M :  -r 3 : '0.383', '0.384', '0.389'
+1 : 3Dgrid_J_10M :  -r 3 : '0.346', '0.347', '0.344'
+ndBFS : 28 : weighted time, min=0.357 median=0.358 mean=0.358
+
+1 : randLocalGraph_J_10M_50M :  -r 3 : '0.292', '0.293', '0.293'
+1 : rMatGraph_J_10M_50M :  -r 3 : '0.363', '0.363', '0.365'
+1 : 3Dgrid_J_10M :  -r 3 : '0.469', '0.471', '0.47'
+ndBFS : 32 : weighted time, min=0.374 median=0.375 mean=0.375
+
+1 : randLocalGraph_J_10M_50M :  -r 3 : '0.294', '0.28', '0.28'
+1 : rMatGraph_J_10M_50M :  -r 3 : '0.345', '0.346', '0.348'
+1 : 3Dgrid_J_10M :  -r 3 : '0.343', '0.343', '0.342'
+ndBFS : 36 : weighted time, min=0.322 median=0.323 mean=0.324
+
+1 : randLocalGraph_J_10M_50M :  -r 3 : '0.273', '0.273', '0.273'
+1 : rMatGraph_J_10M_50M :  -r 3 : '0.33', '0.338', '0.329'
+1 : 3Dgrid_J_10M :  -r 3 : '0.351', '0.354', '0.356'
+ndBFS : 40 : weighted time, min=0.317 median=0.319 mean=0.319
+
+1 : randLocalGraph_J_10M_50M :  -r 3 : '0.312', '0.313', '0.313'
+1 : rMatGraph_J_10M_50M :  -r 3 : '0.351', '0.342', '0.342'
+1 : 3Dgrid_J_10M :  -r 3 : '0.357', '0.356', '0.357'
+ndBFS : 44 : weighted time, min=0.336 median=0.337 mean=0.338
+
+1 : randLocalGraph_J_10M_50M :  -r 3 : '0.441', '0.257', '0.265'
+1 : rMatGraph_J_10M_50M :  -r 3 : '0.321', '0.322', '0.322'
+1 : 3Dgrid_J_10M :  -r 3 : '0.346', '0.347', '0.348'
+ndBFS : 48 : weighted time, min=0.308 median=0.311 mean=0.329
+
+1 : randLocalGraph_J_10M_50M :  -r 3 : '0.26', '0.26', '0.26'
+1 : rMatGraph_J_10M_50M :  -r 3 : '0.318', '0.318', '0.318'
+1 : 3Dgrid_J_10M :  -r 3 : '0.353', '0.353', '0.355'
+ndBFS : 52 : weighted time, min=0.31 median=0.31 mean=0.31
+
+1 : randLocalGraph_J_10M_50M :  -r 3 : '0.256', '0.256', '0.257'
+1 : rMatGraph_J_10M_50M :  -r 3 : '0.304', '0.304', '0.304'
+1 : 3Dgrid_J_10M :  -r 3 : '0.342', '0.342', '0.345'
+ndBFS : 56 : weighted time, min=0.3 median=0.3 mean=0.301
+
+1 : randLocalGraph_J_10M_50M :  -r 3 : '0.228', '0.23', '0.229'
+1 : rMatGraph_J_10M_50M :  -r 3 : '0.297', '0.297', '0.301'
+1 : 3Dgrid_J_10M :  -r 3 : '0.334', '0.331', '0.332'
+ndBFS : 60 : weighted time, min=0.285 median=0.286 mean=0.286
+
+1 : randLocalGraph_J_10M_50M :  -r 3 : '0.254', '0.274', '0.255'
+1 : rMatGraph_J_10M_50M :  -r 3 : '0.311', '0.299', '0.299'
+1 : 3Dgrid_J_10M :  -r 3 : '0.323', '0.322', '0.323'
+ndBFS : 64 : weighted time, min=0.291 median=0.292 mean=0.295
+
+1 : randLocalGraph_J_10M_50M :  -r 1 -o /tmp/ofile756659_533440 : '0.252'
+1 : rMatGraph_J_10M_50M :  -r 1 -o /tmp/ofile114143_557700 : '0.298'
+1 : 3Dgrid_J_10M :  -r 1 -o /tmp/ofile285640_709148 : '0.324'
+ndBFS : 64 : weighted time, min=0.291 median=0.291 mean=0.291
+
+1 : randLocalGraph_J_10M_50M :  -r 3 : '7.07', '7.07', '7.07'
+1 : rMatGraph_J_10M_50M :  -r 3 : '9.33', '9.33', '9.33'
+1 : 3Dgrid_J_10M :  -r 3 : '5.07', '5.06', '5.06'
+deterministicBFS : 1 : weighted time, min=7.153 median=7.153 mean=7.154
+
+1 : randLocalGraph_J_10M_50M :  -r 3 : '3.97', '3.97', '3.97'
+1 : rMatGraph_J_10M_50M :  -r 3 : '5.42', '5.4', '5.42'
+1 : 3Dgrid_J_10M :  -r 3 : '3.13', '2.99', '2.99'
+deterministicBFS : 2 : weighted time, min=4.12 median=4.126 mean=4.14
+
+1 : randLocalGraph_J_10M_50M :  -r 3 : '2.32', '2.25', '2.23'
+1 : rMatGraph_J_10M_50M :  -r 3 : '2.99', '2.85', '2.94'
+1 : 3Dgrid_J_10M :  -r 3 : '1.85', '1.85', '1.81'
+deterministicBFS : 4 : weighted time, min=2.296 median=2.346 mean=2.343
+
+1 : randLocalGraph_J_10M_50M :  -r 3 : '1.15', '1.15', '1.15'
+1 : rMatGraph_J_10M_50M :  -r 3 : '1.49', '1.49', '1.48'
+1 : 3Dgrid_J_10M :  -r 3 : '0.991', '0.993', '0.988'
+deterministicBFS : 8 : weighted time, min=1.206 median=1.21 mean=1.209
+
+1 : randLocalGraph_J_10M_50M :  -r 3 : '0.777', '0.777', '0.777'
+1 : rMatGraph_J_10M_50M :  -r 3 : '1.03', '1.03', '1.03'
+1 : 3Dgrid_J_10M :  -r 3 : '0.717', '0.717', '0.718'
+deterministicBFS : 12 : weighted time, min=0.841 median=0.841 mean=0.841
+
+1 : randLocalGraph_J_10M_50M :  -r 3 : '0.587', '0.587', '0.587'
+1 : rMatGraph_J_10M_50M :  -r 3 : '0.789', '0.789', '0.789'
+1 : 3Dgrid_J_10M :  -r 3 : '0.585', '0.587', '0.585'
+deterministicBFS : 16 : weighted time, min=0.653 median=0.653 mean=0.653
+
+1 : randLocalGraph_J_10M_50M :  -r 3 : '0.482', '0.482', '0.482'
+1 : rMatGraph_J_10M_50M :  -r 3 : '0.639', '0.639', '0.639'
+1 : 3Dgrid_J_10M :  -r 3 : '0.562', '0.563', '0.563'
+deterministicBFS : 20 : weighted time, min=0.561 median=0.561 mean=0.561
+
+1 : randLocalGraph_J_10M_50M :  -r 3 : '0.417', '0.417', '0.417'
+1 : rMatGraph_J_10M_50M :  -r 3 : '0.555', '0.556', '0.543'
+1 : 3Dgrid_J_10M :  -r 3 : '0.451', '0.451', '0.451'
+deterministicBFS : 24 : weighted time, min=0.47 median=0.474 mean=0.473
+
+1 : randLocalGraph_J_10M_50M :  -r 3 : '0.369', '0.369', '0.369'
+1 : rMatGraph_J_10M_50M :  -r 3 : '0.472', '0.472', '0.475'
+1 : 3Dgrid_J_10M :  -r 3 : '0.416', '0.417', '0.417'
+deterministicBFS : 28 : weighted time, min=0.419 median=0.419 mean=0.419
+
+1 : randLocalGraph_J_10M_50M :  -r 3 : '0.332', '0.332', '0.332'
+1 : rMatGraph_J_10M_50M :  -r 3 : '0.47', '0.469', '0.47'
+1 : 3Dgrid_J_10M :  -r 3 : '0.392', '0.391', '0.391'
+deterministicBFS : 32 : weighted time, min=0.397 median=0.397 mean=0.397
+
+1 : randLocalGraph_J_10M_50M :  -r 3 : '0.324', '0.335', '0.324'
+1 : rMatGraph_J_10M_50M :  -r 3 : '0.42', '0.418', '0.419'
+1 : 3Dgrid_J_10M :  -r 3 : '0.39', '0.391', '0.519'
+deterministicBFS : 36 : weighted time, min=0.377 median=0.377 mean=0.393
+
+1 : randLocalGraph_J_10M_50M :  -r 3 : '0.328', '0.331', '0.319'
+1 : rMatGraph_J_10M_50M :  -r 3 : '0.398', '0.411', '0.411'
+1 : 3Dgrid_J_10M :  -r 3 : '0.386', '0.386', '0.386'
+deterministicBFS : 40 : weighted time, min=0.367 median=0.375 mean=0.372
+
+1 : randLocalGraph_J_10M_50M :  -r 3 : '0.285', '0.288', '0.286'
+1 : rMatGraph_J_10M_50M :  -r 3 : '0.392', '0.392', '0.392'
+1 : 3Dgrid_J_10M :  -r 3 : '0.399', '0.398', '0.398'
+deterministicBFS : 44 : weighted time, min=0.358 median=0.358 mean=0.358
+
+1 : randLocalGraph_J_10M_50M :  -r 3 : '0.288', '0.288', '0.286'
+1 : rMatGraph_J_10M_50M :  -r 3 : '0.377', '0.377', '0.377'
+1 : 3Dgrid_J_10M :  -r 3 : '0.376', '0.375', '0.377'
+deterministicBFS : 48 : weighted time, min=0.346 median=0.347 mean=0.346
+
+1 : randLocalGraph_J_10M_50M :  -r 3 : '0.325', '0.329', '0.324'
+1 : rMatGraph_J_10M_50M :  -r 3 : '0.373', '0.374', '0.372'
+1 : 3Dgrid_J_10M :  -r 3 : '0.368', '0.375', '0.37'
+deterministicBFS : 52 : weighted time, min=0.354 median=0.356 mean=0.356
+
+1 : randLocalGraph_J_10M_50M :  -r 3 : '0.273', '0.272', '0.272'
+1 : rMatGraph_J_10M_50M :  -r 3 : '0.377', '0.377', '0.377'
+1 : 3Dgrid_J_10M :  -r 3 : '0.353', '0.354', '0.354'
+deterministicBFS : 56 : weighted time, min=0.334 median=0.334 mean=0.334
+
+1 : randLocalGraph_J_10M_50M :  -r 3 : '0.279', '0.279', '0.279'
+1 : rMatGraph_J_10M_50M :  -r 3 : '0.373', '0.387', '0.373'
+1 : 3Dgrid_J_10M :  -r 3 : '0.478', '0.48', '0.48'
+deterministicBFS : 60 : weighted time, min=0.376 median=0.377 mean=0.378
+
+1 : randLocalGraph_J_10M_50M :  -r 3 : '0.254', '0.256', '0.256'
+1 : rMatGraph_J_10M_50M :  -r 3 : '0.398', '0.396', '0.391'
+1 : 3Dgrid_J_10M :  -r 3 : '0.342', '0.342', '0.342'
+deterministicBFS : 64 : weighted time, min=0.329 median=0.331 mean=0.33
+
+1 : randLocalGraph_J_10M_50M :  -r 1 -o /tmp/ofile663069_203644 : '0.262'
+1 : rMatGraph_J_10M_50M :  -r 1 -o /tmp/ofile707036_211472 : '0.366'
+1 : 3Dgrid_J_10M :  -r 1 -o /tmp/ofile210525_347033 : '0.347'
+deterministicBFS : 64 : weighted time, min=0.325 median=0.325 mean=0.325
+
+1 : randLocalGraph_J_10M_50M :  -r 3 -o /tmp/ofile272706_586036 : '0.448', '0.448', '0.448'
+1 : rMatGraph_J_10M_50M :  -r 3 -o /tmp/ofile737219_658096 : '0.671', '0.671', '0.67'
+1 : 3Dgrid_J_10M :  -r 3 -o /tmp/ofile700628_570557 : '0.386', '0.386', '0.386'
+serialMIS : 0 : weighted time, min=0.501 median=0.501 mean=0.501
+
+1 : randLocalGraph_J_10M_50M :  -r 3 : '1.49', '1.49', '1.49'
+1 : rMatGraph_J_10M_50M :  -r 3 : '2.13', '2.13', '2.13'
+1 : 3Dgrid_J_10M :  -r 3 : '1.37', '1.33', '1.33'
+ndMIS : 1 : weighted time, min=1.65 median=1.65 mean=1.654
+
+1 : randLocalGraph_J_10M_50M :  -r 3 : '0.856', '0.856', '0.855'
+1 : rMatGraph_J_10M_50M :  -r 3 : '1.25', '1.21', '1.21'
+1 : 3Dgrid_J_10M :  -r 3 : '0.797', '0.796', '0.795'
+ndMIS : 2 : weighted time, min=0.953 median=0.954 mean=0.958
+
+1 : randLocalGraph_J_10M_50M :  -r 3 : '0.434', '0.436', '0.431'
+1 : rMatGraph_J_10M_50M :  -r 3 : '0.634', '0.63', '0.632'
+1 : 3Dgrid_J_10M :  -r 3 : '0.4', '0.401', '0.4'
+ndMIS : 4 : weighted time, min=0.486 median=0.488 mean=0.488
+
+1 : randLocalGraph_J_10M_50M :  -r 3 : '0.221', '0.22', '0.229'
+1 : rMatGraph_J_10M_50M :  -r 3 : '0.321', '0.322', '0.321'
+1 : 3Dgrid_J_10M :  -r 3 : '0.202', '0.2', '0.201'
+ndMIS : 8 : weighted time, min=0.247 median=0.247 mean=0.248
+
+1 : randLocalGraph_J_10M_50M :  -r 3 : '0.146', '0.146', '0.146'
+1 : rMatGraph_J_10M_50M :  -r 3 : '0.216', '0.237', '0.217'
+1 : 3Dgrid_J_10M :  -r 3 : '0.138', '0.137', '0.137'
+ndMIS : 12 : weighted time, min=0.166 median=0.166 mean=0.168
+
+1 : randLocalGraph_J_10M_50M :  -r 3 : '0.114', '0.114', '0.114'
+1 : rMatGraph_J_10M_50M :  -r 3 : '0.188', '0.164', '0.164'
+1 : 3Dgrid_J_10M :  -r 3 : '0.106', '0.105', '0.106'
+ndMIS : 16 : weighted time, min=0.127 median=0.128 mean=0.13
+
+1 : randLocalGraph_J_10M_50M :  -r 3 : '0.093', '0.092', '0.091'
+1 : rMatGraph_J_10M_50M :  -r 3 : '0.139', '0.139', '0.14'
+1 : 3Dgrid_J_10M :  -r 3 : '0.081', '0.082', '0.082'
+ndMIS : 20 : weighted time, min=0.104 median=0.104 mean=0.104
+
+1 : randLocalGraph_J_10M_50M :  -r 3 : '0.085', '0.085', '0.085'
+1 : rMatGraph_J_10M_50M :  -r 3 : '0.121', '0.12', '0.122'
+1 : 3Dgrid_J_10M :  -r 3 : '0.07', '0.07', '0.07'
+ndMIS : 24 : weighted time, min=0.091 median=0.092 mean=0.092
+
+1 : randLocalGraph_J_10M_50M :  -r 3 : '0.072', '0.072', '0.088'
+1 : rMatGraph_J_10M_50M :  -r 3 : '0.107', '0.108', '0.109'
+1 : 3Dgrid_J_10M :  -r 3 : '0.061', '0.061', '0.061'
+ndMIS : 28 : weighted time, min=0.08 median=0.08 mean=0.082
+
+1 : randLocalGraph_J_10M_50M :  -r 3 : '0.065', '0.065', '0.065'
+1 : rMatGraph_J_10M_50M :  -r 3 : '0.089', '0.089', '0.088'
+1 : 3Dgrid_J_10M :  -r 3 : '0.06', '0.061', '0.061'
+ndMIS : 32 : weighted time, min=0.071 median=0.071 mean=0.071
+
+1 : randLocalGraph_J_10M_50M :  -r 3 : '0.066', '0.066', '0.067'
+1 : rMatGraph_J_10M_50M :  -r 3 : '0.084', '0.083', '0.084'
+1 : 3Dgrid_J_10M :  -r 3 : '0.055', '0.055', '0.054'
+ndMIS : 36 : weighted time, min=0.068 median=0.068 mean=0.068
+
+1 : randLocalGraph_J_10M_50M :  -r 3 : '0.057', '0.056', '0.056'
+1 : rMatGraph_J_10M_50M :  -r 3 : '0.083', '0.084', '0.084'
+1 : 3Dgrid_J_10M :  -r 3 : '0.052', '0.108', '0.052'
+ndMIS : 40 : weighted time, min=0.064 median=0.064 mean=0.07
+
+1 : randLocalGraph_J_10M_50M :  -r 3 : '0.055', '0.055', '0.054'
+1 : rMatGraph_J_10M_50M :  -r 3 : '0.085', '0.084', '0.083'
+1 : 3Dgrid_J_10M :  -r 3 : '0.049', '0.049', '0.049'
+ndMIS : 44 : weighted time, min=0.062 median=0.062 mean=0.063
+
+1 : randLocalGraph_J_10M_50M :  -r 3 : '0.051', '0.051', '0.051'
+1 : rMatGraph_J_10M_50M :  -r 3 : '0.082', '0.081', '0.081'
+1 : 3Dgrid_J_10M :  -r 3 : '0.047', '0.046', '0.047'
+ndMIS : 48 : weighted time, min=0.059 median=0.06 mean=0.06
+
+1 : randLocalGraph_J_10M_50M :  -r 3 : '0.061', '0.062', '0.061'
+1 : rMatGraph_J_10M_50M :  -r 3 : '0.075', '0.076', '0.075'
+1 : 3Dgrid_J_10M :  -r 3 : '0.047', '0.047', '0.047'
+ndMIS : 52 : weighted time, min=0.061 median=0.061 mean=0.061
+
+1 : randLocalGraph_J_10M_50M :  -r 3 : '0.054', '0.069', '0.054'
+1 : rMatGraph_J_10M_50M :  -r 3 : '0.077', '0.077', '0.077'
+1 : 3Dgrid_J_10M :  -r 3 : '0.049', '0.049', '0.049'
+ndMIS : 56 : weighted time, min=0.06 median=0.06 mean=0.062
+
+1 : randLocalGraph_J_10M_50M :  -r 3 : '0.047', '0.047', '0.047'
+1 : rMatGraph_J_10M_50M :  -r 3 : '0.071', '0.093', '0.071'
+1 : 3Dgrid_J_10M :  -r 3 : '0.042', '0.041', '0.042'
+ndMIS : 60 : weighted time, min=0.053 median=0.053 mean=0.056
+
+1 : randLocalGraph_J_10M_50M :  -r 3 : '0.05', '0.05', '0.05'
+1 : rMatGraph_J_10M_50M :  -r 3 : '0.073', '0.068', '0.071'
+1 : 3Dgrid_J_10M :  -r 3 : '0.044', '0.044', '0.052'
+ndMIS : 64 : weighted time, min=0.054 median=0.055 mean=0.056
+
+1 : randLocalGraph_J_10M_50M :  -r 1 -o /tmp/ofile824794_856450 : '0.052'
+1 : rMatGraph_J_10M_50M :  -r 1 -o /tmp/ofile816628_643583 : '0.069'
+1 : 3Dgrid_J_10M :  -r 1 -o /tmp/ofile7528_829582 : '0.043'
+ndMIS : 64 : weighted time, min=0.055 median=0.055 mean=0.055
+
+1 : randLocalGraph_J_10M_50M :  -r 3 : '0.788', '0.791', '0.79'
+1 : rMatGraph_J_10M_50M :  -r 3 : '1.09', '1.09', '1.09'
+1 : 3Dgrid_J_10M :  -r 3 : '0.629', '0.63', '0.603'
+incrementalMIS : 1 : weighted time, min=0.827 median=0.836 mean=0.833
+
+1 : randLocalGraph_J_10M_50M :  -r 3 : '0.47', '0.474', '0.474'
+1 : rMatGraph_J_10M_50M :  -r 3 : '0.657', '0.658', '0.631'
+1 : 3Dgrid_J_10M :  -r 3 : '0.35', '0.351', '0.351'
+incrementalMIS : 2 : weighted time, min=0.483 median=0.494 mean=0.49
+
+1 : randLocalGraph_J_10M_50M :  -r 3 : '0.251', '0.251', '0.25'
+1 : rMatGraph_J_10M_50M :  -r 3 : '0.344', '0.344', '0.344'
+1 : 3Dgrid_J_10M :  -r 3 : '0.189', '0.188', '0.187'
+incrementalMIS : 4 : weighted time, min=0.26 median=0.26 mean=0.26
+
+1 : randLocalGraph_J_10M_50M :  -r 3 : '0.133', '0.133', '0.133'
+1 : rMatGraph_J_10M_50M :  -r 3 : '0.179', '0.179', '0.179'
+1 : 3Dgrid_J_10M :  -r 3 : '0.102', '0.102', '0.103'
+incrementalMIS : 8 : weighted time, min=0.137 median=0.137 mean=0.138
+
+1 : randLocalGraph_J_10M_50M :  -r 3 : '0.106', '0.095', '0.094'
+1 : rMatGraph_J_10M_50M :  -r 3 : '0.127', '0.128', '0.128'
+1 : 3Dgrid_J_10M :  -r 3 : '0.075', '0.074', '0.075'
+incrementalMIS : 12 : weighted time, min=0.098 median=0.099 mean=0.1
+
+1 : randLocalGraph_J_10M_50M :  -r 3 : '0.077', '0.078', '0.077'
+1 : rMatGraph_J_10M_50M :  -r 3 : '0.101', '0.101', '0.102'
+1 : 3Dgrid_J_10M :  -r 3 : '0.06', '0.06', '0.06'
+incrementalMIS : 16 : weighted time, min=0.079 median=0.079 mean=0.08
+
+1 : randLocalGraph_J_10M_50M :  -r 3 : '0.066', '0.067', '0.066'
+1 : rMatGraph_J_10M_50M :  -r 3 : '0.087', '0.087', '0.087'
+1 : 3Dgrid_J_10M :  -r 3 : '0.053', '0.053', '0.053'
+incrementalMIS : 20 : weighted time, min=0.069 median=0.069 mean=0.069
+
+1 : randLocalGraph_J_10M_50M :  -r 3 : '0.061', '0.061', '0.061'
+1 : rMatGraph_J_10M_50M :  -r 3 : '0.077', '0.077', '0.077'
+1 : 3Dgrid_J_10M :  -r 3 : '0.048', '0.048', '0.048'
+incrementalMIS : 24 : weighted time, min=0.062 median=0.062 mean=0.062
+
+1 : randLocalGraph_J_10M_50M :  -r 3 : '0.055', '0.055', '0.055'
+1 : rMatGraph_J_10M_50M :  -r 3 : '0.077', '0.071', '0.071'
+1 : 3Dgrid_J_10M :  -r 3 : '0.046', '0.046', '0.046'
+incrementalMIS : 28 : weighted time, min=0.057 median=0.057 mean=0.058
+
+1 : randLocalGraph_J_10M_50M :  -r 3 : '0.054', '0.055', '0.055'
+1 : rMatGraph_J_10M_50M :  -r 3 : '0.067', '0.068', '0.068'
+1 : 3Dgrid_J_10M :  -r 3 : '0.043', '0.044', '0.044'
+incrementalMIS : 32 : weighted time, min=0.055 median=0.055 mean=0.055
+
+1 : randLocalGraph_J_10M_50M :  -r 3 : '0.056', '0.055', '0.055'
+1 : rMatGraph_J_10M_50M :  -r 3 : '0.067', '0.066', '0.067'
+1 : 3Dgrid_J_10M :  -r 3 : '0.044', '0.045', '0.045'
+incrementalMIS : 36 : weighted time, min=0.055 median=0.055 mean=0.056
+
+1 : randLocalGraph_J_10M_50M :  -r 3 : '0.054', '0.054', '0.054'
+1 : rMatGraph_J_10M_50M :  -r 3 : '0.068', '0.068', '0.068'
+1 : 3Dgrid_J_10M :  -r 3 : '0.045', '0.045', '0.045'
+incrementalMIS : 40 : weighted time, min=0.055 median=0.056 mean=0.056
+
+1 : randLocalGraph_J_10M_50M :  -r 3 : '0.054', '0.054', '0.055'
+1 : rMatGraph_J_10M_50M :  -r 3 : '0.065', '0.065', '0.065'
+1 : 3Dgrid_J_10M :  -r 3 : '0.045', '0.045', '0.045'
+incrementalMIS : 44 : weighted time, min=0.054 median=0.055 mean=0.055
+
+1 : randLocalGraph_J_10M_50M :  -r 3 : '0.053', '0.053', '0.053'
+1 : rMatGraph_J_10M_50M :  -r 3 : '0.065', '0.066', '0.065'
+1 : 3Dgrid_J_10M :  -r 3 : '0.044', '0.044', '0.045'
+incrementalMIS : 48 : weighted time, min=0.054 median=0.054 mean=0.054
+
+1 : randLocalGraph_J_10M_50M :  -r 3 : '0.049', '0.05', '0.06'
+1 : rMatGraph_J_10M_50M :  -r 3 : '0.063', '0.062', '0.063'
+1 : 3Dgrid_J_10M :  -r 3 : '0.043', '0.044', '0.045'
+incrementalMIS : 52 : weighted time, min=0.051 median=0.052 mean=0.053
+
+1 : randLocalGraph_J_10M_50M :  -r 3 : '0.05', '0.051', '0.052'
+1 : rMatGraph_J_10M_50M :  -r 3 : '0.061', '0.062', '0.061'
+1 : 3Dgrid_J_10M :  -r 3 : '0.043', '0.043', '0.043'
+incrementalMIS : 56 : weighted time, min=0.051 median=0.052 mean=0.052
+
+1 : randLocalGraph_J_10M_50M :  -r 3 : '0.049', '0.049', '0.049'
+1 : rMatGraph_J_10M_50M :  -r 3 : '0.06', '0.059', '0.059'
+1 : 3Dgrid_J_10M :  -r 3 : '0.041', '0.042', '0.042'
+incrementalMIS : 60 : weighted time, min=0.05 median=0.05 mean=0.05
+
+1 : randLocalGraph_J_10M_50M :  -r 3 : '0.046', '0.048', '0.046'
+1 : rMatGraph_J_10M_50M :  -r 3 : '0.058', '0.058', '0.059'
+1 : 3Dgrid_J_10M :  -r 3 : '0.04', '0.04', '0.041'
+incrementalMIS : 64 : weighted time, min=0.048 median=0.048 mean=0.048
+
+1 : randLocalGraph_J_10M_50M :  -r 1 -o /tmp/ofile575015_286248 : '0.047'
+1 : rMatGraph_J_10M_50M :  -r 1 -o /tmp/ofile970144_411018 : '0.057'
+1 : 3Dgrid_J_10M :  -r 1 -o /tmp/ofile568600_701261 : '0.04'
+incrementalMIS : 64 : weighted time, min=0.048 median=0.048 mean=0.048
+
+1 : randomSeq_10M_int :  -r 3 -o /tmp/ofile709456_500372 : '0.654', '0.649', '0.649'
+1 : randomSeq_10M_100K_int :  -r 3 -o /tmp/ofile481409_554560 : '0.315', '0.311', '0.314'
+1 : exptSeq_10M_int :  -r 3 -o /tmp/ofile660236_259609 : '0.494', '0.497', '0.497'
+3 : trigramSeq_10M :  -r 3 -o /tmp/ofile514995_193806 : '0.85', '0.855', '0.853'
+3 : trigramSeq_10M_pair_int :  -r 3 -o /tmp/ofile528930_715039 : '1.32', '1.31', '1.32'
+serialHash : 0 : weighted time, min=0.881 median=0.886 mean=0.885
+
+1 : randomSeq_10M_int :  -r 3 : '0.898', '0.897', '0.898'
+1 : randomSeq_10M_100K_int :  -r 3 : '0.419', '0.42', '0.418'
+1 : exptSeq_10M_int :  -r 3 : '0.659', '0.67', '0.801'
+3 : trigramSeq_10M :  -r 3 : '1.', '1.', '1.02'
+3 : trigramSeq_10M_pair_int :  -r 3 : '1.46', '1.46', '1.47'
+deterministicHash : 1 : weighted time, min=1.039 median=1.04 mean=1.048
+
+1 : randomSeq_10M_int :  -r 3 : '0.53', '0.524', '0.529'
+1 : randomSeq_10M_100K_int :  -r 3 : '0.232', '0.226', '0.221'
+1 : exptSeq_10M_int :  -r 3 : '0.373', '0.374', '0.371'
+3 : trigramSeq_10M :  -r 3 : '0.554', '0.516', '0.537'
+3 : trigramSeq_10M_pair_int :  -r 3 : '0.779', '0.79', '0.798'
+deterministicHash : 2 : weighted time, min=0.555 median=0.567 mean=0.566
+
+1 : randomSeq_10M_int :  -r 3 : '0.277', '0.278', '0.279'
+1 : randomSeq_10M_100K_int :  -r 3 : '0.115', '0.115', '0.115'
+1 : exptSeq_10M_int :  -r 3 : '0.188', '0.188', '0.186'
+3 : trigramSeq_10M :  -r 3 : '0.284', '0.282', '0.283'
+3 : trigramSeq_10M_pair_int :  -r 3 : '0.416', '0.414', '0.419'
+deterministicHash : 4 : weighted time, min=0.296 median=0.297 mean=0.297
+
+1 : randomSeq_10M_int :  -r 3 : '0.14', '0.14', '0.139'
+1 : randomSeq_10M_100K_int :  -r 3 : '0.059', '0.059', '0.059'
+1 : exptSeq_10M_int :  -r 3 : '0.094', '0.094', '0.093'
+3 : trigramSeq_10M :  -r 3 : '0.149', '0.227', '0.149'
+3 : trigramSeq_10M_pair_int :  -r 3 : '0.281', '0.212', '0.21'
+deterministicHash : 8 : weighted time, min=0.152 median=0.152 mean=0.169
+
+1 : randomSeq_10M_int :  -r 3 : '0.094', '0.094', '0.094'
+1 : randomSeq_10M_100K_int :  -r 3 : '0.04', '0.04', '0.041'
+1 : exptSeq_10M_int :  -r 3 : '0.064', '0.064', '0.064'
+3 : trigramSeq_10M :  -r 3 : '0.099', '0.099', '0.099'
+3 : trigramSeq_10M_pair_int :  -r 3 : '0.144', '0.145', '0.144'
+deterministicHash : 12 : weighted time, min=0.103 median=0.103 mean=0.103
+
+1 : randomSeq_10M_int :  -r 3 : '0.074', '0.073', '0.073'
+1 : randomSeq_10M_100K_int :  -r 3 : '0.032', '0.031', '0.032'
+1 : exptSeq_10M_int :  -r 3 : '0.05', '0.049', '0.05'
+3 : trigramSeq_10M :  -r 3 : '0.078', '0.078', '0.077'
+3 : trigramSeq_10M_pair_int :  -r 3 : '0.111', '0.111', '0.112'
+deterministicHash : 16 : weighted time, min=0.08 median=0.08 mean=0.08
+
+1 : randomSeq_10M_int :  -r 3 : '0.061', '0.061', '0.068'
+1 : randomSeq_10M_100K_int :  -r 3 : '0.027', '0.027', '0.027'
+1 : exptSeq_10M_int :  -r 3 : '0.041', '0.041', '0.041'
+3 : trigramSeq_10M :  -r 3 : '0.065', '0.065', '0.064'
+3 : trigramSeq_10M_pair_int :  -r 3 : '0.092', '0.182', '0.092'
+deterministicHash : 20 : weighted time, min=0.066 median=0.067 mean=0.077
+
+1 : randomSeq_10M_int :  -r 3 : '0.052', '0.052', '0.052'
+1 : randomSeq_10M_100K_int :  -r 3 : '0.023', '0.023', '0.023'
+1 : exptSeq_10M_int :  -r 3 : '0.036', '0.036', '0.036'
+3 : trigramSeq_10M :  -r 3 : '0.056', '0.056', '0.057'
+3 : trigramSeq_10M_pair_int :  -r 3 : '0.079', '0.079', '0.079'
+deterministicHash : 24 : weighted time, min=0.057 median=0.058 mean=0.057
+
+1 : randomSeq_10M_int :  -r 3 : '0.046', '0.047', '0.047'
+1 : randomSeq_10M_100K_int :  -r 3 : '0.021', '0.021', '0.021'
+1 : exptSeq_10M_int :  -r 3 : '0.032', '0.033', '0.032'
+3 : trigramSeq_10M :  -r 3 : '0.051', '0.051', '0.051'
+3 : trigramSeq_10M_pair_int :  -r 3 : '0.07', '0.07', '0.168'
+deterministicHash : 28 : weighted time, min=0.051 median=0.051 mean=0.062
+
+1 : randomSeq_10M_int :  -r 3 : '0.042', '0.042', '0.042'
+1 : randomSeq_10M_100K_int :  -r 3 : '0.02', '0.019', '0.019'
+1 : exptSeq_10M_int :  -r 3 : '0.03', '0.03', '0.03'
+3 : trigramSeq_10M :  -r 3 : '0.047', '0.047', '0.047'
+3 : trigramSeq_10M_pair_int :  -r 3 : '0.064', '0.064', '0.064'
+deterministicHash : 32 : weighted time, min=0.047 median=0.047 mean=0.047
+
+1 : randomSeq_10M_int :  -r 3 : '0.041', '0.042', '0.042'
+1 : randomSeq_10M_100K_int :  -r 3 : '0.02', '0.019', '0.069'
+1 : exptSeq_10M_int :  -r 3 : '0.029', '0.029', '0.029'
+3 : trigramSeq_10M :  -r 3 : '0.044', '0.045', '0.044'
+3 : trigramSeq_10M_pair_int :  -r 3 : '0.061', '0.16', '0.062'
+deterministicHash : 36 : weighted time, min=0.045 median=0.045 mean=0.058
+
+1 : randomSeq_10M_int :  -r 3 : '0.04', '0.086', '0.041'
+1 : randomSeq_10M_100K_int :  -r 3 : '0.02', '0.02', '0.02'
+1 : exptSeq_10M_int :  -r 3 : '0.028', '0.028', '0.028'
+3 : trigramSeq_10M :  -r 3 : '0.043', '0.043', '0.044'
+3 : trigramSeq_10M_pair_int :  -r 3 : '0.059', '0.059', '0.059'
+deterministicHash : 40 : weighted time, min=0.044 median=0.044 mean=0.046
+
+1 : randomSeq_10M_int :  -r 3 : '0.083', '0.088', '0.04'
+1 : randomSeq_10M_100K_int :  -r 3 : '0.02', '0.02', '0.029'
+1 : exptSeq_10M_int :  -r 3 : '0.028', '0.075', '0.028'
+3 : trigramSeq_10M :  -r 3 : '0.043', '0.042', '0.042'
+3 : trigramSeq_10M_pair_int :  -r 3 : '0.057', '0.057', '0.057'
+deterministicHash : 44 : weighted time, min=0.043 median=0.048 mean=0.048
+
+1 : randomSeq_10M_int :  -r 3 : '0.038', '0.038', '0.038'
+1 : randomSeq_10M_100K_int :  -r 3 : '0.019', '0.019', '0.02'
+1 : exptSeq_10M_int :  -r 3 : '0.027', '0.027', '0.027'
+3 : trigramSeq_10M :  -r 3 : '0.041', '0.041', '0.041'
+3 : trigramSeq_10M_pair_int :  -r 3 : '0.055', '0.063', '0.056'
+deterministicHash : 48 : weighted time, min=0.041 median=0.042 mean=0.042
+
+1 : randomSeq_10M_int :  -r 3 : '0.038', '0.038', '0.038'
+1 : randomSeq_10M_100K_int :  -r 3 : '0.02', '0.02', '0.02'
+1 : exptSeq_10M_int :  -r 3 : '0.032', '0.026', '0.027'
+3 : trigramSeq_10M :  -r 3 : '0.04', '0.04', '0.04'
+3 : trigramSeq_10M_pair_int :  -r 3 : '0.054', '0.055', '0.055'
+deterministicHash : 52 : weighted time, min=0.041 median=0.041 mean=0.041
+
+1 : randomSeq_10M_int :  -r 3 : '0.037', '0.037', '0.037'
+1 : randomSeq_10M_100K_int :  -r 3 : '0.019', '0.019', '0.019'
+1 : exptSeq_10M_int :  -r 3 : '0.026', '0.026', '0.026'
+3 : trigramSeq_10M :  -r 3 : '0.04', '0.129', '0.039'
+3 : trigramSeq_10M_pair_int :  -r 3 : '0.053', '0.053', '0.053'
+deterministicHash : 56 : weighted time, min=0.04 median=0.04 mean=0.05
+
+1 : randomSeq_10M_int :  -r 3 : '0.039', '0.037', '0.037'
+1 : randomSeq_10M_100K_int :  -r 3 : '0.063', '0.02', '0.019'
+1 : exptSeq_10M_int :  -r 3 : '0.025', '0.026', '0.025'
+3 : trigramSeq_10M :  -r 3 : '0.038', '0.038', '0.038'
+3 : trigramSeq_10M_pair_int :  -r 3 : '0.052', '0.052', '0.052'
+deterministicHash : 60 : weighted time, min=0.039 median=0.039 mean=0.041
+
+1 : randomSeq_10M_int :  -r 3 : '0.036', '0.04', '0.036'
+1 : randomSeq_10M_100K_int :  -r 3 : '0.019', '0.019', '0.019'
+1 : exptSeq_10M_int :  -r 3 : '0.04', '0.025', '0.026'
+3 : trigramSeq_10M :  -r 3 : '0.038', '0.043', '0.038'
+3 : trigramSeq_10M_pair_int :  -r 3 : '0.051', '0.051', '0.05'
+deterministicHash : 64 : weighted time, min=0.038 median=0.038 mean=0.04
+
+1 : randomSeq_10M_int :  -r 1 -o /tmp/ofile688123_434284 : '0.037'
+1 : randomSeq_10M_100K_int :  -r 1 -o /tmp/ofile952644_195459 : '0.02'
+1 : exptSeq_10M_int :  -r 1 -o /tmp/ofile94659_284302 : '0.025'
+3 : trigramSeq_10M :  -r 1 -o /tmp/ofile30899_867822 : '0.087'
+3 : trigramSeq_10M_pair_int :  -r 1 -o /tmp/ofile772481_465727 : '0.05'
+deterministicHash : 64 : weighted time, min=0.055 median=0.055 mean=0.055
+
+1 : randomSeq_10M_double :  -r 3 -o /tmp/ofile822978_746373 : '1.43', '1.43', '1.43'
+1 : exptSeq_10M_double :  -r 3 -o /tmp/ofile791858_460265 : '1.1', '1.1', '1.11'
+1 : almostSortedSeq_10M_double :  -r 3 -o /tmp/ofile426730_616753 : '0.285', '0.283', '0.288'
+3 : trigramSeq_10M :  -r 3 -o /tmp/ofile140213_773505 : '4.95', '4.51', '4.51'
+3 : trigramSeq_10M : -p -r 3 -o /tmp/ofile873059_871667 : '5.81', '5.59', '5.59'
+serialSort : 0 : weighted time, min=3.679 median=3.679 mean=3.753
+
+1 : randomSeq_10M_double :  -r 3 -o /tmp/ofile205922_432359 : '0.135', '0.098', '0.061'
+1 : exptSeq_10M_double :  -r 3 -o /tmp/ofile338798_966252 : '0.053', '0.056', '0.057'
+1 : almostSortedSeq_10M_double :  -r 3 -o /tmp/ofile620696_485356 : '0.116', '0.107', '0.116'
+3 : trigramSeq_10M :  -r 3 -o /tmp/ofile603413_854706 : '0.253', '0.254', '0.257'
+3 : trigramSeq_10M : -p -r 3 -o /tmp/ofile557221_577162 : '0.369', '0.37', '0.326'
+stlParallelSort : 0 : weighted time, min=0.217 median=0.237 mean=0.232
+
+1 : randomSeq_10M_double :  -r 3 : '2.06', '2.06', '1.81'
+1 : exptSeq_10M_double :  -r 3 : '1.51', '1.51', '1.51'
+1 : almostSortedSeq_10M_double :  -r 3 : '0.627', '0.627', '0.627'
+3 : trigramSeq_10M :  -r 3 : '3.36', '3.25', '2.94'
+3 : trigramSeq_10M : -p -r 3 : '4.31', '3.84', '3.84'
+sampleSort : 1 : weighted time, min=2.698 median=2.829 mean=2.85
+
+1 : randomSeq_10M_double :  -r 3 : '1.07', '1.07', '1.06'
+1 : exptSeq_10M_double :  -r 3 : '0.779', '0.777', '0.779'
+1 : almostSortedSeq_10M_double :  -r 3 : '0.347', '0.351', '0.349'
+3 : trigramSeq_10M :  -r 3 : '1.72', '1.75', '1.75'
+3 : trigramSeq_10M : -p -r 3 : '2.28', '2.25', '2.26'
+sampleSort : 2 : weighted time, min=1.566 median=1.58 mean=1.578
+
+1 : randomSeq_10M_double :  -r 3 : '0.547', '0.557', '0.565'
+1 : exptSeq_10M_double :  -r 3 : '0.401', '0.4', '0.403'
+1 : almostSortedSeq_10M_double :  -r 3 : '0.179', '0.18', '0.179'
+3 : trigramSeq_10M :  -r 3 : '0.879', '0.873', '0.879'
+3 : trigramSeq_10M : -p -r 3 : '1.13', '1.13', '1.14'
+sampleSort : 4 : weighted time, min=0.792 median=0.795 mean=0.796
+
+1 : randomSeq_10M_double :  -r 3 : '0.283', '0.279', '0.282'
+1 : exptSeq_10M_double :  -r 3 : '0.206', '0.205', '0.206'
+1 : almostSortedSeq_10M_double :  -r 3 : '0.092', '0.093', '0.092'
+3 : trigramSeq_10M :  -r 3 : '0.444', '0.447', '0.447'
+3 : trigramSeq_10M : -p -r 3 : '0.584', '0.573', '0.571'
+sampleSort : 8 : weighted time, min=0.402 median=0.404 mean=0.405
+
+1 : randomSeq_10M_double :  -r 3 : '0.189', '0.189', '0.188'
+1 : exptSeq_10M_double :  -r 3 : '0.156', '0.138', '0.139'
+1 : almostSortedSeq_10M_double :  -r 3 : '0.063', '0.063', '0.063'
+3 : trigramSeq_10M :  -r 3 : '0.299', '0.298', '0.296'
+3 : trigramSeq_10M : -p -r 3 : '0.384', '0.382', '0.386'
+sampleSort : 12 : weighted time, min=0.269 median=0.27 mean=0.271
+
+1 : randomSeq_10M_double :  -r 3 : '0.143', '0.145', '0.145'
+1 : exptSeq_10M_double :  -r 3 : '0.106', '0.107', '0.107'
+1 : almostSortedSeq_10M_double :  -r 3 : '0.051', '0.051', '0.051'
+3 : trigramSeq_10M :  -r 3 : '0.226', '0.23', '0.227'
+3 : trigramSeq_10M : -p -r 3 : '0.297', '0.292', '0.291'
+sampleSort : 16 : weighted time, min=0.205 median=0.206 mean=0.207
+
+1 : randomSeq_10M_double :  -r 3 : '0.116', '0.116', '0.116'
+1 : exptSeq_10M_double :  -r 3 : '0.085', '0.086', '0.085'
+1 : almostSortedSeq_10M_double :  -r 3 : '0.043', '0.044', '0.043'
+3 : trigramSeq_10M :  -r 3 : '0.183', '0.185', '0.183'
+3 : trigramSeq_10M : -p -r 3 : '0.238', '0.236', '0.236'
+sampleSort : 20 : weighted time, min=0.166 median=0.166 mean=0.167
+
+1 : randomSeq_10M_double :  -r 3 : '0.097', '0.097', '0.097'
+1 : exptSeq_10M_double :  -r 3 : '0.073', '0.073', '0.072'
+1 : almostSortedSeq_10M_double :  -r 3 : '0.038', '0.037', '0.038'
+3 : trigramSeq_10M :  -r 3 : '0.158', '0.157', '0.157'
+3 : trigramSeq_10M : -p -r 3 : '0.201', '0.2', '0.201'
+sampleSort : 24 : weighted time, min=0.142 median=0.142 mean=0.142
+
+1 : randomSeq_10M_double :  -r 3 : '0.086', '0.086', '0.085'
+1 : exptSeq_10M_double :  -r 3 : '0.065', '0.065', '0.065'
+1 : almostSortedSeq_10M_double :  -r 3 : '0.044', '0.034', '0.034'
+3 : trigramSeq_10M :  -r 3 : '0.137', '0.137', '0.138'
+3 : trigramSeq_10M : -p -r 3 : '0.189', '0.176', '0.178'
+sampleSort : 28 : weighted time, min=0.124 median=0.125 mean=0.127
+
+1 : randomSeq_10M_double :  -r 3 : '0.076', '0.076', '0.076'
+1 : exptSeq_10M_double :  -r 3 : '0.058', '0.058', '0.058'
+1 : almostSortedSeq_10M_double :  -r 3 : '0.032', '0.032', '0.032'
+3 : trigramSeq_10M :  -r 3 : '0.123', '0.125', '0.124'
+3 : trigramSeq_10M : -p -r 3 : '0.155', '0.157', '0.158'
+sampleSort : 32 : weighted time, min=0.111 median=0.112 mean=0.112
+
+1 : randomSeq_10M_double :  -r 3 : '0.072', '0.071', '0.071'
+1 : exptSeq_10M_double :  -r 3 : '0.054', '0.054', '0.054'
+1 : almostSortedSeq_10M_double :  -r 3 : '0.031', '0.031', '0.031'
+3 : trigramSeq_10M :  -r 3 : '0.117', '0.118', '0.117'
+3 : trigramSeq_10M : -p -r 3 : '0.152', '0.151', '0.154'
+sampleSort : 36 : weighted time, min=0.106 median=0.107 mean=0.107
+
+1 : randomSeq_10M_double :  -r 3 : '0.067', '0.114', '0.067'
+1 : exptSeq_10M_double :  -r 3 : '0.051', '0.051', '0.051'
+1 : almostSortedSeq_10M_double :  -r 3 : '0.03', '0.031', '0.03'
+3 : trigramSeq_10M :  -r 3 : '0.112', '0.112', '0.113'
+3 : trigramSeq_10M : -p -r 3 : '0.145', '0.148', '0.146'
+sampleSort : 40 : weighted time, min=0.102 median=0.102 mean=0.104
+
+1 : randomSeq_10M_double :  -r 3 : '0.064', '0.065', '0.063'
+1 : exptSeq_10M_double :  -r 3 : '0.049', '0.049', '0.048'
+1 : almostSortedSeq_10M_double :  -r 3 : '0.03', '0.03', '0.03'
+3 : trigramSeq_10M :  -r 3 : '0.108', '0.111', '0.109'
+3 : trigramSeq_10M : -p -r 3 : '0.143', '0.142', '0.145'
+sampleSort : 44 : weighted time, min=0.099 median=0.099 mean=0.1
+
+1 : randomSeq_10M_double :  -r 3 : '0.061', '0.062', '0.062'
+1 : exptSeq_10M_double :  -r 3 : '0.047', '0.047', '0.047'
+1 : almostSortedSeq_10M_double :  -r 3 : '0.029', '0.047', '0.03'
+3 : trigramSeq_10M :  -r 3 : '0.105', '0.105', '0.151'
+3 : trigramSeq_10M : -p -r 3 : '0.139', '0.142', '0.139'
+sampleSort : 48 : weighted time, min=0.096 median=0.096 mean=0.102
+
+1 : randomSeq_10M_double :  -r 3 : '0.058', '0.058', '0.058'
+1 : exptSeq_10M_double :  -r 3 : '0.045', '0.044', '0.044'
+1 : almostSortedSeq_10M_double :  -r 3 : '0.03', '0.046', '0.029'
+3 : trigramSeq_10M :  -r 3 : '0.103', '0.102', '0.101'
+3 : trigramSeq_10M : -p -r 3 : '0.135', '0.136', '0.135'
+sampleSort : 52 : weighted time, min=0.093 median=0.093 mean=0.094
+
+1 : randomSeq_10M_double :  -r 3 : '0.056', '0.055', '0.056'
+1 : exptSeq_10M_double :  -r 3 : '0.043', '0.043', '0.043'
+1 : almostSortedSeq_10M_double :  -r 3 : '0.029', '0.028', '0.028'
+3 : trigramSeq_10M :  -r 3 : '0.098', '0.098', '0.099'
+3 : trigramSeq_10M : -p -r 3 : '0.133', '0.133', '0.132'
+sampleSort : 56 : weighted time, min=0.091 median=0.091 mean=0.091
+
+1 : randomSeq_10M_double :  -r 3 : '0.054', '0.054', '0.053'
+1 : exptSeq_10M_double :  -r 3 : '0.072', '0.042', '0.042'
+1 : almostSortedSeq_10M_double :  -r 3 : '0.047', '0.028', '0.028'
+3 : trigramSeq_10M :  -r 3 : '0.096', '0.095', '0.096'
+3 : trigramSeq_10M : -p -r 3 : '0.13', '0.131', '0.13'
+sampleSort : 60 : weighted time, min=0.089 median=0.089 mean=0.091
+
+1 : randomSeq_10M_double :  -r 3 : '0.075', '0.052', '0.052'
+1 : exptSeq_10M_double :  -r 3 : '0.041', '0.041', '0.041'
+1 : almostSortedSeq_10M_double :  -r 3 : '0.031', '0.028', '0.028'
+3 : trigramSeq_10M :  -r 3 : '0.096', '0.095', '0.095'
+3 : trigramSeq_10M : -p -r 3 : '0.129', '0.187', '0.131'
+sampleSort : 64 : weighted time, min=0.088 median=0.089 mean=0.096
+
+1 : randomSeq_10M_double :  -r 1 -o /tmp/ofile518114_203487 : '0.054'
+1 : exptSeq_10M_double :  -r 1 -o /tmp/ofile443235_306080 : '0.041'
+1 : almostSortedSeq_10M_double :  -r 1 -o /tmp/ofile927711_146093 : '0.03'
+3 : trigramSeq_10M :  -r 1 -o /tmp/ofile555215_934082 : '0.096'
+3 : trigramSeq_10M : -p -r 1 -o /tmp/ofile483971_862449 : '0.13'
+sampleSort : 64 : weighted time, min=0.089 median=0.089 mean=0.089
+
+1 : randomSeq_10M_double :  -r 3 : '1.58', '1.58', '1.57'
+1 : exptSeq_10M_double :  -r 3 : '1.07', '1.06', '1.07'
+1 : almostSortedSeq_10M_double :  -r 3 : '0.356', '0.357', '0.356'
+3 : trigramSeq_10M :  -r 3 : '3.52', '3.36', '3.14'
+3 : trigramSeq_10M : -p -r 3 : '5.02', '4.77', '4.77'
+quickSort : 1 : weighted time, min=2.968 median=3.044 mean=3.064
+
+1 : randomSeq_10M_double :  -r 3 : '0.823', '0.823', '0.823'
+1 : exptSeq_10M_double :  -r 3 : '0.57', '0.57', '0.57'
+1 : almostSortedSeq_10M_double :  -r 3 : '0.196', '0.205', '0.198'
+3 : trigramSeq_10M :  -r 3 : '1.86', '1.88', '1.88'
+3 : trigramSeq_10M : -p -r 3 : '2.85', '2.85', '2.79'
+quickSort : 2 : weighted time, min=1.726 median=1.753 mean=1.744
+
+1 : randomSeq_10M_double :  -r 3 : '0.461', '0.461', '0.461'
+1 : exptSeq_10M_double :  -r 3 : '0.337', '0.337', '0.337'
+1 : almostSortedSeq_10M_double :  -r 3 : '0.125', '0.126', '0.124'
+3 : trigramSeq_10M :  -r 3 : '1.', '0.994', '0.999'
+3 : trigramSeq_10M : -p -r 3 : '1.87', '1.72', '1.87'
+quickSort : 4 : weighted time, min=1.007 median=1.058 mean=1.041
+
+1 : randomSeq_10M_double :  -r 3 : '0.279', '0.284', '0.28'
+1 : exptSeq_10M_double :  -r 3 : '0.227', '0.227', '0.227'
+1 : almostSortedSeq_10M_double :  -r 3 : '0.09', '0.094', '0.092'
+3 : trigramSeq_10M :  -r 3 : '0.642', '0.641', '0.63'
+3 : trigramSeq_10M : -p -r 3 : '1.33', '1.6', '1.62'
+quickSort : 8 : weighted time, min=0.719 median=0.813 mean=0.784
+
+1 : randomSeq_10M_double :  -r 3 : '0.221', '0.221', '0.222'
+1 : exptSeq_10M_double :  -r 3 : '0.194', '0.194', '0.194'
+1 : almostSortedSeq_10M_double :  -r 3 : '0.078', '0.077', '0.079'
+3 : trigramSeq_10M :  -r 3 : '0.534', '0.576', '0.547'
+3 : trigramSeq_10M : -p -r 3 : '1.45', '1.45', '1.22'
+quickSort : 12 : weighted time, min=0.639 median=0.72 mean=0.696
+
+1 : randomSeq_10M_double :  -r 3 : '0.205', '0.199', '0.198'
+1 : exptSeq_10M_double :  -r 3 : '0.178', '0.179', '0.178'
+1 : almostSortedSeq_10M_double :  -r 3 : '0.071', '0.074', '0.073'
+3 : trigramSeq_10M :  -r 3 : '0.502', '0.535', '0.495'
+3 : trigramSeq_10M : -p -r 3 : '1.58', '1.58', '1.57'
+quickSort : 16 : weighted time, min=0.738 median=0.744 mean=0.746
+
+1 : randomSeq_10M_double :  -r 3 : '0.189', '0.191', '0.187'
+1 : exptSeq_10M_double :  -r 3 : '0.174', '0.173', '0.173'
+1 : almostSortedSeq_10M_double :  -r 3 : '0.072', '0.068', '0.07'
+3 : trigramSeq_10M :  -r 3 : '0.516', '0.51', '0.506'
+3 : trigramSeq_10M : -p -r 3 : '1.5', '1.49', '1.5'
+quickSort : 20 : weighted time, min=0.712 median=0.718 mean=0.717
+
+1 : randomSeq_10M_double :  -r 3 : '0.187', '0.185', '0.187'
+1 : exptSeq_10M_double :  -r 3 : '0.171', '0.173', '0.171'
+1 : almostSortedSeq_10M_double :  -r 3 : '0.067', '0.066', '0.067'
+3 : trigramSeq_10M :  -r 3 : '0.5', '0.504', '0.517'
+3 : trigramSeq_10M : -p -r 3 : '1.58', '1.54', '1.54'
+quickSort : 24 : weighted time, min=0.726 median=0.728 mean=0.734
+
+1 : randomSeq_10M_double :  -r 3 : '0.183', '0.186', '0.186'
+1 : exptSeq_10M_double :  -r 3 : '0.172', '0.171', '0.172'
+1 : almostSortedSeq_10M_double :  -r 3 : '0.066', '0.066', '0.068'
+3 : trigramSeq_10M :  -r 3 : '0.521', '0.518', '0.512'
+3 : trigramSeq_10M : -p -r 3 : '1.56', '1.54', '1.31'
+quickSort : 28 : weighted time, min=0.654 median=0.733 mean=0.709
+
+1 : randomSeq_10M_double :  -r 3 : '0.185', '0.185', '0.185'
+1 : exptSeq_10M_double :  -r 3 : '0.171', '0.172', '0.17'
+1 : almostSortedSeq_10M_double :  -r 3 : '0.066', '0.066', '0.066'
+3 : trigramSeq_10M :  -r 3 : '0.525', '0.523', '0.524'
+3 : trigramSeq_10M : -p -r 3 : '1.28', '1.56', '1.52'
+quickSort : 32 : weighted time, min=0.647 median=0.728 mean=0.706
+
+1 : randomSeq_10M_double :  -r 3 : '0.207', '0.187', '0.222'
+1 : exptSeq_10M_double :  -r 3 : '0.172', '0.179', '0.205'
+1 : almostSortedSeq_10M_double :  -r 3 : '0.074', '0.066', '0.08'
+3 : trigramSeq_10M :  -r 3 : '0.611', '0.649', '0.527'
+3 : trigramSeq_10M : -p -r 3 : '1.52', '2.34', '2.3'
+quickSort : 36 : weighted time, min=0.729 median=1.021 mean=0.934
+
+1 : randomSeq_10M_double :  -r 3 : '0.214', '0.194', '0.211'
+1 : exptSeq_10M_double :  -r 3 : '0.197', '0.205', '0.206'
+1 : almostSortedSeq_10M_double :  -r 3 : '0.079', '0.065', '0.077'
+3 : trigramSeq_10M :  -r 3 : '0.623', '0.629', '0.599'
+3 : trigramSeq_10M : -p -r 3 : '2.42', '2.4', '1.94'
+quickSort : 40 : weighted time, min=0.897 median=1.062 mean=1.01
+
+1 : randomSeq_10M_double :  -r 3 : '0.208', '0.216', '0.211'
+1 : exptSeq_10M_double :  -r 3 : '0.199', '0.207', '0.2'
+1 : almostSortedSeq_10M_double :  -r 3 : '0.078', '0.077', '0.078'
+3 : trigramSeq_10M :  -r 3 : '0.634', '0.702', '0.693'
+3 : trigramSeq_10M : -p -r 3 : '1.94', '2.89', '1.82'
+quickSort : 44 : weighted time, min=0.871 median=0.932 mean=1.018
+
+1 : randomSeq_10M_double :  -r 3 : '0.211', '0.207', '0.218'
+1 : exptSeq_10M_double :  -r 3 : '0.213', '0.207', '0.206'
+1 : almostSortedSeq_10M_double :  -r 3 : '0.085', '0.083', '0.077'
+3 : trigramSeq_10M :  -r 3 : '0.567', '0.704', '0.559'
+3 : trigramSeq_10M : -p -r 3 : '2.08', '2.05', '1.6'
+quickSort : 48 : weighted time, min=0.774 median=0.928 mean=0.895
+
+1 : randomSeq_10M_double :  -r 3 : '0.226', '0.224', '0.21'
+1 : exptSeq_10M_double :  -r 3 : '0.208', '0.2', '0.207'
+1 : almostSortedSeq_10M_double :  -r 3 : '0.073', '0.076', '0.074'
+3 : trigramSeq_10M :  -r 3 : '0.663', '0.69', '0.735'
+3 : trigramSeq_10M : -p -r 3 : '1.92', '1.94', '1.49'
+quickSort : 52 : weighted time, min=0.771 median=0.926 mean=0.882
+
+1 : randomSeq_10M_double :  -r 3 : '0.225', '0.231', '0.236'
+1 : exptSeq_10M_double :  -r 3 : '0.209', '0.215', '0.208'
+1 : almostSortedSeq_10M_double :  -r 3 : '0.084', '0.086', '0.083'
+3 : trigramSeq_10M :  -r 3 : '0.748', '0.647', '0.655'
+3 : trigramSeq_10M : -p -r 3 : '2.31', '2.36', '2.37'
+quickSort : 56 : weighted time, min=1.043 median=1.063 mean=1.068
+
+1 : randomSeq_10M_double :  -r 3 : '0.24', '0.239', '0.237'
+1 : exptSeq_10M_double :  -r 3 : '0.21', '0.214', '0.217'
+1 : almostSortedSeq_10M_double :  -r 3 : '0.079', '0.082', '0.081'
+3 : trigramSeq_10M :  -r 3 : '0.764', '0.733', '0.729'
+3 : trigramSeq_10M : -p -r 3 : '2.32', '2.32', '2.31'
+quickSort : 60 : weighted time, min=1.071 median=1.077 mean=1.078
+
+1 : randomSeq_10M_double :  -r 3 : '0.237', '0.229', '0.236'
+1 : exptSeq_10M_double :  -r 3 : '0.216', '0.217', '0.215'
+1 : almostSortedSeq_10M_double :  -r 3 : '0.142', '0.081', '0.082'
+3 : trigramSeq_10M :  -r 3 : '0.727', '0.734', '0.726'
+3 : trigramSeq_10M : -p -r 3 : '2.32', '2.35', '2.32'
+quickSort : 64 : weighted time, min=1.073 median=1.075 mean=1.08
+
+1 : randomSeq_10M_double :  -r 1 -o /tmp/ofile632815_613523 : '0.239'
+1 : exptSeq_10M_double :  -r 1 -o /tmp/ofile524552_755426 : '0.215'
+1 : almostSortedSeq_10M_double :  -r 1 -o /tmp/ofile738409_83214 : '0.081'
+3 : trigramSeq_10M :  -r 1 -o /tmp/ofile687647_398753 : '0.725'
+3 : trigramSeq_10M : -p -r 1 -o /tmp/ofile169582_984178 : '2.75'
+quickSort : 64 : weighted time, min=1.217 median=1.217 mean=1.217
+
+1 : 2DinCube_10M : -d 2 -k 1 -r 3 : '16.4', '16.5', '16.5'
+1 : 2Dkuzmin_10M : -d 2 -k 1 -r 3 : '32.2', '32.299', '32.4'
+1 : 3DinCube_10M : -d 3 -k 1 -r 3 : '22.2', '22.6', '22.6'
+1 : 3DonSphere_10M : -d 3 -k 1 -r 3 : '20.1', '23.6', '23.'
+1 : 3DinCube_10M : -d 3 -k 10 -r 3 : '55.', '55.4', '55.4'
+1 : 3Dplummer_10M : -d 3 -k 10 -r 3 : '76.1', '76.4', '76.4'
+octTreeNeighbors : 1 : weighted time, min=37. median=37.7 mean=37.505
+
+1 : 2DinCube_10M : -d 2 -k 1 -r 3 : '9.19', '9.09', '9.11'
+1 : 2Dkuzmin_10M : -d 2 -k 1 -r 3 : '20.4', '19.9', '21.6'
+1 : 3DinCube_10M : -d 3 -k 1 -r 3 : '12.1', '13.6', '12.5'
+1 : 3DonSphere_10M : -d 3 -k 1 -r 3 : '12.3', '13.', '12.7'
+1 : 3DinCube_10M : -d 3 -k 10 -r 3 : '28.6', '28.9', '29.2'
+1 : 3Dplummer_10M : -d 3 -k 10 -r 3 : '42.5', '48.8', '41.7'
+octTreeNeighbors : 2 : weighted time, min=20.615 median=21.018 mean=21.399
+
+1 : 2DinCube_10M : -d 2 -k 1 -r 3 : '5.23', '5.36', '5.39'
+1 : 2Dkuzmin_10M : -d 2 -k 1 -r 3 : '13.5', '12.4', '12.5'
+1 : 3DinCube_10M : -d 3 -k 1 -r 3 : '7.14', '7.36', '6.96'
+1 : 3DonSphere_10M : -d 3 -k 1 -r 3 : '6.72', '7.15', '6.76'
+1 : 3DinCube_10M : -d 3 -k 10 -r 3 : '16.4', '17.3', '15.4'
+1 : 3Dplummer_10M : -d 3 -k 10 -r 3 : '24.9', '25.3', '24.9'
+octTreeNeighbors : 4 : weighted time, min=11.935 median=12.176 mean=12.259
+
+1 : 2DinCube_10M : -d 2 -k 1 -r 3 : '2.91', '3.2', '3.22'
+1 : 2Dkuzmin_10M : -d 2 -k 1 -r 3 : '7.47', '7.74', '6.48'
+1 : 3DinCube_10M : -d 3 -k 1 -r 3 : '4.24', '4.12', '4.04'
+1 : 3DonSphere_10M : -d 3 -k 1 -r 3 : '4.1', '4.', '4.'
+1 : 3DinCube_10M : -d 3 -k 10 -r 3 : '9.08', '8.34', '8.34'
+1 : 3Dplummer_10M : -d 3 -k 10 -r 3 : '14.8', '14.8', '13.3'
+octTreeNeighbors : 8 : weighted time, min=6.511 median=6.988 mean=6.898
+
+1 : 2DinCube_10M : -d 2 -k 1 -r 3 : '2.08', '2.27', '2.27'
+1 : 2Dkuzmin_10M : -d 2 -k 1 -r 3 : '5.71', '5.92', '6.05'
+1 : 3DinCube_10M : -d 3 -k 1 -r 3 : '3.45', '3.01', '3.'
+1 : 3DonSphere_10M : -d 3 -k 1 -r 3 : '3.58', '2.99', '2.88'
+1 : 3DinCube_10M : -d 3 -k 10 -r 3 : '6.47', '6.26', '5.75'
+1 : 3Dplummer_10M : -d 3 -k 10 -r 3 : '10.4', '9.53', '9.96'
+octTreeNeighbors : 12 : weighted time, min=4.824 median=5.068 mean=5.087
+
+1 : 2DinCube_10M : -d 2 -k 1 -r 3 : '1.68', '1.87', '1.8'
+1 : 2Dkuzmin_10M : -d 2 -k 1 -r 3 : '4.43', '4.54', '4.77'
+1 : 3DinCube_10M : -d 3 -k 1 -r 3 : '2.84', '2.4', '2.32'
+1 : 3DonSphere_10M : -d 3 -k 1 -r 3 : '3.11', '2.6', '2.39'
+1 : 3DinCube_10M : -d 3 -k 10 -r 3 : '5.25', '4.84', '4.87'
+1 : 3Dplummer_10M : -d 3 -k 10 -r 3 : '8.21', '8.46', '8.35'
+octTreeNeighbors : 16 : weighted time, min=3.978 median=4.093 mean=4.151
+
+1 : 2DinCube_10M : -d 2 -k 1 -r 3 : '1.47', '1.57', '1.52'
+1 : 2Dkuzmin_10M : -d 2 -k 1 -r 3 : '3.47', '3.92', '4.11'
+1 : 3DinCube_10M : -d 3 -k 1 -r 3 : '2.61', '2.18', '2.02'
+1 : 3DonSphere_10M : -d 3 -k 1 -r 3 : '2.84', '2.16', '2.05'
+1 : 3DinCube_10M : -d 3 -k 10 -r 3 : '4.57', '4.03', '3.99'
+1 : 3Dplummer_10M : -d 3 -k 10 -r 3 : '6.42', '6.25', '6.57'
+octTreeNeighbors : 20 : weighted time, min=3.208 median=3.371 mean=3.43
+
+1 : 2DinCube_10M : -d 2 -k 1 -r 3 : '1.32', '1.4', '1.37'
+1 : 2Dkuzmin_10M : -d 2 -k 1 -r 3 : '2.91', '3.5', '3.33'
+1 : 3DinCube_10M : -d 3 -k 1 -r 3 : '2.5', '1.87', '1.74'
+1 : 3DonSphere_10M : -d 3 -k 1 -r 3 : '2.76', '2.23', '1.79'
+1 : 3DinCube_10M : -d 3 -k 10 -r 3 : '4.01', '3.51', '3.48'
+1 : 3Dplummer_10M : -d 3 -k 10 -r 3 : '5.61', '6.28', '5.34'
+octTreeNeighbors : 24 : weighted time, min=2.763 median=2.986 mean=3.052
+
+1 : 2DinCube_10M : -d 2 -k 1 -r 3 : '1.32', '1.25', '1.22'
+1 : 2Dkuzmin_10M : -d 2 -k 1 -r 3 : '3.17', '3.23', '3.28'
+1 : 3DinCube_10M : -d 3 -k 1 -r 3 : '2.31', '1.71', '1.62'
+1 : 3DonSphere_10M : -d 3 -k 1 -r 3 : '2.79', '1.81', '1.74'
+1 : 3DinCube_10M : -d 3 -k 10 -r 3 : '3.71', '3.15', '3.05'
+1 : 3Dplummer_10M : -d 3 -k 10 -r 3 : '5.47', '5.6', '4.72'
+octTreeNeighbors : 28 : weighted time, min=2.586 median=2.77 mean=2.841
+
+1 : 2DinCube_10M : -d 2 -k 1 -r 3 : '1.19', '1.17', '1.16'
+1 : 2Dkuzmin_10M : -d 2 -k 1 -r 3 : '2.92', '3.12', '3.1'
+1 : 3DinCube_10M : -d 3 -k 1 -r 3 : '2.26', '1.69', '1.49'
+1 : 3DonSphere_10M : -d 3 -k 1 -r 3 : '2.58', '1.86', '1.61'
+1 : 3DinCube_10M : -d 3 -k 10 -r 3 : '3.44', '2.81', '2.73'
+1 : 3Dplummer_10M : -d 3 -k 10 -r 3 : '5.29', '5.42', '5.02'
+octTreeNeighbors : 32 : weighted time, min=2.488 median=2.653 mean=2.714
+
+1 : 2DinCube_10M : -d 2 -k 1 -r 3 : '1.24', '1.19', '1.11'
+1 : 2Dkuzmin_10M : -d 2 -k 1 -r 3 : '2.55', '3.08', '2.9'
+1 : 3DinCube_10M : -d 3 -k 1 -r 3 : '3.96', '2.92', '1.63'
+1 : 3DonSphere_10M : -d 3 -k 1 -r 3 : '5.62', '2.02', '1.54'
+1 : 3DinCube_10M : -d 3 -k 10 -r 3 : '4.97', '3.', '2.72'
+1 : 3Dplummer_10M : -d 3 -k 10 -r 3 : '5.64', '5.21', '4.28'
+octTreeNeighbors : 36 : weighted time, min=2.305 median=2.873 mean=3.087
+
+1 : 2DinCube_10M : -d 2 -k 1 -r 3 : '1.23', '1.09', '1.07'
+1 : 2Dkuzmin_10M : -d 2 -k 1 -r 3 : '2.33', '2.87', '2.77'
+1 : 3DinCube_10M : -d 3 -k 1 -r 3 : '4.19', '2.52', '1.79'
+1 : 3DonSphere_10M : -d 3 -k 1 -r 3 : '5.2', '2.009', '1.7'
+1 : 3DinCube_10M : -d 3 -k 10 -r 3 : '4.83', '4.72', '3.55'
+1 : 3Dplummer_10M : -d 3 -k 10 -r 3 : '5.7', '5.52', '5.6'
+octTreeNeighbors : 40 : weighted time, min=2.66 median=3.118 mean=3.26
+
+1 : 2DinCube_10M : -d 2 -k 1 -r 3 : '1.17', '1.12', '0.99'
+1 : 2Dkuzmin_10M : -d 2 -k 1 -r 3 : '2.7', '2.78', '2.75'
+1 : 3DinCube_10M : -d 3 -k 1 -r 3 : '3.89', '1.96', '1.58'
+1 : 3DonSphere_10M : -d 3 -k 1 -r 3 : '5.29', '3.27', '2.6'
+1 : 3DinCube_10M : -d 3 -k 10 -r 3 : '4.88', '3.98', '3.02'
+1 : 3Dplummer_10M : -d 3 -k 10 -r 3 : '5.76', '5.87', '5.76'
+octTreeNeighbors : 44 : weighted time, min=2.775 median=3.14 mean=3.298
+
+1 : 2DinCube_10M : -d 2 -k 1 -r 3 : '1.2', '1.', '0.995'
+1 : 2Dkuzmin_10M : -d 2 -k 1 -r 3 : '2.33', '2.9', '2.7'
+1 : 3DinCube_10M : -d 3 -k 1 -r 3 : '3.86', '2.39', '1.49'
+1 : 3DonSphere_10M : -d 3 -k 1 -r 3 : '5.92', '5.07', '3.39'
+1 : 3DinCube_10M : -d 3 -k 10 -r 3 : '5.67', '4.18', '2.77'
+1 : 3Dplummer_10M : -d 3 -k 10 -r 3 : '13.7', '5.9', '5.34'
+octTreeNeighbors : 48 : weighted time, min=2.719 median=3.54 mean=3.933
+
+1 : 2DinCube_10M : -d 2 -k 1 -r 3 : '2.54', '1.5', '1.02'
+1 : 2Dkuzmin_10M : -d 2 -k 1 -r 3 : '2.35', '2.81', '2.73'
+1 : 3DinCube_10M : -d 3 -k 1 -r 3 : '3.93', '2.41', '1.83'
+1 : 3DonSphere_10M : -d 3 -k 1 -r 3 : '4.92', '3.33', '4.98'
+1 : 3DinCube_10M : -d 3 -k 10 -r 3 : '5.8', '3.94', '3.32'
+1 : 3Dplummer_10M : -d 3 -k 10 -r 3 : '6.77', '5.51', '5.43'
+octTreeNeighbors : 52 : weighted time, min=2.88 median=3.501 mean=3.617
+
+1 : 2DinCube_10M : -d 2 -k 1 -r 3 : '2.33', '1.14', '1.01'
+1 : 2Dkuzmin_10M : -d 2 -k 1 -r 3 : '2.38', '2.75', '2.63'
+1 : 3DinCube_10M : -d 3 -k 1 -r 3 : '4.84', '3.28', '1.87'
+1 : 3DonSphere_10M : -d 3 -k 1 -r 3 : '5.39', '3.3', '3.27'
+1 : 3DinCube_10M : -d 3 -k 10 -r 3 : '5.31', '4.13', '2.95'
+1 : 3Dplummer_10M : -d 3 -k 10 -r 3 : '11.5', '5.8', '5.26'
+octTreeNeighbors : 56 : weighted time, min=2.79 median=3.379 mean=3.841
+
+1 : 2DinCube_10M : -d 2 -k 1 -r 3 : '3.44', '1.22', '1.05'
+1 : 2Dkuzmin_10M : -d 2 -k 1 -r 3 : '2.29', '2.76', '2.59'
+1 : 3DinCube_10M : -d 3 -k 1 -r 3 : '4.04', '7.83', '2.44'
+1 : 3DonSphere_10M : -d 3 -k 1 -r 3 : '5.78', '3.86', '2.75'
+1 : 3DinCube_10M : -d 3 -k 10 -r 3 : '6.13', '8.55', '2.95'
+1 : 3Dplummer_10M : -d 3 -k 10 -r 3 : '8.65', '8.02', '5.51'
+octTreeNeighbors : 60 : weighted time, min=2.831 median=4.31 mean=4.436
+
+1 : 2DinCube_10M : -d 2 -k 1 -r 3 : '2.37', '1.37', '1.02'
+1 : 2Dkuzmin_10M : -d 2 -k 1 -r 3 : '2.37', '2.88', '2.58'
+1 : 3DinCube_10M : -d 3 -k 1 -r 3 : '5.7', '3.07', '2.43'
+1 : 3DonSphere_10M : -d 3 -k 1 -r 3 : '7.43', '3.8', '2.45'
+1 : 3DinCube_10M : -d 3 -k 10 -r 3 : '5.21', '5.59', '3.05'
+1 : 3Dplummer_10M : -d 3 -k 10 -r 3 : '6.93', '6.51', '5.41'
+octTreeNeighbors : 64 : weighted time, min=2.788 median=3.756 mean=3.898
+
+1 : 2DinCube_10M : -d 2 -k 1 -r 1 -o /tmp/ofile859445_322719 : '2.28'
+1 : 2Dkuzmin_10M : -d 2 -k 1 -r 1 -o /tmp/ofile377922_184304 : '2.39'
+1 : 3DinCube_10M : -d 3 -k 1 -r 1 -o /tmp/ofile245302_260118 : '8.85'
+1 : 3DonSphere_10M : -d 3 -k 1 -r 1 -o /tmp/ofile756943_796723 : '7.5'
+1 : 3DinCube_10M : -d 3 -k 10 -r 1 -o /tmp/ofile92392_431069 : '11.'
+1 : 3Dplummer_10M : -d 3 -k 10 -r 1 -o /tmp/ofile395589_970752 : '6.74'
+octTreeNeighbors : 64 : weighted time, min=6.46 median=6.46 mean=6.46
+
+1 : mug_cs.txt :  -l 0.5 -a 1685.0 -r 3 : '0.211', '0.204', '0.204'
+1 : mug_cs.txt :  -l 10.0 -a 30400.0 -r 3 : '0.089', '0.082', '0.082'
+1 : lasso_synthetic_1000_1000_1.txt :  -l 0.5 -a 632 -r 3 : '0.076', '0.075', '0.075'
+parallelShootingLasso2 : 1 : weighted time, min=0.12 median=0.12 mean=0.122
+
+1 : mug_cs.txt :  -l 0.5 -a 1685.0 -r 3 : '0.547', '0.53', '0.548'
+1 : mug_cs.txt :  -l 10.0 -a 30400.0 -r 3 : '0.225', '0.224', '0.221'
+1 : lasso_synthetic_1000_1000_1.txt :  -l 0.5 -a 632 -r 3 : '0.116', '0.112', '0.114'
+parallelShootingLasso2 : 2 : weighted time, min=0.287 median=0.295 mean=0.293
+
+1 : mug_cs.txt :  -l 0.5 -a 1685.0 -r 3 : '0.328', '0.333', '0.325'
+1 : mug_cs.txt :  -l 10.0 -a 30400.0 -r 3 : '0.131', '0.126', '0.126'
+1 : lasso_synthetic_1000_1000_1.txt :  -l 0.5 -a 632 -r 3 : '0.113', '0.108', '0.108'
+parallelShootingLasso2 : 4 : weighted time, min=0.186 median=0.187 mean=0.188
+
+1 : mug_cs.txt :  -l 0.5 -a 1685.0 -r 3 : '0.254', '0.25', '0.247'
+1 : mug_cs.txt :  -l 10.0 -a 30400.0 -r 3 : '0.107', '0.094', '0.094'
+1 : lasso_synthetic_1000_1000_1.txt :  -l 0.5 -a 632 -r 3 : '0.13', '0.135', '0.128'
+parallelShootingLasso2 : 8 : weighted time, min=0.156 median=0.158 mean=0.159
+
+1 : mug_cs.txt :  -l 0.5 -a 1685.0 -r 3 : '0.229', '0.23', '0.228'
+1 : mug_cs.txt :  -l 10.0 -a 30400.0 -r 3 : '0.091', '0.087', '0.088'
+1 : lasso_synthetic_1000_1000_1.txt :  -l 0.5 -a 632 -r 3 : '0.141', '0.134', '0.133'
+parallelShootingLasso2 : 12 : weighted time, min=0.149 median=0.15 mean=0.151
+
+1 : mug_cs.txt :  -l 0.5 -a 1685.0 -r 3 : '0.242', '0.229', '0.221'
+1 : mug_cs.txt :  -l 10.0 -a 30400.0 -r 3 : '0.094', '0.082', '0.084'
+1 : lasso_synthetic_1000_1000_1.txt :  -l 0.5 -a 632 -r 3 : '0.143', '0.139', '0.152'
+parallelShootingLasso2 : 16 : weighted time, min=0.147 median=0.152 mean=0.154
+
+1 : mug_cs.txt :  -l 0.5 -a 1685.0 -r 3 : '0.257', '0.241', '0.231'
+1 : mug_cs.txt :  -l 10.0 -a 30400.0 -r 3 : '0.098', '0.092', '0.093'
+1 : lasso_synthetic_1000_1000_1.txt :  -l 0.5 -a 632 -r 3 : '0.154', '0.147', '0.138'
+parallelShootingLasso2 : 20 : weighted time, min=0.153 median=0.16 mean=0.161
+
+1 : mug_cs.txt :  -l 0.5 -a 1685.0 -r 3 : '0.273', '0.256', '0.252'
+1 : mug_cs.txt :  -l 10.0 -a 30400.0 -r 3 : '0.105', '0.086', '0.087'
+1 : lasso_synthetic_1000_1000_1.txt :  -l 0.5 -a 632 -r 3 : '0.161', '0.153', '0.154'
+parallelShootingLasso2 : 24 : weighted time, min=0.163 median=0.165 mean=0.169
+
+1 : mug_cs.txt :  -l 0.5 -a 1685.0 -r 3 : '0.27', '0.278', '0.279'
+1 : mug_cs.txt :  -l 10.0 -a 30400.0 -r 3 : '0.109', '0.097', '0.099'
+1 : lasso_synthetic_1000_1000_1.txt :  -l 0.5 -a 632 -r 3 : '0.161', '0.159', '0.162'
+parallelShootingLasso2 : 28 : weighted time, min=0.175 median=0.179 mean=0.179
+
+1 : mug_cs.txt :  -l 0.5 -a 1685.0 -r 3 : '0.311', '0.29', '0.283'
+1 : mug_cs.txt :  -l 10.0 -a 30400.0 -r 3 : '0.12', '0.104', '0.102'
+1 : lasso_synthetic_1000_1000_1.txt :  -l 0.5 -a 632 -r 3 : '0.176', '0.179', '0.168'
+parallelShootingLasso2 : 32 : weighted time, min=0.184 median=0.189 mean=0.192
+
+1 : mug_cs.txt :  -l 0.5 -a 1685.0 -r 3 : '0.334', '0.298', '0.291'
+1 : mug_cs.txt :  -l 10.0 -a 30400.0 -r 3 : '0.14', '0.128', '0.114'
+1 : lasso_synthetic_1000_1000_1.txt :  -l 0.5 -a 632 -r 3 : '0.178', '0.155', '0.154'
+parallelShootingLasso2 : 36 : weighted time, min=0.186 median=0.193 mean=0.199
+
+1 : mug_cs.txt :  -l 0.5 -a 1685.0 -r 3 : '0.331', '0.324', '0.312'
+1 : mug_cs.txt :  -l 10.0 -a 30400.0 -r 3 : '0.129', '0.111', '0.112'
+1 : lasso_synthetic_1000_1000_1.txt :  -l 0.5 -a 632 -r 3 : '0.157', '0.153', '0.146'
+parallelShootingLasso2 : 40 : weighted time, min=0.189 median=0.196 mean=0.197
+
+1 : mug_cs.txt :  -l 0.5 -a 1685.0 -r 3 : '0.354', '0.326', '0.317'
+1 : mug_cs.txt :  -l 10.0 -a 30400.0 -r 3 : '0.151', '0.12', '0.117'
+1 : lasso_synthetic_1000_1000_1.txt :  -l 0.5 -a 632 -r 3 : '0.159', '0.141', '0.142'
+parallelShootingLasso2 : 44 : weighted time, min=0.191 median=0.195 mean=0.203
+
+1 : mug_cs.txt :  -l 0.5 -a 1685.0 -r 3 : '0.382', '0.346', '0.341'
+1 : mug_cs.txt :  -l 10.0 -a 30400.0 -r 3 : '0.173', '0.127', '0.118'
+1 : lasso_synthetic_1000_1000_1.txt :  -l 0.5 -a 632 -r 3 : '0.163', '0.136', '0.139'
+parallelShootingLasso2 : 48 : weighted time, min=0.198 median=0.204 mean=0.213
+
+1 : mug_cs.txt :  -l 0.5 -a 1685.0 -r 3 : '0.366', '0.322', '0.337'
+1 : mug_cs.txt :  -l 10.0 -a 30400.0 -r 3 : '0.162', '0.124', '0.126'
+1 : lasso_synthetic_1000_1000_1.txt :  -l 0.5 -a 632 -r 3 : '0.156', '0.12', '0.13'
+parallelShootingLasso2 : 52 : weighted time, min=0.188 median=0.197 mean=0.204
+
+1 : mug_cs.txt :  -l 0.5 -a 1685.0 -r 3 : '0.373', '0.335', '0.33'
+1 : mug_cs.txt :  -l 10.0 -a 30400.0 -r 3 : '0.168', '0.132', '0.133'
+1 : lasso_synthetic_1000_1000_1.txt :  -l 0.5 -a 632 -r 3 : '0.147', '0.127', '0.121'
+parallelShootingLasso2 : 56 : weighted time, min=0.194 median=0.198 mean=0.207
+
+1 : mug_cs.txt :  -l 0.5 -a 1685.0 -r 3 : '0.389', '0.354', '0.331'
+1 : mug_cs.txt :  -l 10.0 -a 30400.0 -r 3 : '0.172', '0.135', '0.135'
+1 : lasso_synthetic_1000_1000_1.txt :  -l 0.5 -a 632 -r 3 : '0.138', '0.125', '0.123'
+parallelShootingLasso2 : 60 : weighted time, min=0.196 median=0.204 mean=0.211
+
+1 : mug_cs.txt :  -l 0.5 -a 1685.0 -r 3 : '0.387', '0.352', '0.344'
+1 : mug_cs.txt :  -l 10.0 -a 30400.0 -r 3 : '0.188', '0.138', '0.132'
+1 : lasso_synthetic_1000_1000_1.txt :  -l 0.5 -a 632 -r 3 : '0.152', '0.125', '0.117'
+parallelShootingLasso2 : 64 : weighted time, min=0.197 median=0.205 mean=0.215
+
+1 : mug_cs.txt :  -l 0.5 -a 1685.0 -r 1 -o /tmp/ofile474546_197838 : '0.421'
+1 : mug_cs.txt :  -l 10.0 -a 30400.0 -r 1 -o /tmp/ofile777367_846517 : '0.186'
+1 : lasso_synthetic_1000_1000_1.txt :  -l 0.5 -a 632 -r 1 -o /tmp/ofile640495_936808 : '0.145'
+parallelShootingLasso2 : 64 : weighted time, min=0.25 median=0.25 mean=0.25
+
+1 : 2DinCubeDelaunay_5000000 :  -r 3 : '105.', '103.', '103.'
+1 : 2DkuzminDelaunay_5000000 :  -r 3 : '105.', '102.', '102.'
+incrementalRefine : 1 : weighted time, min=102.5 median=102.5 mean=103.333
+
+1 : 2DinCubeDelaunay_5000000 :  -r 3 : '63.1', '63.8', '63.6'
+1 : 2DkuzminDelaunay_5000000 :  -r 3 : '63.2', '63.', '63.5'
+incrementalRefine : 2 : weighted time, min=63.05 median=63.4 mean=63.366
+
+1 : 2DinCubeDelaunay_5000000 :  -r 3 : '34.7', '35.2', '34.5'
+1 : 2DkuzminDelaunay_5000000 :  -r 3 : '34.2', '34.6', '34.3'
+incrementalRefine : 4 : weighted time, min=34.35 median=34.5 mean=34.583
+
+1 : 2DinCubeDelaunay_5000000 :  -r 3 : '18.3', '18.8', '18.9'
+1 : 2DkuzminDelaunay_5000000 :  -r 3 : '18.5', '18.2', '17.9'
+incrementalRefine : 8 : weighted time, min=18.1 median=18.5 mean=18.433
+
+1 : 2DinCubeDelaunay_5000000 :  -r 3 : '13.1', '13.7', '13.5'
+1 : 2DkuzminDelaunay_5000000 :  -r 3 : '13.', '13.3', '13.2'
+incrementalRefine : 12 : weighted time, min=13.05 median=13.35 mean=13.299
+
+1 : 2DinCubeDelaunay_5000000 :  -r 3 : '10.6', '11.2', '11.2'
+1 : 2DkuzminDelaunay_5000000 :  -r 3 : '10.6', '11.1', '9.88'
+incrementalRefine : 16 : weighted time, min=10.24 median=10.899 mean=10.763
+
+1 : 2DinCubeDelaunay_5000000 :  -r 3 : '9.02', '9.66', '9.66'
+1 : 2DkuzminDelaunay_5000000 :  -r 3 : '8.92', '9.5', '9.52'
+incrementalRefine : 20 : weighted time, min=8.969 median=9.58 mean=9.38
+
+1 : 2DinCubeDelaunay_5000000 :  -r 3 : '8.1', '8.75', '8.67'
+1 : 2DkuzminDelaunay_5000000 :  -r 3 : '8.', '8.53', '8.62'
+incrementalRefine : 24 : weighted time, min=8.05 median=8.6 mean=8.445
+
+1 : 2DinCubeDelaunay_5000000 :  -r 3 : '7.47', '8.01', '8.1'
+1 : 2DkuzminDelaunay_5000000 :  -r 3 : '7.42', '8.06', '8.05'
+incrementalRefine : 28 : weighted time, min=7.445 median=8.03 mean=7.851
+
+1 : 2DinCubeDelaunay_5000000 :  -r 3 : '7.09', '7.61', '7.52'
+1 : 2DkuzminDelaunay_5000000 :  -r 3 : '7.', '7.54', '7.56'
+incrementalRefine : 32 : weighted time, min=7.045 median=7.529 mean=7.386
+
+1 : 2DinCubeDelaunay_5000000 :  -r 3 : '6.79', '7.38', '7.54'
+1 : 2DkuzminDelaunay_5000000 :  -r 3 : '6.62', '6.01', '7.47'
+incrementalRefine : 36 : weighted time, min=6.4 median=7. mean=6.968
+
+1 : 2DinCubeDelaunay_5000000 :  -r 3 : '6.59', '7.33', '6.79'
+1 : 2DkuzminDelaunay_5000000 :  -r 3 : '6.45', '7.11', '7.23'
+incrementalRefine : 40 : weighted time, min=6.52 median=6.95 mean=6.916
+
+1 : 2DinCubeDelaunay_5000000 :  -r 3 : '6.32', '7.08', '7.06'
+1 : 2DkuzminDelaunay_5000000 :  -r 3 : '6.3', '7.08', '7.08'
+incrementalRefine : 44 : weighted time, min=6.31 median=7.07 mean=6.82
+
+1 : 2DinCubeDelaunay_5000000 :  -r 3 : '6.25', '6.91', '6.87'
+1 : 2DkuzminDelaunay_5000000 :  -r 3 : '6.', '6.71', '6.74'
+incrementalRefine : 48 : weighted time, min=6.125 median=6.79 mean=6.58
+
+1 : 2DinCubeDelaunay_5000000 :  -r 3 : '6.', '6.78', '6.77'
+1 : 2DkuzminDelaunay_5000000 :  -r 3 : '5.94', '6.9', '6.61'
+incrementalRefine : 52 : weighted time, min=5.97 median=6.689 mean=6.5
+
+1 : 2DinCubeDelaunay_5000000 :  -r 3 : '5.97', '6.7', '6.68'
+1 : 2DkuzminDelaunay_5000000 :  -r 3 : '5.79', '6.58', '6.45'
+incrementalRefine : 56 : weighted time, min=5.88 median=6.564 mean=6.361
+
+1 : 2DinCubeDelaunay_5000000 :  -r 3 : '5.78', '6.55', '6.55'
+1 : 2DkuzminDelaunay_5000000 :  -r 3 : '5.69', '6.46', '6.44'
+incrementalRefine : 60 : weighted time, min=5.735 median=6.495 mean=6.244
+
+1 : 2DinCubeDelaunay_5000000 :  -r 3 : '5.78', '6.46', '6.62'
+1 : 2DkuzminDelaunay_5000000 :  -r 3 : '5.59', '6.37', '6.38'
+incrementalRefine : 64 : weighted time, min=5.685 median=6.415 mean=6.199
+
+1 : 2DinCubeDelaunay_5000000 :  -r 1 -o /tmp/ofile64245_2907 : '5.79'
+1 : 2DkuzminDelaunay_5000000 :  -r 1 -o /tmp/ofile259305_814327 : '5.64'
+incrementalRefine : 64 : weighted time, min=5.715 median=5.715 mean=5.715
+
+1 : randomSeq_10M_double :  -r 3 : '1.43', '1.43', '1.43'
+1 : exptSeq_10M_double :  -r 3 : '1.11', '1.11', '1.1'
+1 : almostSortedSeq_10M_double :  -r 3 : '0.275', '0.28', '0.277'
+3 : trigramSeq_10M :  -r 3 : '4.85', '4.34', '4.34'
+3 : trigramSeq_10M : -p -r 3 : '5.82', '5.61', '5.61'
+stlParallelSort : 1 : weighted time, min=3.628 median=3.629 mean=3.709
+
+1 : randomSeq_10M_double :  -r 3 : '0.767', '0.745', '0.744'
+1 : exptSeq_10M_double :  -r 3 : '0.602', '0.602', '0.599'
+1 : almostSortedSeq_10M_double :  -r 3 : '0.765', '0.745', '0.762'
+3 : trigramSeq_10M :  -r 3 : '2.5', '2.5', '2.5'
+3 : trigramSeq_10M : -p -r 3 : '3.56', '3.47', '3.27'
+stlParallelSort : 2 : weighted time, min=2.155 median=2.224 mean=2.212
+
+1 : randomSeq_10M_double :  -r 3 : '0.387', '0.385', '0.384'
+1 : exptSeq_10M_double :  -r 3 : '0.305', '0.307', '0.311'
+1 : almostSortedSeq_10M_double :  -r 3 : '0.377', '0.369', '0.37'
+3 : trigramSeq_10M :  -r 3 : '1.03', '1.03', '1.03'
+3 : trigramSeq_10M : -p -r 3 : '1.6', '1.6', '1.59'
+stlParallelSort : 4 : weighted time, min=0.99 median=0.994 mean=0.993
+
+1 : randomSeq_10M_double :  -r 3 : '0.249', '0.325', '0.212'
+1 : exptSeq_10M_double :  -r 3 : '0.176', '0.175', '0.17'
+1 : almostSortedSeq_10M_double :  -r 3 : '0.195', '0.196', '0.194'
+3 : trigramSeq_10M :  -r 3 : '0.606', '0.588', '0.589'
+3 : trigramSeq_10M : -p -r 3 : '0.874', '0.87', '0.896'
+stlParallelSort : 8 : weighted time, min=0.549 median=0.556 mean=0.561
+
+1 : randomSeq_10M_double :  -r 3 : '0.161', '0.16', '0.251'
+1 : exptSeq_10M_double :  -r 3 : '0.126', '0.172', '0.131'
+1 : almostSortedSeq_10M_double :  -r 3 : '0.139', '0.138', '0.142'
+3 : trigramSeq_10M :  -r 3 : '0.409', '0.407', '0.406'
+3 : trigramSeq_10M : -p -r 3 : '0.607', '0.609', '0.611'
+stlParallelSort : 12 : weighted time, min=0.384 median=0.386 mean=0.391
+
+1 : randomSeq_10M_double :  -r 3 : '0.132', '0.175', '0.147'
+1 : exptSeq_10M_double :  -r 3 : '0.101', '0.102', '0.124'
+1 : almostSortedSeq_10M_double :  -r 3 : '0.112', '0.111', '0.116'
+3 : trigramSeq_10M :  -r 3 : '0.311', '0.311', '0.316'
+3 : trigramSeq_10M : -p -r 3 : '0.471', '0.47', '0.473'
+stlParallelSort : 16 : weighted time, min=0.298 median=0.3 mean=0.302
+
+1 : randomSeq_10M_double :  -r 3 : '0.125', '0.123', '0.128'
+1 : exptSeq_10M_double :  -r 3 : '0.104', '0.094', '0.102'
+1 : almostSortedSeq_10M_double :  -r 3 : '0.095', '0.101', '0.101'
+3 : trigramSeq_10M :  -r 3 : '0.264', '0.264', '0.266'
+3 : trigramSeq_10M : -p -r 3 : '0.399', '0.401', '0.4'
+stlParallelSort : 20 : weighted time, min=0.255 median=0.257 mean=0.257
+
+1 : randomSeq_10M_double :  -r 3 : '0.121', '0.131', '0.126'
+1 : exptSeq_10M_double :  -r 3 : '0.082', '0.087', '0.084'
+1 : almostSortedSeq_10M_double :  -r 3 : '0.083', '0.086', '0.089'
+3 : trigramSeq_10M :  -r 3 : '0.225', '0.226', '0.23'
+3 : trigramSeq_10M : -p -r 3 : '0.346', '0.353', '0.342'
+stlParallelSort : 24 : weighted time, min=0.22 median=0.223 mean=0.224
+
+1 : randomSeq_10M_double :  -r 3 : '0.108', '0.11', '0.098'
+1 : exptSeq_10M_double :  -r 3 : '0.079', '0.079', '0.079'
+1 : almostSortedSeq_10M_double :  -r 3 : '0.078', '0.082', '0.084'
+3 : trigramSeq_10M :  -r 3 : '0.201', '0.208', '0.205'
+3 : trigramSeq_10M : -p -r 3 : '0.311', '0.311', '0.312'
+stlParallelSort : 28 : weighted time, min=0.199 median=0.201 mean=0.201
+
+1 : randomSeq_10M_double :  -r 3 : '0.087', '0.096', '0.104'
+1 : exptSeq_10M_double :  -r 3 : '0.076', '0.072', '0.082'
+1 : almostSortedSeq_10M_double :  -r 3 : '0.074', '0.074', '0.077'
+3 : trigramSeq_10M :  -r 3 : '0.178', '0.183', '0.184'
+3 : trigramSeq_10M : -p -r 3 : '0.285', '0.284', '0.283'
+stlParallelSort : 32 : weighted time, min=0.179 median=0.183 mean=0.182
+
+1 : randomSeq_10M_double :  -r 3 : '0.087', '0.093', '0.096'
+1 : exptSeq_10M_double :  -r 3 : '0.075', '0.077', '0.081'
+1 : almostSortedSeq_10M_double :  -r 3 : '0.086', '0.087', '0.092'
+3 : trigramSeq_10M :  -r 3 : '0.209', '0.212', '0.213'
+3 : trigramSeq_10M : -p -r 3 : '0.337', '0.332', '0.335'
+stlParallelSort : 36 : weighted time, min=0.208 median=0.211 mean=0.21
+
+1 : randomSeq_10M_double :  -r 3 : '0.087', '0.088', '0.088'
+1 : exptSeq_10M_double :  -r 3 : '0.069', '0.072', '0.071'
+1 : almostSortedSeq_10M_double :  -r 3 : '0.083', '0.095', '0.098'
+3 : trigramSeq_10M :  -r 3 : '0.19', '0.191', '0.191'
+3 : trigramSeq_10M : -p -r 3 : '0.309', '0.31', '0.308'
+stlParallelSort : 40 : weighted time, min=0.192 median=0.195 mean=0.194
+
+1 : randomSeq_10M_double :  -r 3 : '0.079', '0.083', '0.084'
+1 : exptSeq_10M_double :  -r 3 : '0.067', '0.069', '0.069'
+1 : almostSortedSeq_10M_double :  -r 3 : '0.077', '0.077', '0.08'
+3 : trigramSeq_10M :  -r 3 : '0.18', '0.178', '0.179'
+3 : trigramSeq_10M : -p -r 3 : '0.397', '0.291', '0.292'
+stlParallelSort : 44 : weighted time, min=0.181 median=0.182 mean=0.194
+
+1 : randomSeq_10M_double :  -r 3 : '0.072', '0.078', '0.077'
+1 : exptSeq_10M_double :  -r 3 : '0.063', '0.064', '0.063'
+1 : almostSortedSeq_10M_double :  -r 3 : '0.074', '0.075', '0.074'
+3 : trigramSeq_10M :  -r 3 : '0.167', '0.168', '0.169'
+3 : trigramSeq_10M : -p -r 3 : '0.281', '0.277', '0.277'
+stlParallelSort : 48 : weighted time, min=0.171 median=0.172 mean=0.172
+
+1 : randomSeq_10M_double :  -r 3 : '0.067', '0.068', '0.072'
+1 : exptSeq_10M_double :  -r 3 : '0.064', '0.062', '0.064'
+1 : almostSortedSeq_10M_double :  -r 3 : '0.069', '0.068', '0.072'
+3 : trigramSeq_10M :  -r 3 : '0.233', '0.171', '0.16'
+3 : trigramSeq_10M : -p -r 3 : '0.263', '0.262', '0.259'
+stlParallelSort : 52 : weighted time, min=0.161 median=0.166 mean=0.172
+
+1 : randomSeq_10M_double :  -r 3 : '0.063', '0.07', '0.065'
+1 : exptSeq_10M_double :  -r 3 : '0.057', '0.06', '0.059'
+1 : almostSortedSeq_10M_double :  -r 3 : '0.068', '0.068', '0.068'
+3 : trigramSeq_10M :  -r 3 : '0.149', '0.15', '0.149'
+3 : trigramSeq_10M : -p -r 3 : '0.252', '0.247', '0.247'
+stlParallelSort : 56 : weighted time, min=0.153 median=0.153 mean=0.154
+
+1 : randomSeq_10M_double :  -r 3 : '0.07', '0.07', '0.068'
+1 : exptSeq_10M_double :  -r 3 : '0.057', '0.056', '0.056'
+1 : almostSortedSeq_10M_double :  -r 3 : '0.065', '0.064', '0.064'
+3 : trigramSeq_10M :  -r 3 : '0.141', '0.141', '0.143'
+3 : trigramSeq_10M : -p -r 3 : '0.242', '0.244', '0.242'
+stlParallelSort : 60 : weighted time, min=0.148 median=0.148 mean=0.149
+
+1 : randomSeq_10M_double :  -r 3 : '0.119', '0.115', '0.116'
+1 : exptSeq_10M_double :  -r 3 : '0.098', '0.114', '0.089'
+1 : almostSortedSeq_10M_double :  -r 3 : '0.112', '0.149', '0.105'
+3 : trigramSeq_10M :  -r 3 : '0.136', '0.135', '0.136'
+3 : trigramSeq_10M : -p -r 3 : '0.241', '0.234', '0.234'
+stlParallelSort : 64 : weighted time, min=0.157 median=0.159 mean=0.161
+
+1 : randomSeq_10M_double :  -r 1 -o /tmp/ofile470518_961484 : '0.064'
+1 : exptSeq_10M_double :  -r 1 -o /tmp/ofile622844_566124 : '0.103'
+1 : almostSortedSeq_10M_double :  -r 1 -o /tmp/ofile45997_353470 : '0.064'
+3 : trigramSeq_10M :  -r 1 -o /tmp/ofile387053_794088 : '0.269'
+3 : trigramSeq_10M : -p -r 1 -o /tmp/ofile197319_788049 : '0.384'
+stlParallelSort : 64 : weighted time, min=0.243 median=0.243 mean=0.243

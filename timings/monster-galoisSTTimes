@@ -1,0 +1,72 @@
+1 ~/data/galois_randLocalGraph_WE_5_10000000 median: 15482
+1 ~/data/galois_2Dgrid_WE_10000000 median: 4368
+1 ~/data/galois_rMatGraph_WE_5_10000000 median: 22234
+1 weighted average = 14028
+2 ~/data/galois_randLocalGraph_WE_5_10000000 median: 6792
+2 ~/data/galois_2Dgrid_WE_10000000 median: 2273
+2 ~/data/galois_rMatGraph_WE_5_10000000 median: 10622
+2 weighted average = 6562
+4 ~/data/galois_randLocalGraph_WE_5_10000000 median: 3729
+4 ~/data/galois_2Dgrid_WE_10000000 median: 1245
+4 ~/data/galois_rMatGraph_WE_5_10000000 median: 4892
+4 weighted average = 3288
+8 ~/data/galois_randLocalGraph_WE_5_10000000 median: 2144
+8 ~/data/galois_2Dgrid_WE_10000000 median: 705
+8 ~/data/galois_rMatGraph_WE_5_10000000 median: 2749
+8 weighted average = 1866
+12 ~/data/galois_randLocalGraph_WE_5_10000000 median: 1818
+12 ~/data/galois_2Dgrid_WE_10000000 median: 535
+12 ~/data/galois_rMatGraph_WE_5_10000000 median: 2267
+12 weighted average = 1540
+16 ~/data/galois_randLocalGraph_WE_5_10000000 median: 1722
+16 ~/data/galois_2Dgrid_WE_10000000 median: 467
+16 ~/data/galois_rMatGraph_WE_5_10000000 median: 2154
+16 weighted average = 1447
+20 ~/data/galois_randLocalGraph_WE_5_10000000 median: 1673
+20 ~/data/galois_2Dgrid_WE_10000000 median: 423
+20 ~/data/galois_rMatGraph_WE_5_10000000 median: 2119
+20 weighted average = 1405
+24 ~/data/galois_randLocalGraph_WE_5_10000000 median: 1667
+24 ~/data/galois_2Dgrid_WE_10000000 median: 418
+24 ~/data/galois_rMatGraph_WE_5_10000000 median: 2107
+24 weighted average = 1397
+28 ~/data/galois_randLocalGraph_WE_5_10000000 median: 1670
+28 ~/data/galois_2Dgrid_WE_10000000 median: 406
+28 ~/data/galois_rMatGraph_WE_5_10000000 median: 2098
+28 weighted average = 1391
+32 ~/data/galois_randLocalGraph_WE_5_10000000 median: 1680
+32 ~/data/galois_2Dgrid_WE_10000000 median: 421
+32 ~/data/galois_rMatGraph_WE_5_10000000 median: 2101
+32 weighted average = 1400
+36 ~/data/galois_randLocalGraph_WE_5_10000000 median: 1684
+36 ~/data/galois_2Dgrid_WE_10000000 median: 433
+36 ~/data/galois_rMatGraph_WE_5_10000000 median: 2130
+36 weighted average = 1415
+40 ~/data/galois_randLocalGraph_WE_5_10000000 median: 1689
+40 ~/data/galois_2Dgrid_WE_10000000 median: 459
+40 ~/data/galois_rMatGraph_WE_5_10000000 median: 2147
+40 weighted average = 1431
+44 ~/data/galois_randLocalGraph_WE_5_10000000 median: 1698
+44 ~/data/galois_2Dgrid_WE_10000000 median: 470
+44 ~/data/galois_rMatGraph_WE_5_10000000 median: 2157
+44 weighted average = 1441
+48 ~/data/galois_randLocalGraph_WE_5_10000000 median: 1706
+48 ~/data/galois_2Dgrid_WE_10000000 median: 488
+48 ~/data/galois_rMatGraph_WE_5_10000000 median: 2169
+48 weighted average = 1454
+52 ~/data/galois_randLocalGraph_WE_5_10000000 median: 1715
+52 ~/data/galois_2Dgrid_WE_10000000 median: 505
+52 ~/data/galois_rMatGraph_WE_5_10000000 median: 2190
+52 weighted average = 1470
+56 ~/data/galois_randLocalGraph_WE_5_10000000 median: 1733
+56 ~/data/galois_2Dgrid_WE_10000000 median: 518
+56 ~/data/galois_rMatGraph_WE_5_10000000 median: 2193
+56 weighted average = 1481
+60 ~/data/galois_randLocalGraph_WE_5_10000000 median: 1758
+60 ~/data/galois_2Dgrid_WE_10000000 median: 538
+60 ~/data/galois_rMatGraph_WE_5_10000000 median: 2214
+60 weighted average = 1503
+64 ~/data/galois_randLocalGraph_WE_5_10000000 median: 1767
+64 ~/data/galois_2Dgrid_WE_10000000 median: 553
+64 ~/data/galois_rMatGraph_WE_5_10000000 median: 2231
+64 weighted average = 1517
