@@ -101,8 +101,8 @@ def detectCPUs():
     return 1 # Default   
 
 
+maxcpus = int(os.getenv('PBBSMAXCPUS', detectCPUs()))
 
-maxcpus = detectCPUs()
 if maxcpus <= 16:
     processors = [1]+range(2,maxcpus+1,2)
 elif maxcpus <= 32:
