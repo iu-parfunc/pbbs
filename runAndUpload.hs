@@ -23,9 +23,13 @@ import Prelude hiding (log)
 
 type Kind = ([FilePath], FilePath, [(Int, FilePath)])
 
+all_benches :: [Benchmark DefaultParamMeaning]
+all_benches = concatMap expandBenches all_bench_kinds
+
 all_bench_kinds :: [Kind]
 all_bench_kinds =
   [ (sortBenches, "comparisonSort/sequenceData/data", sortInputs)
+  , (bfsBenches,  "breadthFirstSearch/graphData/data", bfsInputs)
   ]
 
 expandBenches :: Kind -> [Benchmark DefaultParamMeaning]
@@ -33,11 +37,6 @@ expandBenches (bins, dir, weightedfiles) =
   [ mkBenchmark bin [dir </> file] stdParamSpace
   | bin      <- bins
   , (_,file) <- weightedfiles ]
-
-all_benches :: [Benchmark DefaultParamMeaning]
-all_benches = concatMap expandBenches all_bench_kinds
-    -- Benchmark "./breadthFirstSearch/graphData/BFS.C" ["../graphData/randLocalGraph_J_5_10000000"]
-    -- parallelCK segfaults presently [2013.05.31]
 
 --------------------------------------------------------------------------------
 
@@ -62,9 +61,6 @@ threadSelection = unsafePerformIO $ do
 
 --------------------------------------------------------------------------------
 
-   -- breadthFirstSearch/deterministicBFS/
-   -- breadthFirstSearch/ndBFS/
-   -- breadthFirstSearch/serialBFS/
    -- convexHull/quickHull/
    -- convexHull/serialHull/
    -- delaunayRefine/incrementalRefine/
@@ -134,6 +130,20 @@ sortInputs = [ (1, "randomSeq_10M_double"),
 --     [1, "almostSortedSeq_100M_double", "", ""],
 --     [3, "trigramSeq_100M", "", ""],
 --     [3, "trigramSeq_100M", "-p", ""]]
+
+----------------------------------------
+
+bfsBenches :: [String]
+bfsBenches =
+ [ "breadthFirstSearch/deterministicBFS/BFS"
+ , "breadthFirstSearch/ndBFS/BFS"
+ , "breadthFirstSearch/serialBFS/BFS" ]
+  
+bfsInputs :: [(Int, String)]
+bfsInputs = 
+  [ (1, "randLocalGraph_J_5_10000000")
+  , (1, "rMatGraph_J_5_10000000")
+  , (1, "3Dgrid_J_10000000") ]
 
 --------------------------------------------------------------------------------
 
