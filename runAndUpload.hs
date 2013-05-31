@@ -5,15 +5,20 @@
 -- Requires hsbencher >= 0.2
 
 import Control.Monad
+import Data.Maybe
+import qualified Data.ByteString.Char8 as B
 import System.Directory
 import System.FilePath
 import System.Exit
 import System.Process
+import GHC.Conc (getNumProcessors)
+import System.IO.Unsafe (unsafePerformIO)
 
 import HSBencher (defaultMainModifyConfig)
 import HSBencher.Types
 import HSBencher.Methods (makeMethod)
 import HSBencher.Logging (log)
+import HSBencher.MeasureProcess
 import Prelude hiding (log)
 
 type Kind = ([FilePath], FilePath, [(Int, FilePath)])
@@ -25,7 +30,7 @@ all_bench_kinds =
 
 expandBenches :: Kind -> [Benchmark DefaultParamMeaning]
 expandBenches (bins, dir, weightedfiles) =
-  [ mkBenchmark bin [dir </> file] (And [])
+  [ mkBenchmark bin [dir </> file] stdParamSpace
   | bin      <- bins
   , (_,file) <- weightedfiles ]
 
@@ -33,7 +38,28 @@ all_benches :: [Benchmark DefaultParamMeaning]
 all_benches = concatMap expandBenches all_bench_kinds
     -- Benchmark "./breadthFirstSearch/graphData/BFS.C" ["../graphData/randLocalGraph_J_5_10000000"]
     -- parallelCK segfaults presently [2013.05.31]
-    
+
+--------------------------------------------------------------------------------
+
+stdParamSpace :: BenchSpace DefaultParamMeaning
+stdParamSpace = varyThreads defaultSettings
+
+defaultSettings :: BenchSpace DefaultParamMeaning
+defaultSettings  = And []
+
+varyThreads :: BenchSpace DefaultParamMeaning -> BenchSpace DefaultParamMeaning
+varyThreads conf = And [ conf, Or (concatMap fn threadSelection) ]
+ where
+   fn n = map (Set (Threads n)) (fromJust (setThreads pbbsMethod) n)
+
+threadSelection :: [Int]
+threadSelection = unsafePerformIO $ do
+  p   <- getNumProcessors
+  return$
+    if p <= 4  then [1..p] else
+    if p <= 16 then 1: [2,4 .. p]
+    else            1:2:[4,8 .. p]
+
 --------------------------------------------------------------------------------
 
    -- breadthFirstSearch/deterministicBFS/
@@ -169,7 +195,12 @@ myconf conf =
   conf
    { benchlist = all_benches
    , buildMethods = [pbbsMethod]
+   , argsBeforeFlags = False
+   , harvesters = (pbbsHarvester, Nothing)
    }
+
+-- | Tweaked version for pbbs:
+pbbsHarvester = taggedLineHarvester (B.pack "PBBS-time")
 
 --------------------------------------------------------------------------------
 
