@@ -224,6 +224,8 @@ pbbsHarvester = taggedLineHarvester (B.pack "PBBS-time")
 
 main :: IO ()
 main = do
+  p <- getNumProcessors
+  putStrLn$ "Running on a machine with "++ show p++ " processors"
   putStrLn "First we generate the data files used by PBBS."
   mapM makeData all_bench_kinds
 
