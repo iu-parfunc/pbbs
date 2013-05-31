@@ -34,11 +34,19 @@ all_bench_kinds =
 
 expandBenches :: Kind -> [Benchmark DefaultParamMeaning]
 expandBenches (bins, dir, weightedfiles) =
-  [ mkBenchmark bin [dir </> file] stdParamSpace
+  [ mkBenchmark bin [dir </> file] (tagVariant file stdParamSpace)
   | bin      <- bins
   , (_,file) <- weightedfiles ]
 
 --------------------------------------------------------------------------------
+
+tagVariant path conf =
+  And [Set (Variant penultimate) (RuntimeParam ""),
+       conf]
+  where
+    penultimate = takeBaseName$ dropTrailingPathSeparator path2
+    (path2,_) = splitPath path
+    
 
 stdParamSpace :: BenchSpace DefaultParamMeaning
 stdParamSpace = varyThreads defaultSettings
