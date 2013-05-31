@@ -15,7 +15,7 @@ For example to run sampleSort:
   make
   ./testInputs
 To compile with Cilk++ the environment variable CILK needs to be set,
-and to compile with Cilk+ the environment variable CILKP needs to be set.
+and to compile with Cilk Plus the environment variable CILKP needs to be set.
 Otherwise it will just compile with g++ and run sequentially.  The
 code seems to run faster with CILK++.
 
