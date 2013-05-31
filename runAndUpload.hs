@@ -55,9 +55,9 @@ defaultSettings :: BenchSpace DefaultParamMeaning
 defaultSettings  = And []
 
 varyThreads :: BenchSpace DefaultParamMeaning -> BenchSpace DefaultParamMeaning
-varyThreads conf = And [ conf, Or (concatMap fn threadSelection) ]
+varyThreads conf = And [ conf, Or (map fn threadSelection) ]
  where
-   fn n = map (Set (Threads n)) (fromJust (setThreads pbbsMethod) n)
+   fn n = And$ map (Set (Threads n)) (fromJust (setThreads pbbsMethod) n)
 
 threadSelection :: [Int]
 threadSelection = unsafePerformIO $ do
@@ -181,10 +181,6 @@ makeData (_,dir,files) = do
 prebuiltBinaryMethod :: BuildMethod
 prebuiltBinaryMethod = BuildMethod
   { methodName = "prebuiltBinary"
-  -- , canBuild = WithExtension ""     `PredOr`
-  --              WithExtension ".exe" `PredOr`
-  --              WithExtension ".run" `PredOr`
-  --              WithExtension ".sh"
   , canBuild   = AnyFile
   , concurrentBuild = False
   , setThreads      = Nothing
@@ -205,7 +201,8 @@ prebuiltBinaryMethod = BuildMethod
 
 pbbsMethod :: BuildMethod
 pbbsMethod = prebuiltBinaryMethod {
-  setThreads = Just$ \ n -> [RuntimeParam ("-p "++show n)]
+  setThreads = Just$ \ n -> [ RuntimeParam ("-p "++show n)
+                            , RuntimeEnv   "CILK_NWORKERS" (show n) ]
   }
 
 myconf :: Config -> Config
