@@ -45,7 +45,7 @@ tagVariant path conf =
        conf]
   where
     penultimate = takeBaseName$ dropTrailingPathSeparator path2
-    (path2,_) = splitPath path
+    (path2,_) = splitFileName path
     
 
 stdParamSpace :: BenchSpace DefaultParamMeaning
