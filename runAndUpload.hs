@@ -13,6 +13,7 @@ import System.Exit
 import System.Process
 import GHC.Conc (getNumProcessors)
 import System.IO.Unsafe (unsafePerformIO)
+import Debug.Trace
 
 import HSBencher (defaultMainModifyConfig)
 import HSBencher.Types
@@ -34,13 +35,14 @@ all_bench_kinds =
 
 expandBenches :: Kind -> [Benchmark DefaultParamMeaning]
 expandBenches (bins, dir, weightedfiles) =
-  [ mkBenchmark bin [dir </> file] (tagVariant file stdParamSpace)
+  [ mkBenchmark bin [dir </> file] (tagVariant bin stdParamSpace)
   | bin      <- bins
   , (_,file) <- weightedfiles ]
 
 --------------------------------------------------------------------------------
 
 tagVariant path conf =
+--  trace ("SPLITTING PATH "++path )$ 
   And [Set (Variant penultimate) (RuntimeParam ""),
        conf]
   where
