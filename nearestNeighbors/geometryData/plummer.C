@@ -37,16 +37,16 @@ using namespace std;
 
  point2d randKuzmin(intT i) {
    vect2d v = vect2d(randOnUnitSphere2d(i));
-   intT j = hash<intT>(i);
-   double s = hash<double>(j);
+   intT j = dataGen::hash<intT>(i);
+   double s = dataGen::hash<double>(j);
    double r = sqrt(1.0/((1.0-s)*(1.0-s))-1.0);
    return point2d(v*r);
  }
 
  point3d randPlummer(intT i) {
    vect3d v = vect3d(randOnUnitSphere3d(i));
-   intT j = hash<intT>(i);
-   double s = pow(hash<double>(j),2.0/3.0);
+   intT j = dataGen::hash<intT>(i);
+   double s = pow(dataGen::hash<double>(j),2.0/3.0);
    double r = sqrt(s/(1-s));
    return point3d(v*r);
  }
